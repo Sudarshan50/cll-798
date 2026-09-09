@@ -9,7 +9,7 @@ import { useRenderLoop } from "./hooks/useRenderLoop.js";
 import { useAtlasSource } from "./hooks/useAtlasSource.js";
 import { Hud } from "./components/Hud.jsx";
 import { InfoPanel } from "./components/InfoPanel.jsx";
-import { ErrorBanner, Hint, LabelToggle, ModeToggle, SelectionBar } from "./components/Chrome.jsx";
+import { ErrorBanner, CornerControls, ModeToggle, SelectionBar } from "./components/Chrome.jsx";
 
 export default function App() {
   const glRef = useRef(null), ovRef = useRef(null), wrapRef = useRef(null);
@@ -177,7 +177,7 @@ export default function App() {
       <Hud mode={mode} onScreen={onScreen} loaded={loaded} meta={meta}
            bundles={dataRef.current?.bundles?.length} status={status} ui={ui} selected={sel} />
 
-      <LabelToggle labels={labels} onChange={setLabels} />
+      <CornerControls labels={labels} onChange={setLabels} />
 
       {info && <InfoPanel n={info.n} x={info.x} y={info.y} d={dataRef.current}
                           onClose={() => setInfo(null)} />}
@@ -185,8 +185,6 @@ export default function App() {
       {sel && <SelectionBar sel={sel} onFit={fitSelection} onClear={() => {
         hoverRef.current = null; setSel(null); setInfo(null); schedule();
       }} />}
-
-      <Hint />
     </div>
   );
 }

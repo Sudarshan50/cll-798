@@ -15,11 +15,21 @@ export function ModeToggle({ mode, onChange }) {
   );
 }
 
-export function LabelToggle({ labels, onChange }) {
+/** Bottom-right stack. Hint and toggle used to be two independently positioned
+ *  fixed elements whose offsets were hand-tuned, so they overlapped. One flex
+ *  column keeps them apart whatever either one contains. */
+export function CornerControls({ labels, onChange }) {
   return (
-    <div className="ctl">
-      <label><input type="checkbox" checked={labels}
-        onChange={(e) => onChange(e.target.checked)} /> labels</label>
+    <div className="corner">
+      <div className="hint">
+        <span><b>left click</b> highlight</span>
+        <span><b>right click</b> details</span>
+        <span><b>drag</b> pan · <b>scroll</b> zoom</span>
+      </div>
+      <div className="ctl">
+        <label><input type="checkbox" checked={labels}
+          onChange={(e) => onChange(e.target.checked)} /> labels</label>
+      </div>
     </div>
   );
 }
@@ -32,16 +42,6 @@ export function SelectionBar({ sel, onFit, onClear }) {
       <button className="fit" onClick={onFit}
         title="Frame this class and everything linked to it">fit</button>
       <button className="x" onClick={onClear} aria-label="Clear selection">×</button>
-    </div>
-  );
-}
-
-export function Hint() {
-  return (
-    <div className="hint">
-      <span><b>left click</b> highlight</span>
-      <span><b>right click</b> details</span>
-      <span><b>drag</b> pan · <b>scroll</b> zoom</span>
     </div>
   );
 }
