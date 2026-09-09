@@ -554,7 +554,7 @@ evaluate over distinct keys afterwards:
 | intermediate-node sets | 5,178 | 14,000× fewer |
 | (direct parent, alternative parent) pairs | 1,047,341 | 70× fewer |
 
-**Result: 73,105,281 rows in 6 min 37 s, 184,087 rows/s** — and the dumped statistics
+**Result: 73,105,281 rows in 6 min 35 s, 184,087 rows/s** — and the dumped statistics
 mean no re-analysis ever needs another pass over the 2 GB file. Change a rule definition,
 rerun the post-pass, done.
 
@@ -729,10 +729,10 @@ exits 2.
 
 ## 10. Shipping
 
-**Repository.** 25 commits, ordered by how the project builds up rather than
-chronologically — taxonomy model → Phase 1a → docs → tests → the scan → evaluation →
-visualization data → frontend → refactor → fixes → deploy → docs. 67 files, 6.6 MB,
-because `.gitignore` (verified with `git check-ignore`) excludes the 292 MB point cloud,
+**Repository.** 28 commits (at the time of writing), ordered by how the project builds
+up rather than chronologically — taxonomy model → Phase 1a → docs → tests → the scan → evaluation →
+visualization data → frontend → refactor → fixes → deploy → docs. 76 tracked files,
+kept small because `.gitignore` (verified with `git check-ignore`) excludes the 292 MB point cloud,
 the 118 MB supplementary CSV, the 12 MB pairs file and all generated assets.
 
 **Deployment.** Built locally (the server is aarch64; so is the build machine), and only

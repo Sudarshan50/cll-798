@@ -68,6 +68,145 @@ reportable outcomes**; §6 says how a negative result is written up.
 
 ---
 
+## 1A. The data this plan operates on (reference)
+
+Placed early because none of what follows is intelligible without it. This section is
+*only* about the data; the methodology resumes at §2. For the source-file formats, the
+repeat-padding convention and the OBO stanza layout, see `docs/how_this_was_built.md`
+Part I — this section covers only what is specific to Phase 2 and does not repeat it.
+
+### 1A.1 `results/dp_alt_pairs.tsv` — the file the overlay is built from
+
+Produced by the single 73.1M-row pass. Three columns, tab-separated, one header line:
+
+```
+direct_parent   alternative_parent   rows
+2309            3940                 1878047
+```
+
+One row means: **across all 73,105,281 compounds, `rows` of them were assigned
+`direct_parent` as their direct parent while also carrying `alternative_parent` in their
+alternative-parent list.** It is a weighted, directed co-occurrence count between two
+ChemOnt classes.
+
+| Property | Value |
+|---|---|
+| Rows | **1,047,341** |
+| Total label instances (`Σ rows`) | **922,418,764** |
+| Rows with an empty `direct_parent` | **5**, carrying 35 label instances |
+| Distinct undirected pairs after self-loop removal | **1,045,955** |
+
+Resolved through `data/chemont_dictionary.tsv`, the heaviest pairs are:
+
+| Label instances | direct parent | alternative parent |
+|---:|---|---|
+| 1,878,047 | Alpha amino acid amides | Organic oxides |
+| 1,877,618 | Alpha amino acid amides | Hydrocarbon derivatives |
+| 1,765,771 | Alpha amino acid amides | Carbonyl compounds |
+| 1,351,480 | Alpha amino acid amides | Secondary carboxylic acid amides |
+| 1,261,556 | Alpha amino acids and derivatives | Hydrocarbon derivatives |
+
+**Read that table before designing anything.** The top pairs are `Organic oxides`,
+`Hydrocarbon derivatives`, `Carbonyl compounds` — generic descriptors that co-occur with
+almost everything. Raw co-occurrence weight is dominated by ubiquity, not by competition.
+That single observation is why §3 exists.
+
+### 1A.2 The other inputs
+
+| File | Schema / contents | Role in Phase 2 |
+|---|---|---|
+| `results/path_counts.tsv` | `kingdom, superclass, class, subclass, direct_parent, rows` — 3,631 rows | Evidence source S2: the 79,171 rows whose label path is not a root-path of its own direct parent |
+| `results/inode_sets.tsv` | `subclass, direct_parent, intermediate_nodes, rows` — 5,178 rows | Cross-check only; R6 violations are lineage errors, not competition |
+| `results/scan.json` | All Phase 1b/1c figures + `sufficient_statistics` | Denominators; the 93 R5-violating pairs (evidence source S3) |
+| `data/chemont_dictionary.tsv` | `numeric_id, chemont_id, name, parent_numeric_id, parent_name` — 4,824 categories + root | Resolves every numeric ID; defines the tree used for LCA and ancestry |
+| `data/ChemOnt_2_1.obo` | The authors' own release, `sha256 8616a6ec…51fe22` | Second opinion on the tree. **Disagrees with the dictionary on 4 parent edges**, so per-level counts differ (OBO 765/1,729/2,297 vs dictionary 766/1,729/2,296). Always state which artefact a number came from |
+| `data/paper_supplementary/…MOESM4_ESM.xlsx` | Sheet 1: 800 CIDs + SMILES. Sheet 2: 22,043 assignment rows with `FALSE POSITIVES` / `FALSE NEGATIVES` columns | **The only ground truth that exists.** See §1A.5 |
+
+No rescan of the 2 GB source is required for anything in this plan.
+
+### 1A.3 Why this problem is hard — the four label types
+
+From the paper's Additional file 1, Table S1:
+
+| Label | Paper's definition | Competing candidate? |
+|---|---|---|
+| **Direct parent** | "the category corresponding to the largest skeleton or most dominant feature" | This *is* the assignment |
+| **Alternative parents** | "other categories that describe the classified compound and **do not display a parent-child relationship** to each other or to the direct parent" | **No — descriptors by design** |
+| **Intermediate nodes** | "descendants of the subclass and ascendants of the direct parent" | No — lineage filler |
+| **Substituents** | functional groups present, minus anything the classification already implies | No |
+
+The extension rests on a claim the paper does not make: that a *minority* of alternative
+parents are not descriptors but genuine rivals for the direct-parent slot. Nothing in the
+data labels which is which. Establishing that separation is the scientific core (§3).
+
+Note also that the paper **contradicts itself** on the R5 rule: the Results section says
+alternative parents have no *ancestor–descendant* relation to the direct parent, while
+Table S1 says the weaker *parent-child*. Phase 1c tested both readings; 69 of the 93
+violating pairs are direct parent-child and therefore breach both.
+
+### 1A.4 The graph object being built
+
+| Property | Value | Consequence |
+|---|---:|---|
+| Classes acting as a **direct parent** | 3,604 | Entropy is only defined for these — not all 4,824 |
+| Classes acting as an **alternative parent** | 3,172 | |
+| **Union — the overlay's node set** | **3,843** | Not 4,824. 981 classes never appear in this file at all |
+| Undirected edges, unfiltered | 1,045,955 | |
+| **Density on the union** | **0.1417** | |
+
+**A density of 0.14 is dense, not sparse.** Small-world statistics, betweenness centrality
+and community detection are close to meaningless on a graph this dense — every node is
+within a hop or two of everything. Filtering is not cosmetic; it is what makes any network
+measure interpretable at all. §5 triages the measures on exactly this basis.
+
+### 1A.5 Ancestry cannot be the separation criterion — measured
+
+The intuitive filter is "keep pairs that are taxonomically close". Measuring the depth of
+the lowest common ancestor of every pair shows how little room that leaves:
+
+| LCA depth | Pairs | % of pairs | Label instances | % of mass |
+|---|---:|---:|---:|---:|
+| 0 (root) | 9,431 | 0.9 % | 348,129 | 0.0 % |
+| **1 (Kingdom)** | **846,118** | **80.8 %** | **711,476,573** | **77.1 %** |
+| 2 (SuperClass) | 153,460 | 14.7 % | 119,737,972 | 13.0 % |
+| 3 (Class) | 31,896 | 3.0 % | 70,113,451 | 7.6 % |
+| 4 (SubClass) | 4,789 | 0.5 % | 14,995,302 | 1.6 % |
+| 5–9 | 1,642 | 0.2 % | 5,747,302 | 0.6 % |
+| *siblings (same parent)* | *14,313* | *1.4 %* | *40,157,023* | *4.4 %* |
+
+**Four-fifths of all pairs meet only at the Kingdom.** They share nothing but "both are
+organic". And outright ancestry — the R5 violation — covers just **93 pairs out of
+1,047,336**, so it cannot serve as a general criterion, though those 93 are a
+high-confidence evidence stream of their own.
+
+### 1A.6 The validation set, and a trap in it
+
+Additional file 4, Sheet 2, holds the seven-expert review of the 800-compound test set:
+**17 false positives** and **13 false negatives**, marked in two dedicated columns.
+
+The resolution chain, exactly:
+
+| Step | Count |
+|---|---:|
+| FP + FN markings | 17 + 13 = 30 |
+| Distinct category **names** among them | 26 |
+| Names resolving to a ChemOnt numeric ID | **25** |
+| Of those, classes that ever act as a direct parent (so have an entropy score) | **20** |
+
+The pilot's `n = 20` is that last row. Report the whole chain, not just the 20 — an
+examiner asking "20 out of what?" should get an answer.
+
+> **Naming trap.** Additional file 5 also involves the number 20 — but those are 20
+> **compounds** in the ChEBI comparison (claim E9), a completely different set from the
+> 20 **classes** here. The two are unrelated and must never be conflated in the report.
+
+**This is the only ground truth available, and it is small.** Twenty points is a pilot,
+not a result. §6 states what a negative result looks like and how the circularity risk —
+these 20 classes come from the same pipeline that produced the labels being scored — is
+handled.
+
+---
+
 ## 2. Four caveats that constrain the design (stated before the method, not after)
 
 **C1 — This measures ambiguity, not error.** There is no ground truth for 73.1M compounds.
