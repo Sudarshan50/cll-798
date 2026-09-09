@@ -8,7 +8,49 @@ classification with a comprehensive, computable taxonomy.* J Cheminform **8**, 6
 doi:[10.1186/s13321-016-0174-y](https://doi.org/10.1186/s13321-016-0174-y)
 
 **Dataset.** InChIKey-Deduplicated ClassyFire/ChemOnt Label Collection, v3, Zenodo
-DOI:[10.5281/zenodo.20472700](https://zenodo.org/records/20472700), CC-BY-4.0.
+DOI:[10.5281/zenodo.20472700](https://zenodo.org/records/20472700), CC BY 4.0.
+
+## Data sources, licensing and attribution
+
+This repository **redistributes** third-party material. Everything below is other
+people's work, reused under the licence stated, and none of it is ours.
+
+| Material in this repo | Source | Licence | Verified |
+|---|---|---|---|
+| `data/ChemOnt_2_1.obo` | ChemOnt 2.1 taxonomy by Djoumbou Feunang *et al.*, obtained from the Zenodo record below | CC BY 4.0 (as redistributed by that record) | md5 of the source zip against the Zenodo API; `sha256 8616a6ec…51fe22` asserted at runtime |
+| `data/chemont_dictionary.tsv`, `data/vocabulary.json`, `…head20.tsv` | Zenodo `10.5281/zenodo.20472700` | CC BY 4.0 | md5 against the Zenodo API |
+| `data/paper_supplementary/*.xlsx` | Additional files 4 and 5 of the baseline paper, Springer Nature | CC BY 4.0 — the article's own licence, [creativecommons.org/licenses/by/4.0](http://creativecommons.org/licenses/by/4.0/), confirmed via Crossref | downloaded from the publisher |
+| the 2 GB compound file *(not committed)* | Zenodo `10.5281/zenodo.20472700` | CC BY 4.0 | md5 against the Zenodo API; `zstd -t` |
+
+**Not redistributed here**, and deliberately so: the 2.0 GB compound archive, the 118 MB
+ChEBI supplement (Additional file 3), and every generated artefact. `scripts/paths.py`
+resolves the large inputs at run time and names the DOI if they are missing.
+
+**What is ours**, and the only thing you may reuse without consulting the sources above:
+the code in `scripts/` and `frontend/src/`, the analysis in `results/`, and the documents
+in `docs/`.
+
+**ClassyFire itself was never run here.** No molecule was classified by this project; we
+reproduce the released taxonomy and the published evaluation bookkeeping. See
+[`docs/how_this_was_built.md`](docs/how_this_was_built.md) §11 for exactly what is and is
+not reproduced.
+
+**Citing the originals.** Any use of this work should cite the baseline paper and the
+dataset, not this repository:
+
+```bibtex
+@article{djoumbou2016classyfire,
+  title   = {ClassyFire: automated chemical classification with a comprehensive,
+             computable taxonomy},
+  author  = {Djoumbou Feunang, Yannick and Eisner, Roman and Knox, Craig and
+             Chepelev, Leonid and Hastings, Janna and Owen, Gareth and Fahy, Eoin and
+             Steinbeck, Christoph and Subramanian, Shankar and Bolton, Evan and
+             Greiner, Russell and Wishart, David S.},
+  journal = {Journal of Cheminformatics},
+  volume  = {8}, pages = {61}, year = {2016},
+  doi     = {10.1186/s13321-016-0174-y}
+}
+```
 
 ## Phase structure
 
