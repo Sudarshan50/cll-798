@@ -1,0 +1,377 @@
+{
+  "provenance": {
+    "file": "ChemOnt_2_1.obo",
+    "sha256": "8616a6ecb96c8aeb204739a4de045cd290eab9a0e164d0ceaa5d888d0751fe22",
+    "data_version": "2.1",
+    "date": "26:08:2016 16:28",
+    "generated_by": "OBO-Edit 2.3.1"
+  },
+  "n_term_stanzas": 4825,
+  "n_categories": 4824,
+  "alt_ids": {
+    "CHEMONTID:0000284": [
+      "CHEMONTID:0003923"
+    ]
+  },
+  "tree": {
+    "is_tree": true,
+    "multi_parent": 0,
+    "dangling": [],
+    "parentless": [
+      "CHEMONTID:9999999"
+    ]
+  },
+  "level_histogram": {
+    "1": 2,
+    "2": 31,
+    "3": 765,
+    "4": 1729,
+    "5": 1200,
+    "6": 738,
+    "7": 248,
+    "8": 82,
+    "9": 21,
+    "10": 7,
+    "11": 1
+  },
+  "level_histogram_by_kingdom": {
+    "1": {
+      "Organic compounds": 1,
+      "Inorganic compounds": 1
+    },
+    "2": {
+      "Organic compounds": 26,
+      "Inorganic compounds": 5
+    },
+    "3": {
+      "Organic compounds": 680,
+      "Inorganic compounds": 85
+    },
+    "4": {
+      "Organic compounds": 1164,
+      "Inorganic compounds": 565
+    },
+    "5": {
+      "Organic compounds": 1178,
+      "Inorganic compounds": 22
+    },
+    "6": {
+      "Organic compounds": 738
+    },
+    "7": {
+      "Organic compounds": 248
+    },
+    "8": {
+      "Organic compounds": 82
+    },
+    "9": {
+      "Organic compounds": 21
+    },
+    "10": {
+      "Organic compounds": 7
+    },
+    "11": {
+      "Organic compounds": 1
+    }
+  },
+  "depth_stats": {
+    "mean_over_categories": 4.6361940298507465,
+    "mean_over_leaves": 4.72093023255814,
+    "mean_incl_root": 4.635233160621762,
+    "max": 11
+  },
+  "n_organic": 4146,
+  "n_inorganic": 678,
+  "synonyms": {
+    "lines_file_wide": 9025,
+    "lines_on_categories": 9024,
+    "by_scope": {
+      "EXACT": 285,
+      "RELATED": 5919,
+      "BROAD": 2779,
+      "NARROW": 41
+    },
+    "by_source": {
+      "CHEMONT_TERM": 979,
+      "MeSH_TERM": 966,
+      "ChEBI_TERM": 6034,
+      "IUPAC_TERM": 85,
+      "LIPIDMAPS_TERM": 832,
+      "UniProt_TERM": 100,
+      "UNTYPED": 28
+    },
+    "readings_per_source": {
+      "CHEMONT_TERM": {
+        "lines": 979,
+        "pairs": 0,
+        "ids": 0,
+        "texts": 956,
+        "categories": 664
+      },
+      "MeSH_TERM": {
+        "lines": 966,
+        "pairs": 1165,
+        "ids": 514,
+        "texts": 318,
+        "categories": 865
+      },
+      "ChEBI_TERM": {
+        "lines": 6034,
+        "pairs": 6031,
+        "ids": 1616,
+        "texts": 1601,
+        "categories": 4823
+      },
+      "IUPAC_TERM": {
+        "lines": 85,
+        "pairs": 11,
+        "ids": 3,
+        "texts": 82,
+        "categories": 81
+      },
+      "LIPIDMAPS_TERM": {
+        "lines": 832,
+        "pairs": 832,
+        "ids": 318,
+        "texts": 309,
+        "categories": 829
+      },
+      "UniProt_TERM": {
+        "lines": 100,
+        "pairs": 1,
+        "ids": 1,
+        "texts": 93,
+        "categories": 90
+      },
+      "UNTYPED": {
+        "lines": 28,
+        "pairs": 20,
+        "ids": 20,
+        "texts": 26,
+        "categories": 27
+      }
+    }
+  },
+  "categories_without_chebi": {
+    "CHEMONTID:0001218": "Inorganic isocyanides"
+  },
+  "claims": [
+    {
+      "id": "C10",
+      "tier": "STRUCTURAL",
+      "paper": "strict tree",
+      "observed": "strict tree",
+      "verdict": "MATCH",
+      "note": "0 multi-parent nodes, 0 dangling parents, parentless = ['CHEMONTID:9999999'] (expected exactly the root)",
+      "other_readings": null
+    },
+    {
+      "id": "C3",
+      "tier": "STRUCTURAL",
+      "paper": 2,
+      "observed": 2,
+      "verdict": "MATCH",
+      "note": "Kingdom level: Inorganic compounds, Organic compounds",
+      "other_readings": null
+    },
+    {
+      "id": "C4",
+      "tier": "STRUCTURAL",
+      "paper": "31 = 26 organic + 5 inorganic",
+      "observed": 31,
+      "verdict": "MATCH",
+      "note": "observed split {'Organic compounds': 26, 'Inorganic compounds': 5}",
+      "other_readings": null
+    },
+    {
+      "id": "C6",
+      "tier": "STRUCTURAL",
+      "paper": 1729,
+      "observed": 1729,
+      "verdict": "MATCH",
+      "note": "SubClass level (depth 4)",
+      "other_readings": null
+    },
+    {
+      "id": "C5",
+      "tier": "STRUCTURAL",
+      "paper": 764,
+      "observed": 765,
+      "verdict": "MISMATCH",
+      "note": "Class level (depth 3). Unresolved +1 \u2014 see docs/phase1a_audit.md; only the paper's Additional file 1 Table S1 can settle drift vs manuscript slip.",
+      "other_readings": null
+    },
+    {
+      "id": "C7",
+      "tier": "STRUCTURAL",
+      "paper": 2296,
+      "observed": 2297,
+      "verdict": "MISMATCH",
+      "note": "levels 5-11. Same unresolved +1 as C5.",
+      "other_readings": null
+    },
+    {
+      "id": "C8",
+      "tier": "STRUCTURAL",
+      "paper": 11,
+      "observed": 11,
+      "verdict": "MATCH",
+      "note": "maximum depth",
+      "other_readings": null
+    },
+    {
+      "id": "C2-split",
+      "tier": "STRUCTURAL",
+      "paper": "4146 organic / 678 inorganic",
+      "observed": "4146 / 678",
+      "verdict": "MATCH",
+      "note": "F1: the paper's Conclusion separately says 674 inorganic, contradicting its own Methods figure of 678. That is an internal inconsistency in the paper, not a second measurement; the OBO gives 678. Scored once.",
+      "other_readings": null
+    },
+    {
+      "id": "C2-total",
+      "tier": "STRUCTURAL",
+      "paper": 4825,
+      "observed": 4824,
+      "verdict": "MISMATCH",
+      "note": "4825 [Term] stanzas = 1 root + 4824 categories. 4146 + 678 = 4824 independently confirms 4824, so the paper's 4825 counts the root as a category despite saying 'in addition to' it.",
+      "other_readings": null
+    },
+    {
+      "id": "C12",
+      "tier": "STRUCTURAL",
+      "paper": "34 children / 273 descendants",
+      "observed": "34 / 273",
+      "verdict": "MATCH",
+      "note": "Phenylpropanoids and polyketides, the paper's worked example",
+      "other_readings": null
+    },
+    {
+      "id": "D7",
+      "tier": "STRUCTURAL",
+      "paper": 4824,
+      "observed": 4824,
+      "verdict": "MATCH",
+      "note": "every category carries a text definition",
+      "other_readings": null
+    },
+    {
+      "id": "C9",
+      "tier": "BOOKKEEPING",
+      "paper": "~5 (average depth per node)",
+      "observed": 4.636,
+      "verdict": "CONSISTENT",
+      "note": "F3: no tolerance is invented. 4.636 rounds to 5 but is not 5; reported as consistent with the paper's stated rounding, not as a reproduction.",
+      "other_readings": {
+        "mean_over_categories": 4.636,
+        "mean_over_leaves": 4.721,
+        "mean_incl_root": 4.635,
+        "max": 11
+      }
+    },
+    {
+      "id": "D1",
+      "tier": "BOOKKEEPING",
+      "paper": 9012,
+      "observed": 9024,
+      "verdict": "MISMATCH",
+      "note": "F6: 9025 synonym lines file-wide; 9024 on non-root categories (the root carries 1 of its own). Neither equals 9012. The paper says 'English synonyms', which may exclude the 28 untyped lines or some tagged subset; no subset we can define lands on 9012.",
+      "other_readings": null
+    },
+    {
+      "id": "D3",
+      "tier": "BOOKKEEPING",
+      "paper": "6014 ChEBI mappings",
+      "observed": 6034,
+      "verdict": "MISMATCH",
+      "note": "F4: three readings reported; all exceed 6014.",
+      "other_readings": {
+        "lines": 6034,
+        "pairs": 6031,
+        "ids": 1616,
+        "texts": 1601,
+        "categories": 4823
+      }
+    },
+    {
+      "id": "D3-avg",
+      "tier": "BOOKKEEPING",
+      "paper": 1.24,
+      "observed": 1.2511,
+      "verdict": "DERIVED",
+      "note": "F2: a ratio built on D3, which failed. Not independent evidence and not scored. Note the paper's own pair is near-inconsistent: 6014 / 4825 = 1.2465, which the paper rounds down to 1.24.",
+      "other_readings": null
+    },
+    {
+      "id": "D4",
+      "tier": "BOOKKEEPING",
+      "paper": "every category has >=1 ChEBI term",
+      "observed": "4823 of 4824",
+      "verdict": "MISMATCH",
+      "note": "exception: CHEMONTID:0001218 (Inorganic isocyanides)",
+      "other_readings": null
+    },
+    {
+      "id": "D5",
+      "tier": "BOOKKEEPING",
+      "paper": "789 categories / 307 LIPID MAPS terms",
+      "observed": "829 categories / 309 distinct terms",
+      "verdict": "MISMATCH",
+      "note": "F5: 'terms' read as distinct case-folded synonym text, the reading nearest the paper; by distinct bracketed ID it is 318.",
+      "other_readings": {
+        "lines": 832,
+        "pairs": 832,
+        "ids": 318,
+        "texts": 309,
+        "categories": 829
+      }
+    },
+    {
+      "id": "D6",
+      "tier": "BOOKKEEPING",
+      "paper": "844 categories / 945 MeSH mappings",
+      "observed": "865 categories / 966 mappings",
+      "verdict": "MISMATCH",
+      "note": "F4: 'mappings' read as synonym lines because the paper's 945 exceeds its 844 categories; by distinct (category, MeSH-ID) pair it is 1165, a 20% difference. The reading matters here.",
+      "other_readings": {
+        "lines": 966,
+        "pairs": 1165,
+        "ids": 514,
+        "texts": 318,
+        "categories": 865
+      }
+    },
+    {
+      "id": "C1",
+      "tier": "TRIVIAL",
+      "paper": ">4800",
+      "observed": 4824,
+      "verdict": "MATCH",
+      "note": "F7: near-vacuous",
+      "other_readings": null
+    },
+    {
+      "id": "D2",
+      "tier": "TRIVIAL",
+      "paper": ">9000",
+      "observed": 9024,
+      "verdict": "MATCH",
+      "note": "F7: near-vacuous",
+      "other_readings": null
+    },
+    {
+      "id": "D8",
+      "tier": "TRIVIAL",
+      "paper": "scopes subset of EXACT/NARROW/BROAD/RELATED",
+      "observed": [
+        "BROAD",
+        "EXACT",
+        "NARROW",
+        "RELATED"
+      ],
+      "verdict": "MATCH",
+      "note": "F7: vocabulary check",
+      "other_readings": null
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "input": "/Users/sudarshan/Desktop/CLL_798_d/chemont_project/data/classyfire_main.tsv.zst",
+  "limit": 0,
+  "elapsed_s": 395.2,
+  "rows_per_s": 184987,
+  "sufficient_statistics": {
+    "distinct_label_paths": 3631,
+    "distinct_intermediate_node_sets": 5178,
+    "distinct_dp_alt_pairs": 1047341,
+    "total_alternative_parent_labels": 922418764,
+    "distinct_alt_cooccurrence_pairs": null
+  },
+  "provenance_1b": {
+    "observed": {
+      "rows": 73105281,
+      "with_cid": 68693295,
+      "with_zinc": 30187323,
+      "with_both": 25775344,
+      "unresolved_slot_rows": 119795,
+      "classes_seen": 4120,
+      "classes_total": 4824
+    },
+    "zenodo_stated": {
+      "rows": 73105281,
+      "with_cid": 68693298,
+      "with_zinc": 30187323,
+      "with_both": 25775344,
+      "unresolved_slot_rows": 119795,
+      "classes_seen": 4120,
+      "classes_total": 4824
+    },
+    "delta": {
+      "rows": 0,
+      "with_cid": -3,
+      "with_zinc": 0,
+      "with_both": 0,
+      "unresolved_slot_rows": 0,
+      "classes_seen": 0,
+      "classes_total": 0
+    }
+  },
+  "null_by_slot": {
+    "class": 119788,
+    "subclass": 119795,
+    "superclass": 53,
+    "direct_parent": 7
+  },
+  "direct_parent_depth": {
+    "1": 53,
+    "2": 122593,
+    "3": 11365265,
+    "4": 22414745,
+    "5": 21040137,
+    "6": 10778979,
+    "7": 6003831,
+    "8": 1324355,
+    "9": 47968,
+    "10": 7340,
+    "11": 8
+  },
+  "invariants": {
+    "path_violation_rows": 198959,
+    "path_violation_rows_fully_populated": 79171,
+    "path_violation_shapes": 32,
+    "path_violation_rows_touching_drifted_edges": 73,
+    "r5_violating_dp_alt_pairs": 93,
+    "r5_violating_label_instances": 596367,
+    "r5_violating_pairs_direct_parent_child": 69,
+    "r5_violating_label_instances_direct_parent_child": 589073,
+    "r6_violation_rows_inclusive": 85036,
+    "r6_violation_rows_strict_tableS1": 9589
+  },
+  "drifted_edges": [
+    "1,2-diacyl-3-O-beta-D-galactosyl-sn-glycerols",
+    "1-acyl-3-O-beta-D-galactosyl-sn-glycerols",
+    "Sulfinylamines",
+    "Ureides"
+  ],
+  "top_path_shapes": [
+    {
+      "reported": [
+        0,
+        264,
+        265,
+        13,
+        1961
+      ],
+      "expected": [
+        0,
+        264,
+        1813,
+        1961,
+        1961
+      ],
+      "rows": 58345
+    },
+    {
+      "reported": [
+        0,
+        2448,
+        null,
+        null,
+        2448
+      ],
+      "expected": [
+        0,
+        2448,
+        2448,
+        2448,
+        2448
+      ],
+      "rows": 43060
+    },
+    {
+      "reported": [
+        0,
+        1392,
+        null,
+        null,
+        1392
+      ],
+      "expected": [
+        0,
+        1392,
+        1392,
+        1392,
+        1392
+      ],
+      "rows": 36911
+    },
+    {
+      "reported": [
+        0,
+        264,
+        265,
+        13,
+        2010
+      ],
+      "expected": [
+        0,
+        264,
+        1813,
+        2010,
+        2010
+      ],
+      "rows": 15634
+    },
+    {
+      "reported": [
+        0,
+        400,
+        null,
+        null,
+        400
+      ],
+      "expected": [
+        0,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rows": 11492
+    },
+    {
+      "reported": [
+        0,
+        279,
+        null,
+        null,
+        279
+      ],
+      "expected": [
+        0,
+        279,
+        279,
+        279,
+        279
+      ],
+      "rows": 8085
+    },
+    {
+      "reported": [
+        0,
+        4150,
+        null,
+        null,
+        4150
+      ],
+      "expected": [
+        0,
+        4150,
+        4150,
+        4150,
+        4150
+      ],
+      "rows": 7959
+    },
+    {
+      "reported": [
+        0,
+        4,
+        null,
+        null,
+        4
+      ],
+      "expected": [
+        0,
+        4,
+        4,
+        4,
+        4
+      ],
+      "rows": 4587
+    },
+    {
+      "reported": [
+        0,
+        2,
+        null,
+        null,
+        2
+      ],
+      "expected": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rows": 4312
+    },
+    {
+      "reported": [
+        0,
+        4469,
+        4478,
+        4478,
+        4478
+      ],
+      "expected": [
+        0,
+        4478,
+        4478,
+        4478,
+        4478
+      ],
+      "rows": 2858
+    },
+    {
+      "reported": [
+        0,
+        4478,
+        null,
+        null,
+        4478
+      ],
+      "expected": [
+        0,
+        4478,
+        4478,
+        4478,
+        4478
+      ],
+      "rows": 1699
+    },
+    {
+      "reported": [
+        0,
+        264,
+        364,
+        517,
+        2023
+      ],
+      "expected": [
+        0,
+        264,
+        364,
+        2022,
+        2023
+      ],
+      "rows": 1199
+    },
+    {
+      "reported": [
+        1,
+        3866,
+        null,
+        null,
+        3866
+      ],
+      "expected": [
+        1,
+        3866,
+        3866,
+        3866,
+        3866
+      ],
+      "rows": 652
+    },
+    {
+      "reported": [
+        0,
+        4707,
+        null,
+        null,
+        4707
+      ],
+      "expected": [
+        0,
+        4707,
+        4707,
+        4707,
+        4707
+      ],
+      "rows": 450
+    },
+    {
+      "reported": [
+        0,
+        4469,
+        4468,
+        4468,
+        4468
+      ],
+      "expected": [
+        1,
+        1568,
+        4469,
+        4468,
+        4468
+      ],
+      "rows": 366
+    },
+    {
+      "reported": [
+        0,
+        4469,
+        4478,
+        4566,
+        4566
+      ],
+      "expected": [
+        0,
+        4478,
+        4566,
+        4566,
+        4566
+      ],
+      "rows": 247
+    },
+    {
+      "reported": [
+        0,
+        4603,
+        null,
+        null,
+        4603
+      ],
+      "expected": [
+        0,
+        4603,
+        4603,
+        4603,
+        4603
+      ],
+      "rows": 233
+    },
+    {
+      "reported": [
+        0,
+        264,
+        364,
+        517,
+        2024
+      ],
+      "expected": [
+        0,
+        264,
+        364,
+        2022,
+        2024
+      ],
+      "rows": 119
+    },
+    {
+      "reported": [
+        0,
+        264,
+        265,
+        13,
+        1813
+      ],
+      "expected": [
+        0,
+        264,
+        1813,
+        1813,
+        1813
+      ],
+      "rows": 91
+    },
+    {
+      "reported": [
+        0,
+        2,
+        436,
+        2428,
+        2428
+      ],
+      "expected": [
+        0,
+        2,
+        2428,
+        2428,
+        2428
+      ],
+      "rows": 89
+    },
+    {
+      "reported": [
+        0,
+        4557,
+        null,
+        null,
+        4557
+      ],
+      "expected": [
+        0,
+        4557,
+        4557,
+        4557,
+        4557
+      ],
+      "rows": 88
+    },
+    {
+      "reported": [
+        0,
+        462,
+        null,
+        null,
+        462
+      ],
+      "expected": [
+        0,
+        462,
+        462,
+        462,
+        462
+      ],
+      "rows": 82
+    },
+    {
+      "reported": [
+        0,
+        3865,
+        null,
+        null,
+        3865
+      ],
+      "expected": [
+        0,
+        3865,
+        3865,
+        3865,
+        3865
+      ],
+      "rows": 82
+    },
+    {
+      "reported": [
+        0,
+        264,
+        265,
+        13,
+        1939
+      ],
+      "expected": [
+        0,
+        264,
+        1813,
+        1939,
+        1939
+      ],
+      "rows": 82
+    },
+    {
+      "reported": [
+        0,
+        264,
+        364,
+        517,
+        2022
+      ],
+      "expected": [
+        0,
+        264,
+        364,
+        2022,
+        2022
+      ],
+      "rows": 73
+    }
+  ],
+  "top_r5_pairs": [
+    {
+      "direct_parent": "Aryl thioethers",
+      "alternative_parent": "Alkylarylthioethers",
+      "relation": "direct",
+      "rows": 551743
+    },
+    {
+      "direct_parent": "Hydantoins",
+      "alternative_parent": "5-monosubstituted hydantoins",
+      "relation": "direct",
+      "rows": 11397
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "3-oxosteroids",
+      "relation": "direct",
+      "rows": 6218
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "17-oxosteroids",
+      "relation": "direct",
+      "rows": 3470
+    },
+    {
+      "direct_parent": "Organic hydroperoxides",
+      "alternative_parent": "Alkyl hydroperoxides",
+      "relation": "direct",
+      "rows": 2320
+    },
+    {
+      "direct_parent": "Terpene lactones",
+      "alternative_parent": "Eremophilanolides and secoeremophilanolides",
+      "relation": "deeper",
+      "rows": 2310
+    },
+    {
+      "direct_parent": "Aminocyclitol glycosides",
+      "alternative_parent": "2-deoxystreptamine aminoglycosides",
+      "relation": "direct",
+      "rows": 1965
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "3-oxo delta-4-steroids",
+      "relation": "deeper",
+      "rows": 1340
+    },
+    {
+      "direct_parent": "Monoalkylglycerols",
+      "alternative_parent": "1-O-alkylglycerols",
+      "relation": "direct",
+      "rows": 1200
+    },
+    {
+      "direct_parent": "Furanoid lignans",
+      "alternative_parent": "Furofuran lignans",
+      "relation": "direct",
+      "rows": 1126
+    },
+    {
+      "direct_parent": "Organic alkali metal salts",
+      "alternative_parent": "Organic sodium salts",
+      "relation": "direct",
+      "rows": 1125
+    },
+    {
+      "direct_parent": "Organic alkali metal salts",
+      "alternative_parent": "Organic potassium salts",
+      "relation": "direct",
+      "rows": 908
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "3-oxo delta-1,4-steroids",
+      "relation": "deeper",
+      "rows": 886
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "7-oxosteroids",
+      "relation": "direct",
+      "rows": 813
+    },
+    {
+      "direct_parent": "Hydroxybenzoic acid derivatives",
+      "alternative_parent": "Salicylic acids",
+      "relation": "deeper",
+      "rows": 774
+    },
+    {
+      "direct_parent": "Lactones",
+      "alternative_parent": "Delta valerolactones",
+      "relation": "direct",
+      "rows": 726
+    },
+    {
+      "direct_parent": "Sesquiterpene lactones",
+      "alternative_parent": "Ambrosanolides and secoambrosanolides",
+      "relation": "direct",
+      "rows": 712
+    },
+    {
+      "direct_parent": "Organic metal salts",
+      "alternative_parent": "Organic tin salts",
+      "relation": "deeper",
+      "rows": 677
+    },
+    {
+      "direct_parent": "Steroids and steroid derivatives",
+      "alternative_parent": "Steroid esters",
+      "relation": "direct",
+      "rows": 468
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "6-oxosteroids",
+      "relation": "direct",
+      "rows": 435
+    },
+    {
+      "direct_parent": "11-hydroxysteroids",
+      "alternative_parent": "11-beta-hydroxysteroids",
+      "relation": "direct",
+      "rows": 390
+    },
+    {
+      "direct_parent": "Steroids and steroid derivatives",
+      "alternative_parent": "Delta-5-steroids",
+      "relation": "direct",
+      "rows": 384
+    },
+    {
+      "direct_parent": "Oxosteroids",
+      "alternative_parent": "3-oxo-5-alpha-steroids",
+      "relation": "deeper",
+      "rows": 365
+    },
+    {
+      "direct_parent": "Organic transition metal salts",
+      "alternative_parent": "Organic copper salts",
+      "relation": "direct",
+      "rows": 343
+    },
+    {
+      "direct_parent": "2-arylbenzofuran flavonoids",
+      "alternative_parent": "4-prenylated 2-arybenzofurans",
+      "relation": "direct",
+      "rows": 322
+    }
+  ],
+  "top_r6": [
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Depsipeptides",
+      "dp_depth": 4,
+      "rows": 58345
+    },
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Hybrid peptides",
+      "dp_depth": 4,
+      "rows": 15634
+    },
+    {
+      "intermediate_node": "Ureas",
+      "depth": 4,
+      "direct_parent": "Ureides",
+      "dp_depth": 4,
+      "rows": 7605
+    },
+    {
+      "intermediate_node": "Ureas",
+      "depth": 4,
+      "direct_parent": "N-acyl ureas",
+      "dp_depth": 5,
+      "rows": 1202
+    },
+    {
+      "intermediate_node": "Ureides",
+      "depth": 4,
+      "direct_parent": "N-acyl ureas",
+      "dp_depth": 5,
+      "rows": 1199
+    },
+    {
+      "intermediate_node": "N-acyl-alpha amino acids and derivatives",
+      "depth": 7,
+      "direct_parent": "N-carbamoyl-alpha amino acids",
+      "dp_depth": 8,
+      "rows": 338
+    },
+    {
+      "intermediate_node": "Glycosyldiacylglycerols",
+      "depth": 6,
+      "direct_parent": "1,2-diacyl-3-O-beta-D-galactosyl-sn-glycerols",
+      "dp_depth": 6,
+      "rows": 289
+    },
+    {
+      "intermediate_node": "Ureides",
+      "depth": 4,
+      "direct_parent": "N,N'-diacyl ureas",
+      "dp_depth": 5,
+      "rows": 119
+    },
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Peptoid-peptide hybrids",
+      "dp_depth": 4,
+      "rows": 82
+    },
+    {
+      "intermediate_node": "Ureas",
+      "depth": 4,
+      "direct_parent": "N,N'-diacyl ureas",
+      "dp_depth": 5,
+      "rows": 79
+    },
+    {
+      "intermediate_node": "N-acyl-alpha amino acids and derivatives",
+      "depth": 7,
+      "direct_parent": "N-carbamoyl-alpha amino acids and derivatives",
+      "dp_depth": 7,
+      "rows": 76
+    },
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Hybrid glycopeptides",
+      "dp_depth": 5,
+      "rows": 52
+    },
+    {
+      "intermediate_node": "Hybrid peptides",
+      "depth": 4,
+      "direct_parent": "Hybrid glycopeptides",
+      "dp_depth": 5,
+      "rows": 52
+    },
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Peptoids",
+      "dp_depth": 4,
+      "rows": 12
+    },
+    {
+      "intermediate_node": "Peptidomimetics",
+      "depth": 3,
+      "direct_parent": "Glycodepsipeptides",
+      "dp_depth": 5,
+      "rows": 4
+    },
+    {
+      "intermediate_node": "Depsipeptides",
+      "depth": 4,
+      "direct_parent": "Glycodepsipeptides",
+      "dp_depth": 5,
+      "rows": 4
+    }
+  ]
+}

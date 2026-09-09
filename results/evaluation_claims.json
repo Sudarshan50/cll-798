@@ -1,0 +1,160 @@
+{
+  "claims": [
+    {
+      "id": "E1",
+      "paper": 800,
+      "observed": 800,
+      "verdict": "MATCH",
+      "note": "unique test structures"
+    },
+    {
+      "id": "E3-total",
+      "paper": 21102,
+      "observed": 21101,
+      "verdict": "MISMATCH",
+      "note": "one row short; a single assignment row is presumably blank or malformed"
+    },
+    {
+      "id": "E3-avg",
+      "paper": 26.38,
+      "observed": 26.38,
+      "verdict": "MATCH",
+      "note": "21101/800 = 26.376 and the paper's 21102/800 = 26.3775 round identically"
+    },
+    {
+      "id": "E4",
+      "paper": 1308,
+      "observed": 1305,
+      "verdict": "MISMATCH",
+      "note": "distinct categories assigned"
+    },
+    {
+      "id": "E5-fp",
+      "paper": 17,
+      "observed": 17,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "id": "E5-fn",
+      "paper": 13,
+      "observed": 13,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "id": "E6",
+      "paper": 2.6,
+      "observed": 16.17,
+      "verdict": "MISMATCH",
+      "note": "'each category was assigned to an average of 2.6 compounds' is not reproducible as a mean: assignments/categories = 16.17. The paper's own figures give 21102/1308 = 16.13. Observed median is 2 and mode 1 (473 of 1305 categories occur exactly once), so 2.6 resembles a typical-value statistic, not an average."
+    },
+    {
+      "id": "E7-max",
+      "paper": 7067.24,
+      "observed": 7066.93,
+      "verdict": "MATCH",
+      "note": "reconstructed with w(c)=occ(c)/800; residual -0.31 (0.004%), fully consistent with our 21101 vs their 21102 assignments"
+    },
+    {
+      "id": "E7-score",
+      "paper": 7067.04,
+      "observed": 7065.43,
+      "verdict": "MISMATCH",
+      "note": "the penalty formula is not recovered: weighted FP=1.1413 FN=0.3588 give a penalty of 1.50, where the paper's implied penalty is only 0.20"
+    },
+    {
+      "id": "E7-pct",
+      "paper": "99.97%",
+      "observed": "99.9788%",
+      "verdict": "MISMATCH",
+      "note": "NOTE the paper's own arithmetic: 7067.04/7067.24 = 99.9972%, which it prints as 99.97% -- a dropped digit"
+    },
+    {
+      "id": "E8-precision",
+      "paper": "99.8%",
+      "observed": "99.9194%",
+      "verdict": "MISMATCH",
+      "note": "unweighted; occurrence-weighted gives 99.9839%. Neither reading yields 99.8%; both are better than the paper reports."
+    },
+    {
+      "id": "E8-recall",
+      "paper": "99.9%",
+      "observed": "99.9384%",
+      "verdict": "MISMATCH",
+      "note": "unweighted; occurrence-weighted gives 99.9949%"
+    },
+    {
+      "id": "E9-n",
+      "paper": 20,
+      "observed": 20,
+      "verdict": "MATCH",
+      "note": "compounds compared; the sheet's trailing AVERAGE row is excluded"
+    },
+    {
+      "id": "E9-chemont",
+      "paper": "~31",
+      "observed": 30.85,
+      "verdict": "MATCH",
+      "note": "ClassyFire categories per compound"
+    },
+    {
+      "id": "E9-mapped",
+      "paper": "~27",
+      "observed": 26.9,
+      "verdict": "MATCH",
+      "note": "after mapping to ChEBI"
+    },
+    {
+      "id": "E9-inferred",
+      "paper": "~45",
+      "observed": 45.4,
+      "verdict": "MATCH",
+      "note": "mapped + inferred parents"
+    },
+    {
+      "id": "E9-chebi",
+      "paper": "~33",
+      "observed": 32.9,
+      "verdict": "MATCH",
+      "note": "manual ChEBI classes per compound"
+    },
+    {
+      "id": "E9-missed",
+      "paper": ">2",
+      "observed": 1.8,
+      "verdict": "MISMATCH",
+      "note": "paper: 'unable to return an average of more than 2 terms per compound'"
+    },
+    {
+      "id": "E9-suggest",
+      "paper": "~14",
+      "observed": 14.3,
+      "verdict": "MATCH",
+      "note": "terms missing from manual ChEBI"
+    },
+    {
+      "id": "E9-reproduced",
+      "paper": "~94%",
+      "observed": "94.5%",
+      "verdict": "MATCH",
+      "note": "share of ChEBI annotations ClassyFire recovers"
+    },
+    {
+      "id": "E9-increase",
+      "paper": "43.6%",
+      "observed": "43.5%",
+      "verdict": "MATCH",
+      "note": "suggested additional annotations, as a share of ChEBI's own"
+    },
+    {
+      "id": "S7-chebi",
+      "paper": ">43,000",
+      "observed": 84378,
+      "verdict": "MATCH",
+      "note": "Additional file 3 annotates 84,378 distinct compounds over 2,687,046 assignment rows (31.8 per compound). The claim holds but understates the supplement by roughly a factor of two."
+    }
+  ],
+  "n_reproduced": 14,
+  "n_claims": 22
+}
