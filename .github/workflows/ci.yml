@@ -15,12 +15,15 @@ jobs:
           python-version: "3.11"
       - run: pip install -r requirements.txt
 
-      # test_checks.py runs its L1 unit tests unconditionally and prints SKIP for
-      # the L2/L3 levels whose inputs (../chemont_project/data/) are not in the
-      # repo. It exits non-zero only on a real failure, so no gating is needed.
-      # The 2 GB dataset is never downloaded and points.bin is never generated
-      # here: 292 MB of vertex data is a deploy-time artefact, not a CI one.
-      - run: python3 scripts/test_checks.py
+      # L1 (unit) and L2 (real ChemOnt fixtures) run here. L3 needs the 67 MB
+      # sample_200k.tsv, which is not in the repo, so it skips. A skipped tier
+      # normally exits 2 so it can never pass silently; ALLOW_SKIPPED_TIERS makes
+      # that a declared exemption for CI only. The 2 GB dataset is never fetched
+      # and points.bin is never generated: it is a deploy-time artefact.
+      - name: Test suite (L1 + L2; L3 skipped, no sample in CI)
+        env:
+          ALLOW_SKIPPED_TIERS: "1"
+        run: python3 scripts/test_checks.py
 
       - uses: actions/setup-node@v4
         with:
