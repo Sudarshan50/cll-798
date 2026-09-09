@@ -45,10 +45,11 @@ Named after the Linnaean scheme. `depth(root) = 0`, so:
 | 2 | **SuperClass** | 31 (26 organic + 5 inorganic) | Lipids and lipid-like molecules |
 | 3 | **Class** | 765 | Fatty Acyls |
 | 4 | **SubClass** | 1,729 | Fatty acid esters |
-| 5–11 | below SubClass | 2,296 | Acyl carnitines |
+| 5–11 | below SubClass | 2,297 | Acyl carnitines |
 
-**Counts here are from the OBO.** The dataset's dictionary gives 766 / 1,729 / 2,297,
-because the 4 drifted parent edges (§B.4) move four nodes between levels:
+**Counts here are from the OBO** (765 / 1,729 / 2,297). The dataset's dictionary gives
+**766 / 1,729 / 2,296**, because the 4 drifted parent edges (§B.4) move four nodes
+between levels:
 
 | Node | depth in OBO | depth in dictionary |
 |---|---:|---:|
