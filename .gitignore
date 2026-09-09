@@ -30,3 +30,8 @@ results/dp_alt_pairs.tsv
 # it. The pipeline reads them from ../chemont_project/data/, but ignore any copy.
 *.tsv.zst
 sample_200k.tsv
+
+# A botched rsync (an unexpanded remote spec) once created a LOCAL directory named after
+# the deploy host, and `git add -A` published that hostname as a path. Never again.
+*amazonaws.com*
+*compute.internal*
