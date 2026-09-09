@@ -1,0 +1,8 @@
+node_modules
+dist
+
+# Generated at deploy time and mounted into the container, never baked in
+public/points.bin
+public/layout.json
+
+.DS_Store
