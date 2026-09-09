@@ -9,6 +9,327 @@ a figure was later corrected, both the wrong and the right value are shown.
 
 ---
 
+# Part I — Reference: what the data actually is
+
+Read this before the narrative if you need to explain the project to someone. Everything
+here is a fact about the inputs and outputs, not about the process.
+
+## A. The domain in one page
+
+**ClassyFire** is a program that reads a molecule's *structure* and assigns it to a
+category. It uses no biology, no literature, no bioactivity — structure only. It works by
+matching the molecule against a library of >9000 hand-written **SMARTS** patterns
+(a substructure query language: `[$([#16]-1-[#6]=[#6]-[#6]=[#7]-1)]` is the paper's own
+example for thiazoles), plus **Markush** structures for patterns SMARTS cannot express,
+plus ~200 regular expressions over IUPAC names for cases like leukotrienes where no
+single backbone works.
+
+**ChemOnt** is the taxonomy it assigns into: a strict tree of chemical categories.
+
+The paper's four algorithmic steps:
+
+| Step | What happens |
+|---|---|
+| 1. Preprocessing | Input (SMILES / SDF / InChI / IUPAC name / FASTA) becomes a chemical object; physico-chemical properties computed via ChemAxon JChem |
+| 2. Feature extraction | Superstructure search over the SMARTS/Markush library; logical rules; IUPAC-name parsing |
+| 3. Category assignment + reduction | Each feature maps to a category; for any parent–child pair among the hits, **only the child is kept** (this is rule **R4**) |
+| 4. Direct-parent selection | The surviving category with the **largest** structural feature wins, measured in non-hydrogen atoms; ties broken by ring counts, heteroatoms, fused rings |
+
+### The five hierarchy levels
+
+Named after the Linnaean scheme. `depth(root) = 0`, so:
+
+| Depth | Level | Count in ChemOnt 2.1 | Example |
+|---|---|---:|---|
+| 1 | **Kingdom** | 2 | Organic compounds / Inorganic compounds |
+| 2 | **SuperClass** | 31 (26 organic + 5 inorganic) | Lipids and lipid-like molecules |
+| 3 | **Class** | 765 | Fatty Acyls |
+| 4 | **SubClass** | 1,729 | Fatty acid esters |
+| 5–11 | below SubClass | 2,296 | Acyl carnitines |
+
+**Counts here are from the OBO.** The dataset's dictionary gives 766 / 1,729 / 2,297,
+because the 4 drifted parent edges (§B.4) move four nodes between levels:
+
+| Node | depth in OBO | depth in dictionary |
+|---|---:|---:|
+| `Sulfinylamines` | 4 | 3 |
+| `Ureides` | 5 | 4 |
+| `1,2-diacyl-3-O-beta-D-galactosyl-sn-glycerols` | 7 | 6 |
+| `1-acyl-3-O-beta-D-galactosyl-sn-glycerols` | 7 | 6 |
+
+Always say which artefact a level count came from. The two disagree, and the difference
+is exactly these four nodes.
+
+Kingdom is decided purely by molecular formula: organic = contains carbon, with a short
+list of exceptions (cyanides, CO, CO₂, CS₂ …) that are called inorganic anyway.
+
+### The four label types — this distinction matters more than anything else
+
+Taken from the paper's Additional file 1, Table S1:
+
+| Label | Definition | Is it a competing candidate? |
+|---|---|---|
+| **Direct parent** | "the category corresponding to the largest skeleton or most dominant feature". May sit at *any* depth, not necessarily 5 | This is *the* assignment |
+| **Alternative parents** | "other categories that describe the compound and do not display a parent-child relationship to each other or to the direct parent" | **No — descriptors by design.** Separating the few that *are* competing is the whole Phase 2 problem |
+| **Intermediate nodes** | "descendants of the subclass and ascendants of the direct parent" | No — they are lineage filler |
+| **Substituents** | functional groups present, with anything already implied by the classification removed | No |
+
+**Note the paper contradicts itself here.** The Results section says alternative parents
+have no *ancestor–descendant* relation to the direct parent; Table S1 says the weaker
+*parent-child*. Phase 1c tests both readings, and the violations breach both.
+
+---
+
+## B. The source data, field by field
+
+### B.1 The compound file — `classyfire_dedup_inchikey_smiles.enriched.tsv.zst`
+
+2.0 GB compressed, **24.4 GB** decompressed, **73,105,281** rows, tab-separated, one
+header line. Six columns:
+
+| # | Column | Type | Notes |
+|---|---|---|---|
+| 1 | `inchikey` | 27-char string | The primary key. **Not** tautomer-normalised |
+| 2 | `cid` | int or empty | PubChem CID; present on 68,693,295 rows |
+| 3 | `zinc_id` | string or empty | ZINC20 ID; present on 30,187,323 rows |
+| 4 | `smiles` | string | Structure |
+| 5 | `chemont_tree_json` | JSON array of 5 | `[kingdom, superclass, class, subclass, direct_parent]` as **numeric** IDs |
+| 6 | `chemont_other_json` | JSON object | `intermediate_nodes`, `alternative_parents`, `substituents`, `mapped_features`, `geometric_descriptor` |
+
+A real row:
+
+```
+inchikey            RDHQFKQIGNGIED-UHFFFAOYSA-N
+cid                 1
+zinc_id             (empty)
+smiles              CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+chemont_tree_json   [0,12,3909,324,1095]
+chemont_other_json  {"intermediate_nodes":[324],
+                     "alternative_parents":[346,1205,1238,1831,2449,3865,3919,3940,4150,4225,4557],
+                     "substituents":[...], "mapped_features":[...]}
+```
+
+Resolved through the dictionary, that row reads:
+
+| Slot | ID | Name |
+|---|---:|---|
+| kingdom | 0 | Organic compounds |
+| superclass | 12 | Lipids and lipid-like molecules |
+| class | 3909 | Fatty Acyls |
+| subclass | 324 | Fatty acid esters |
+| **direct parent** | 1095 | **Acyl carnitines** |
+| intermediate node | 324 | Fatty acid esters |
+| alternative parents | 346, 1205, 1238, 1831 … | Dicarboxylic acids and derivatives, Carboxylic acids, Carboxylic acid esters, Carbonyl compounds … |
+
+That is acetylcarnitine, PubChem CID 1.
+
+### B.2 The repeat-padding convention — a schema fact, not documented upstream
+
+The five slots are **not** five independent depths. When a compound's direct parent is
+shallower than a slot, the trailing slots **repeat the deepest node**. Measured over all
+73.1M rows:
+
+| Pattern | Rows | Meaning |
+|---|---:|---|
+| `xxxxx` | 39,276,855 | direct parent at depth 5 or below — all five slots distinct |
+| `xxxx=` | 22,340,569 | direct parent at depth 4 — slot 5 repeats slot 4 |
+| `xxx==` | 11,368,062 | direct parent at depth 3 — slots 4 and 5 repeat slot 3 |
+| `xxNNx` | 119,735 | class and subclass unresolved (null) |
+| `xNNNx` | 53 | superclass, class, subclass all unresolved |
+
+Missing this convention is not academic: reading the slots as literal depths produced
+**7,724 false violations per 50,000 rows** in the first implementation. It is now the
+first L1 unit test.
+
+### B.3 The dictionary — `chemont_dictionary.tsv`
+
+4,826 lines = header + 4,824 categories + the root. Five columns:
+
+```
+numeric_id  chemont_id          name                parent_numeric_id  parent_name
+0           CHEMONTID:0000000   Organic compounds   9999999            Chemical entities
+1           CHEMONTID:0000001   Inorganic compounds 9999999            Chemical entities
+```
+
+The compact `numeric_id` is what appears in the compound file; `chemont_id` is the
+canonical published identifier. The root is `9999999` with a `null` parent.
+
+### B.4 The taxonomy — `ChemOnt_2_1.obo`
+
+The authors' own release, OBO format, `data-version: 2.1`, dated 26 Aug 2016,
+`sha256 8616a6ec…51fe22`. 4,825 `[Term]` stanzas = 1 root + 4,824 categories:
+
+```
+[Term]
+id: CHEMONTID:0000000
+name: Organic compounds
+def: "Compounds that contain at least carbon atom, excluding isocyanide/cyanide …" []
+synonym: "an organic compound" EXACT CHEMONT_TERM []
+synonym: "Organic Chemicals" RELATED MeSH_TERM [MESH:D02]
+synonym: "organic molecule" EXACT ChEBI_TERM [CHEBI:72695]
+is_a: CHEMONTID:9999999 ! Chemical entities
+```
+
+Each synonym carries a **scope** (EXACT / NARROW / BROAD / RELATED), a **source tag**
+(ChEBI_TERM, MeSH_TERM, LIPIDMAPS_TERM, IUPAC_TERM, UniProt_TERM, CHEMONT_TERM) and a
+bracketed **external ID list**. A single line can carry several IDs — which is why
+"number of mappings" has three defensible readings and why the first audit found F4.
+
+**The dictionary and the OBO disagree on 4 parent edges**: `Sulfinylamines`, `Ureides`,
+`1,2-diacyl-3-O-beta-D-galactosyl-sn-glycerols`, `1-acyl-3-O-beta-D-galactosyl-sn-glycerols`.
+Same 4,825 terms, same names — four different parents. That is why every violation count
+is reported alongside how many of them touch a drifted edge (73 of 198,959).
+
+### B.5 The paper's supplementary files
+
+| File | Format | Size | Contents |
+|---|---|---|---|
+| Additional file 1 | .docx | 103 KB | Mathematical definition of ChemOnt; **Table S1** (the label definitions above) |
+| Additional file 2 | .docx | 4.9 MB | Figures S1–S3, SMARTS/Markush examples |
+| Additional file 3 | .csv | **118 MB** | ChEBI annotation dump: 2,687,046 rows over 84,378 compounds |
+| Additional file 4 | .xlsx | 1.9 MB | **The 800-compound test set.** Sheet 1 = CID + SMILES; Sheet 2 = 22,043 rows of assignments with FALSE POSITIVE / FALSE NEGATIVE columns marked by the expert panel |
+| Additional file 5 | .xlsx | 87 KB | The 20-compound ChEBI comparison, with an `=AVERAGE(B2:B21)` row the authors left in |
+| Additional file 6 | .pdf | 4.3 MB | Figure S4, the text-search example |
+
+Files 3–5 are what made the evaluation claims reproducible at all.
+
+---
+
+## C. What the pipeline produces
+
+### C.1 Sufficient statistics — the design that makes re-analysis free
+
+The scan writes three small files that are **sufficient** to recompute every Phase-1
+invariant without touching the 2 GB source again:
+
+| File | Schema | Rows | Purpose |
+|---|---|---:|---|
+| `path_counts.tsv` | `kingdom, superclass, class, subclass, direct_parent, rows` | 3,631 | every distinct label path with its exact row count |
+| `dp_alt_pairs.tsv` | `direct_parent, alternative_parent, rows` | 1,047,341 | the weighted class-pair structure; **this is the Phase-2 overlay** |
+| `inode_sets.tsv` | `subclass, direct_parent, intermediate_nodes, rows` | 5,178 | distinct intermediate-node sets |
+
+Example rows:
+
+```
+path_counts.tsv    0  264  265  13  2309   1878192
+dp_alt_pairs.tsv   2309  3940                1878047
+inode_sets.tsv     13  2309  60,347          1838568
+```
+
+The compression ratio is the point: 73,105,281 rows collapse to 3,631 distinct paths
+(20,000× fewer) because most compounds share a classification.
+
+### C.2 The point cloud — `points.bin`
+
+**292,421,124 bytes = 73,105,281 points × 4 bytes.** No header, no delimiter: a flat
+array of `(int16 x, int16 y)` little-endian pairs. World coordinates are recovered as
+`x / scale` where `scale` is published in `layout.json` (`34,520.51` for the current
+build).
+
+Points are **grouped by class**, and `layout.json` records each class's `off` (point
+index) and `cnt`, so the renderer issues one GPU draw call per *visible* class and never
+draws the rest.
+
+Within a class, points are placed on a **Vogel (sunflower) spiral**:
+
+```
+θ = i · 2.39996…      (the golden angle, π(3−√5))
+r = R · √((i+0.5)/n)  (√ keeps areal density uniform)
+```
+
+The halo radius is `R = K·√(compounds)` with `K = 6.867×10⁻⁵`, chosen so on-screen density
+is **algebraically independent of class size**: `n / (π(K√n·z)²) = 1/(πK²z²)`. Measured, a
+1,878,192-compound class and a 601-compound class both render at exactly 30 points/pixel.
+
+**Honest limitation:** position *within* a class carries no meaning — there is no 2D
+structural embedding of molecules here. Position *between* classes is the taxonomy layout.
+
+### C.3 `layout.json` — the frontend's single input
+
+3.6 MB. One record per class:
+
+| Key | Meaning | Key | Meaning |
+|---|---|---|---|
+| `i` | numeric ID | `dp` | compounds with this as direct parent |
+| `n` | name | `st` | compounds in this subtree |
+| `c` | CHEMONTID | `ip` | compounds with it anywhere in the path |
+| `p` | parent ID (−1 = kingdom) | `e` | alternative-parent entropy, bits |
+| `d` | depth | `px, py` | layout position, normalised |
+| `k` | kingdom (0 organic, 1 inorganic) | `nr` | node radius |
+| `s, sc` | superclass ID and name | `hr` | halo radius (point culling) |
+| `x` | example compounds | `off, cnt` | byte range in `points.bin` |
+
+Plus `tree` (4,822 dendrogram links), `links` (14,000 confusability edges), `bundles`
+(5,200 bundled arcs), and `meta` (counts, `scale`, content `version`).
+
+---
+
+## D. Algorithms, stated precisely
+
+**Fruchterman–Reingold** (the class layout, and the abandoned attempts). Repulsion
+`k²/d` between all pairs, attraction `d²/k` along edges, displacement clamped by a
+"temperature" that cools each iteration. Unclamped, it diverged to NaN — hence the
+clamp and the finiteness assertion.
+
+**Radial tree layout** (what shipped). Leaves get an angular slot proportional to
+`log₁₀(1+compounds)+0.65`; an internal node spans its children's slots; radius is a
+function of depth (`RING = linspace(0,1,12)^0.78`). Zero edge crossings by construction —
+which is why it beat the force layout.
+
+**Hierarchical edge bundling** (Holten). For a cross-link `a→b`, take the path
+`a → LCA(a,b) → b` through the tree as control points, then relax toward the straight
+chord by `β = 0.86`:
+
+```
+ctrl = β · path + (1−β) · straight
+```
+
+Rendered as quadratic Béziers. This is why the arcs flow along the hierarchy instead of
+cutting through the middle.
+
+**Squarified treemap** (attempt 4). Recursively split the remaining rectangle, choosing
+the split that minimises worst-case aspect ratio.
+
+**Shannon entropy** (the ambiguity score). For class `d` with alternative-parent counts
+`n(d,a)`:
+
+```
+H(d) = −Σ_a p(a|d) · log₂ p(a|d),   p(a|d) = n(d,a) / Σ_x n(d,x)
+```
+
+High `H` = the system reaches for many different alternatives = ambiguous.
+
+**Permutation test with size matching.** Draw 20,000 random class sets of the same size
+as the flagged set, compute the mean entropy of each, and locate the observed value in
+that distribution. Because entropy correlates with class size at `r = 0.788`, controls
+are drawn from the *same size decile*, which is what turns an uncontrolled `p = 0.0001`
+into an honest `p = 0.0101`.
+
+---
+
+## E. The scripts, and what each one costs
+
+| Script | Reads | Writes | Runtime |
+|---|---|---|---|
+| `chemont.py` | — | — | library: tree model, ancestor/depth queries, the R5/R6/PATH checks |
+| `paths.py` | — | — | library: resolves large inputs via `$ATLAS_DATA` → `data/` → dev layout |
+| `01_verify_taxonomy.py` | `ChemOnt_2_1.obo` | `taxonomy_claims.json`, `taxonomy_nodes.tsv` | <1 s |
+| `02_scan_dataset.py` | the 2 GB `.zst` | `scan.json`, 3 sufficient-statistic TSVs | **6 min 35 s** |
+| `03_verify_evaluation.py` | Additional files 3, 4, 5 | `evaluation_claims.json` | ~20 s |
+| `05_build_graph_data.py` | the statistics | `graph_data.json` | ~10 s |
+| `06_build_pointcloud.py` | `graph_data.json` | (superseded treemap layout) | ~3 min |
+| `07_build_network.py` | `graph_data.json` | `network_layout.json`, preview PNG | ~90 s |
+| `08_build_network_points.py` | `network_layout.json` | `points.bin` (292 MB), `layout.json` | ~2 min |
+| `test_checks.py` | fixtures + sample | — | ~2 s, 31 assertions |
+
+Environment: Python 3.11+ with numpy, matplotlib, openpyxl; the `zstd` CLI (the pipeline
+shells out rather than depending on a Python binding); Node 20 and Vite 5 for the
+frontend. No cheminformatics toolkit is needed — nothing here parses a molecule.
+
+---
+
+# Part II — The narrative: how it was actually built
+
 ## 0. Reading the brief
 
 Two PDFs defined the task: the group's approved abstract and the course policy.

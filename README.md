@@ -99,7 +99,7 @@ changed reported verdicts. See [`docs/phase1a_audit.md`](docs/phase1a_audit.md).
 
 ## Phase 1b — provenance (Zenodo release notes, not paper claims)
 
-73,105,281 rows read in 397 s (184k rows/s). **Six of seven figures reproduce exactly.**
+73,105,281 rows read in 395 s (185k rows/s). **Six of seven figures reproduce exactly.**
 
 | figure | stated | observed | delta |
 |---|---:|---:|---:|
@@ -143,7 +143,7 @@ Three points make these findings robust rather than artefacts:
    `Aryl thioethers` → `Alkylarylthioethers` (551,743 rows), which also breaches R4's
    category-reduction rule: the more specific child should have become the direct parent.
 3. **It contradicts the release's own headline.** The Zenodo notes state "the canonical
-   five-tier hierarchical path is now correct for every row"; **79,164 rows carry a
+   five-tier hierarchical path is now correct for every row"; **79,171 rows carry a
    complete, non-null path that is still not a root-path** of their direct parent. That
 figure is emitted directly by the scan (`path_violation_rows_fully_populated`); deriving
 it as 198,959 − 119,795 mixes two populations, because the 7 rows with a null direct
