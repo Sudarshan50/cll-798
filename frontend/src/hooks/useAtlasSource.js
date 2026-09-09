@@ -40,7 +40,7 @@ export function useAtlasSource({ enabled, wrapRef, glRef, ovRef, camera, dataRef
         if (!cloudRef.current.allocate(d.meta.points))
           throw new Error(`GPU refused a ${(d.meta.points * 4 / 1e6) | 0} MB buffer`);
         setStatus("streaming compounds");
-        await cloudRef.current.stream("/points.bin", d.meta.points, (n) => {
+        await cloudRef.current.stream(`/points.bin?v=${d.meta.version ?? "0"}`, d.meta.points, (n) => {
           if (!dead) setLoaded(n);
         }, ac.signal);
         if (dead) return;

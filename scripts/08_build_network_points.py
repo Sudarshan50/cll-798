@@ -78,6 +78,15 @@ print(f"check: x {chk[:,0].min()}..{chk[:,0].max()}  y {chk[:,1].min()}..{chk[:,
 
 for n in nodes:
     n.setdefault("hr", round(max(n["nr"] * 1.05, 0.0), 6))
+import hashlib
+h = hashlib.sha256()
+with p.open("rb") as fh:
+    for blk in iter(lambda: fh.read(1 << 22), b""):
+        h.update(blk)
+# the frontend requests points.bin?v=<version>, so an immutable year-long cache is
+# safe: regenerating the cloud changes the version and therefore the URL
+L["meta"]["version"] = h.hexdigest()[:12]
+print(f"content version: {L['meta']['version']}")
 L["meta"]["scale"] = S
 L["meta"]["halo_k"] = K_HALO
 (RES / "network_layout.json").write_text(json.dumps(L, separators=(",", ":")))
