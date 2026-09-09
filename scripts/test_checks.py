@@ -34,12 +34,13 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import chemont  # noqa: E402
+import paths    # noqa: E402
 
 # the dictionary ships in-repo (md5-verified against Zenodo); the sibling directory
 # is not part of the repo and is absent on any other machine
 DICT = HERE.parent / "data" / "chemont_dictionary.tsv"
 OBO = HERE.parent / "data" / "ChemOnt_2_1.obo"
-SAMPLE = HERE.parent.parent / "chemont_project" / "data" / "sample_200k.tsv"
+SAMPLE = paths.find("sample_200k.tsv")
 
 PASS, FAIL, SKIPPED = [], [], []
 
@@ -142,10 +143,10 @@ def l2():
 # ------------------------------------------------------------------ L3: sample
 def l3(d):
     print("\nL3 SAMPLE -- 200k rows, schema + cross-implementation agreement")
-    if d is None or not SAMPLE.exists():
+    if d is None or SAMPLE is None or not SAMPLE.exists():
         # a skipped tier used to leave the suite exiting 0, so CI reported success
         # while only L1 had actually run
-        print(f"  SKIP  L3 needs {SAMPLE}; run `make data` or fetch the sample")
+        print("  SKIP  L3 needs sample_200k.tsv; set ATLAS_DATA or see paths.py")
         SKIPPED.append("L3"); return
     import csv as _csv
     n = bad_len = unknown = null_kingdom = 0

@@ -51,10 +51,10 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import chemont  # noqa: E402
+import paths    # noqa: E402
 
 ROOT = HERE.parent
-UPSTREAM = ROOT.parent / "chemont_project" / "data"
-DEFAULT_INPUT = UPSTREAM / "classyfire_main.tsv.zst"
+DEFAULT_INPUT = paths.find("classyfire_main.tsv.zst") or Path("classyfire_main.tsv.zst")
 DICT = ROOT / "data" / "chemont_dictionary.tsv"
 OBO = ROOT / "data" / "ChemOnt_2_1.obo"
 RESULTS = ROOT / "results"

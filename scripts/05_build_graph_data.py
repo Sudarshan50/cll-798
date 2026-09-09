@@ -15,6 +15,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import chemont
+import paths
 
 ROOT = HERE.parent
 RES = ROOT / "results"
@@ -74,8 +75,8 @@ top = alt_w.most_common(TOP_EDGES)
 
 # ---- example compounds per class (from the 200k sample; no rescan) ----------
 ex = defaultdict(list)
-sample = ROOT.parent / "chemont_project" / "data" / "sample_200k.tsv"
-if sample.exists():
+sample = paths.find("sample_200k.tsv")
+if sample and sample.exists():
     with sample.open() as fh:
         for i, r in enumerate(csv.DictReader(fh, delimiter="\t")):
             if i > 120000: break
