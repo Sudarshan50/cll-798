@@ -7,13 +7,16 @@ import { sizeOverlay } from "../render/scene.js";
  * Fetch the layout, frame it, then stream the compound cloud into the GPU.
  * Fills `dataRef` / `cloudRef` and drives the camera's initial framing.
  */
-export function useAtlasSource({ wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule }) {
+export function useAtlasSource({ enabled, wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule }) {
   const [status, setStatus] = useState("loading");
   const [loaded, setLoaded] = useState(0);
   const [meta, setMeta] = useState(null);
   const [err, setErr] = useState(null);
 
   useEffect(() => {
+    // Nothing is fetched on an unsupported device. The gate renders instead of the
+    // canvas, so without this the 292 MB stream would still start behind the notice.
+    if (!enabled) return undefined;
     let dead = false; const ac = new AbortController();
     (async () => {
       try {
@@ -47,7 +50,7 @@ export function useAtlasSource({ wrapRef, glRef, ovRef, camera, dataRef, cloudRe
       }
     })();
     return () => { dead = true; ac.abort(); };
-  }, [wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule]);
+  }, [enabled, wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule]);
 
   return { status, loaded, meta, err };
 }

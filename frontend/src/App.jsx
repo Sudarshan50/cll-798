@@ -9,9 +9,11 @@ import { useRenderLoop } from "./hooks/useRenderLoop.js";
 import { useAtlasSource } from "./hooks/useAtlasSource.js";
 import { Hud } from "./components/Hud.jsx";
 import { InfoPanel } from "./components/InfoPanel.jsx";
-import { ErrorBanner, CornerControls, ModeToggle, SelectionBar } from "./components/Chrome.jsx";
+import { ErrorBanner, CornerControls, ModeToggle, SelectionBar, Unsupported } from "./components/Chrome.jsx";
+import useViewportGate, { MIN_W, MIN_H } from "./hooks/useViewportGate.js";
 
 export default function App() {
+  const supported = useViewportGate();
   const glRef = useRef(null), ovRef = useRef(null), wrapRef = useRef(null);
   const dataRef = useRef(null), cloudRef = useRef(null), hoverRef = useRef(null);
   const cameraRef = useRef(null);
@@ -55,7 +57,7 @@ export default function App() {
   });
 
   const { status, loaded, meta, err } =
-    useAtlasSource({ wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule });
+    useAtlasSource({ enabled: supported, wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule });
 
   // Switching to compound mode below the reveal zoom used to look like nothing
   // happened. Fly to the threshold so the difference is visible at once.
@@ -157,6 +159,8 @@ export default function App() {
     camera.fitBounds(b.x0, b.y0, b.x1, b.y1);
     schedule();
   };
+
+  if (!supported) return <Unsupported minW={MIN_W} minH={MIN_H} />;
 
   return (
     <div className="app">

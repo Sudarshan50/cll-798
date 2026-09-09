@@ -45,3 +45,25 @@ export function SelectionBar({ sel, onFit, onClear }) {
     </div>
   );
 }
+
+export function Unsupported({ minW, minH }) {
+  return (
+    <div className="gate">
+      <div className="gate-in">
+        <h1>Desktop only</h1>
+        <p>
+          The atlas draws 4,824 taxonomy classes and streams 292&nbsp;MB of compound
+          geometry into a WebGL2 buffer. A phone or tablet cannot allocate that, and
+          the class details open on right-click, which touch has no equivalent for.
+        </p>
+        <p className="req">
+          Needs a pointer and at least {minW}&nbsp;&times;&nbsp;{minH}&nbsp;px.
+          Your window is <b>{window.innerWidth} &times; {window.innerHeight}</b>.
+        </p>
+        <p className="alt">
+          Open <code>localhost:5173</code> on a laptop or desktop.
+        </p>
+      </div>
+    </div>
+  );
+}
