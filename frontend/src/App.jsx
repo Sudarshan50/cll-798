@@ -25,10 +25,6 @@ export default function App() {
   const [info, setInfo] = useState(null);   // right-click -> pinned info panel
   const [onScreen, setOnScreen] = useState(0);
   const [labels, setLabels] = useState(true);
-  // camera is a ref, so zoom changes never re-render. Mirror it into state
-  // (from inside the draw, where the live value is known) or the readout freezes and
-  // the zoom-scaled label cap looks like it is doing nothing.
-  const [ui, setUi] = useState({ zoom: 0, named: 0, budget: 0, noRoom: 0, off: 0 });
   const [sel, setSel] = useState(null);      // the left-clicked class
 
   const { schedule, interact, busy } = useRenderLoop(() => {
@@ -45,15 +41,9 @@ export default function App() {
     const lod = busy.current;                      // cheap pass while interacting
     const budget = labelBudget(view.zoom);
     const link = hv ? linkedTo(d, hv, budget) : null;
-    const { named, noRoom, offScreen } = renderScene(ovRef.current, {
+    renderScene(ovRef.current, {
       d, view, hv, link, lit: link ? link.all : null, lod, showLabels: labels,
     });
-    if (!lod) {
-      const nz = Math.round(view.zoom), nb = budget === Infinity ? -1 : budget;
-      setUi((u) => (u.zoom === nz && u.named === named && u.budget === nb
-        && u.noRoom === noRoom && u.off === offScreen
-        ? u : { zoom: nz, named, budget: nb, noRoom, off: offScreen }));
-    }
   });
 
   const { status, loaded, meta, err } =
@@ -174,12 +164,12 @@ export default function App() {
         <canvas ref={ovRef} className="layer overlay" />
       </div>
 
-      {err && <ErrorBanner message={err} />}
+      {err && <ErrorBanner />}
 
       <ModeToggle mode={mode} onChange={setMode} />
 
       <Hud mode={mode} onScreen={onScreen} loaded={loaded} meta={meta}
-           bundles={dataRef.current?.bundles?.length} status={status} ui={ui} selected={sel} />
+           bundles={dataRef.current?.bundles?.length} status={status} />
 
       <CornerControls labels={labels} onChange={setLabels} />
 

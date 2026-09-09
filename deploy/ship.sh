@@ -14,25 +14,25 @@ R() { ssh -i "$KEY" -o BatchMode=yes "$HOST" "$@"; }
 
 [ -f "$ROOT/frontend/dist/index.html" ] || { echo "build first: cd frontend && npm run build"; exit 1; }
 
-R 'mkdir -p ~/atlas/html ~/atlas/data'
-tar -czf - -C "$ROOT/frontend/dist" index.html assets | R 'tar -xzf - -C ~/atlas/html'
-tar -czf - -C "$ROOT/deploy" nginx.conf | R 'tar -xzf - -C ~/atlas'
-R 'cat > ~/atlas/data/layout.json' < "$ROOT/frontend/public/layout.json"
+R 'mkdir -p ~/site/html ~/site/data'
+tar -czf - -C "$ROOT/frontend/dist" index.html assets | R 'tar -xzf - -C ~/site/html'
+tar -czf - -C "$ROOT/deploy" nginx.conf | R 'tar -xzf - -C ~/site'
+R 'cat > ~/site/data/layout.json' < "$ROOT/frontend/public/layout.json"
 
 want=$(shasum -a 256 "$ROOT/frontend/public/points.bin" | cut -d' ' -f1)
-have=$(R 'sha256sum ~/atlas/data/points.bin 2>/dev/null | cut -d" " -f1' || true)
+have=$(R 'sha256sum ~/site/data/points.bin 2>/dev/null | cut -d" " -f1' || true)
 if [ "$want" != "$have" ]; then
   echo "shipping points.bin (292 MB)"
-  R 'cat > ~/atlas/data/points.bin' < "$ROOT/frontend/public/points.bin"
-  have=$(R 'sha256sum ~/atlas/data/points.bin | cut -d" " -f1')
+  R 'cat > ~/site/data/points.bin' < "$ROOT/frontend/public/points.bin"
+  have=$(R 'sha256sum ~/site/data/points.bin | cut -d" " -f1')
   [ "$want" = "$have" ] || { echo "checksum mismatch after transfer"; exit 1; }
 else
   echo "points.bin unchanged, skipped"
 fi
 
-R 'sudo docker rm -f atlas-web >/dev/null 2>&1 || true
-   sudo docker run -d --name atlas-web --restart unless-stopped -p 80:80 \
-     -v ~/atlas/html:/usr/share/nginx/html:ro \
-     -v ~/atlas/data:/srv/atlas-data:ro \
-     -v ~/atlas/nginx.conf:/etc/nginx/nginx.conf:ro \
-     nginx:alpine >/dev/null && echo "atlas-web running on :80"'
+R 'sudo docker rm -f web-2 >/dev/null 2>&1 || true
+   sudo docker run -d --name web-2 --restart unless-stopped -p 80:80 \
+     -v ~/site/html:/usr/share/nginx/html:ro \
+     -v ~/site/data:/srv/atlas-data:ro \
+     -v ~/site/nginx.conf:/etc/nginx/nginx.conf:ro \
+     nginx:alpine >/dev/null && echo "web-2 running on :80"'

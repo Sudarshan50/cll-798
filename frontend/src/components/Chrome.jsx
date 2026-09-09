@@ -1,16 +1,25 @@
 import React from "react";
 
-export function ErrorBanner({ message }) {
-  return <div className="err"><b>Could not start.</b><span>{message}</span></div>;
+export function ErrorBanner() {
+  return (
+    <div className="err">
+      <b>The atlas could not load.</b>
+      <span>Reload the page to try again.</span>
+      <span className="hint">
+        It needs a current desktop browser with WebGL2 and a stable connection —
+        the compound layer is a 292 MB download.
+      </span>
+    </div>
+  );
 }
 
 export function ModeToggle({ mode, onChange }) {
   return (
     <div className="modes">
       <button className={mode === "network" ? "on" : ""}
-        onClick={() => onChange("network")}>1 · Network</button>
+        onClick={() => onChange("network")}>Network</button>
       <button className={mode === "compounds" ? "on" : ""}
-        onClick={() => onChange("compounds")}>3 · Network + compounds</button>
+        onClick={() => onChange("compounds")}>Network + compounds</button>
     </div>
   );
 }
@@ -57,11 +66,11 @@ export function Unsupported({ minW, minH }) {
           the class details open on right-click, which touch has no equivalent for.
         </p>
         <p className="req">
-          Needs a pointer and at least {minW}&nbsp;&times;&nbsp;{minH}&nbsp;px.
-          Your window is <b>{window.innerWidth} &times; {window.innerHeight}</b>.
+          Needs a mouse or trackpad and a window of at least
+          {" "}<b>{minW}&nbsp;&times;&nbsp;{minH}&nbsp;px</b>.
         </p>
         <p className="alt">
-          Open <code>localhost:5173</code> on a laptop or desktop.
+          Open this page on a laptop or desktop to explore the atlas.
         </p>
       </div>
     </div>

@@ -46,7 +46,11 @@ export function useAtlasSource({ enabled, wrapRef, glRef, ovRef, camera, dataRef
         if (dead) return;
         setStatus("ready"); schedule();
       } catch (e) {
-        if (!dead && e.name !== "AbortError") setErr(e.message || String(e));
+        if (!dead && e.name !== "AbortError") {
+          // the banner stays generic; the detail belongs in the console, not on screen
+          console.error("Atlas failed to load:", e);
+          setErr(e.message || String(e));
+        }
       }
     })();
     return () => { dead = true; ac.abort(); };

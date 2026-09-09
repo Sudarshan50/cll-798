@@ -1,7 +1,7 @@
 import React from "react";
 import { fmt } from "../core/format.js";
 
-export function Hud({ mode, onScreen, loaded, meta, bundles, status, ui, selected }) {
+export function Hud({ mode, onScreen, loaded, meta, bundles, status }) {
   const pct = meta ? (loaded / meta.points) * 100 : 0;
   return (
     <div className="hud">
@@ -28,10 +28,7 @@ export function Hud({ mode, onScreen, loaded, meta, bundles, status, ui, selecte
           </div>
         </>
       )}
-      <div className="stat dim">
-        {status} · zoom {(ui.zoom / 1000).toFixed(2)}k · {ui.named} names shown
-        {selected ? ` · cap ${ui.budget < 0 ? "none" : ui.budget}` : ""}
-      </div>
+      {status !== "ready" && <div className="stat dim">{status}…</div>}
     </div>
   );
 }
