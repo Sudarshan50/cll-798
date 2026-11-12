@@ -1,7 +1,8 @@
 import React from "react";
 import { fmt } from "../core/format.js";
+import { ExtensionLegend } from "./extension/ExtensionLegend.jsx";
 
-export function Hud({ mode, onScreen, loaded, meta, bundles, status }) {
+export function Hud({ mode, onScreen, loaded, meta, bundles, status, ext }) {
   const pct = meta ? (loaded / meta.points) * 100 : 0;
   return (
     <div className="hud">
@@ -18,6 +19,8 @@ export function Hud({ mode, onScreen, loaded, meta, bundles, status }) {
               : `all ${fmt(meta?.points)} compounds resident`}
           </div>
         </>
+      ) : mode === "extension" && ext ? (
+        <ExtensionLegend {...ext} />
       ) : (
         <>
           <div className="count">{fmt(meta?.points)}</div>

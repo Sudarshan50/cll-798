@@ -1,15 +1,18 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Camera, clampZoom, zoomAbout } from "./core/camera.js";
 import { labelBudget } from "./core/labels.js";
 import { boundsOf, linkedTo } from "./core/graph.js";
+import { extLinked, indexExtension } from "./core/extension.js";
 import { renderScene, sizeOverlay } from "./render/scene.js";
 import { POINT_ZOOM, renderPoints } from "./render/points.js";
 import { pickNode } from "./core/hitTest.js";
 import { useRenderLoop } from "./hooks/useRenderLoop.js";
 import { useAtlasSource } from "./hooks/useAtlasSource.js";
+import { useExtensionData } from "./hooks/useExtensionData.js";
 import { Hud } from "./components/Hud.jsx";
 import { InfoPanel } from "./components/InfoPanel.jsx";
 import { ErrorBanner, CornerControls, ModeToggle, SelectionBar, Unsupported } from "./components/Chrome.jsx";
+import { ExtensionPanel, PANEL_SPACE } from "./components/extension/ExtensionPanel.jsx";
 import useViewportGate, { MIN_W, MIN_H } from "./hooks/useViewportGate.js";
 
 export default function App() {
@@ -21,11 +24,22 @@ export default function App() {
   const camera = cameraRef.current;
   const press = useRef(null), drag = useRef(null), anim = useRef(0);
 
-  const [mode, setMode] = useState("network");     // "network" | "compounds"
+  const [mode, setMode] = useState("network");     // "network" | "compounds" | "extension"
   const [info, setInfo] = useState(null);   // right-click -> pinned info panel
   const [onScreen, setOnScreen] = useState(0);
   const [labels, setLabels] = useState(true);
   const [sel, setSel] = useState(null);      // the left-clicked class
+  const [extLayer, setExtLayer] = useState("p2");    // "p2" | "bp" | "none"
+  const [extColour, setExtColour] = useState("tax"); // "tax" | "p2c" | "bpc" | "H"
+  const [panelOpen, setPanelOpen] = useState(true);
+
+  const extFiles = useExtensionData(mode === "extension");
+  const p2Data = extFiles.phase2.data, bpData = extFiles.bipartite.data;
+
+  /** Selection neighbourhood: extension edges in Extension mode, else the taxonomy's. */
+  const linksOf = (d, n, budget) =>
+    mode === "extension" && ext && extLayer !== "none"
+      ? extLinked(ext, extLayer, n, budget) : linkedTo(d, n, budget);
 
   const { schedule, interact, busy } = useRenderLoop(() => {
     const d = dataRef.current, cloud = cloudRef.current;
@@ -40,14 +54,22 @@ export default function App() {
     const hv = hoverRef.current;                   // the left-click selection
     const lod = busy.current;                      // cheap pass while interacting
     const budget = labelBudget(view.zoom);
-    const link = hv ? linkedTo(d, hv, budget) : null;
+    const link = hv ? linksOf(d, hv, budget) : null;
     renderScene(ovRef.current, {
       d, view, hv, link, lit: link ? link.all : null, lod, showLabels: labels,
+      ext: mode === "extension" && ext ? { idx: ext, layer: extLayer, color: extColour } : null,
     });
   });
 
   const { status, loaded, meta, err } =
     useAtlasSource({ enabled: supported, wrapRef, glRef, ovRef, camera, dataRef, cloudRef, schedule });
+
+  // `meta` arrives together with the layout, so it doubles as the "layout ready" signal
+  const ext = useMemo(
+    () => (meta && dataRef.current ? indexExtension(dataRef.current, p2Data, bpData) : null),
+    [meta, p2Data, bpData]);
+
+  useEffect(() => { schedule(); }, [ext, extLayer, extColour, schedule]);
 
   // Switching to compound mode below the reveal zoom used to look like nothing
   // happened. Fly to the threshold so the difference is visible at once.
@@ -143,7 +165,7 @@ export default function App() {
   const fitSelection = () => {
     const d = dataRef.current, n = hoverRef.current;
     if (!d || !n) return;
-    const b = boundsOf(d, linkedTo(d, n, Infinity).all);
+    const b = boundsOf(d, linksOf(d, n, Infinity).all);
     if (!b) return;
     cancelAnimationFrame(anim.current); anim.current = 0;
     camera.fitBounds(b.x0, b.y0, b.x1, b.y1);
@@ -169,12 +191,19 @@ export default function App() {
       <ModeToggle mode={mode} onChange={setMode} />
 
       <Hud mode={mode} onScreen={onScreen} loaded={loaded} meta={meta}
-           bundles={dataRef.current?.bundles?.length} status={status} />
+           bundles={dataRef.current?.bundles?.length} status={status}
+           ext={{ ix: ext, layer: extLayer, colour: extColour, files: extFiles }} />
 
       <CornerControls labels={labels} onChange={setLabels} />
 
+      {mode === "extension" && (
+        <ExtensionPanel open={panelOpen} onToggle={() => setPanelOpen((o) => !o)} files={extFiles}
+          layer={extLayer} onLayer={setExtLayer} colour={extColour} onColour={setExtColour} />)}
+
       {info && <InfoPanel n={info.n} x={info.x} y={info.y} d={dataRef.current}
-                          onClose={() => setInfo(null)} />}
+                          onClose={() => setInfo(null)}
+                          ext={{ ix: ext, layer: mode === "extension" ? extLayer : "p2" }}
+                          avoidRight={mode === "extension" ? PANEL_SPACE : 0} />}
 
       {sel && <SelectionBar sel={sel} onFit={fitSelection} onClear={() => {
         hoverRef.current = null; setSel(null); setInfo(null); schedule();

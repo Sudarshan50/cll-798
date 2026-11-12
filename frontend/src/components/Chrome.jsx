@@ -20,6 +20,8 @@ export function ModeToggle({ mode, onChange }) {
         onClick={() => onChange("network")}>Network</button>
       <button className={mode === "compounds" ? "on" : ""}
         onClick={() => onChange("compounds")}>Network + compounds</button>
+      <button className={mode === "extension" ? "on" : ""}
+        onClick={() => onChange("extension")}>Extension</button>
     </div>
   );
 }

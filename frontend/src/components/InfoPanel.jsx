@@ -1,16 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 import { fmt } from "../core/format.js";
 import { lineage } from "../core/graph.js";
+import { ExtensionDetails } from "./extension/ExtensionDetails.jsx";
 
-export function InfoPanel({ n, x, y, d, onClose }) {
+export function InfoPanel({ n, x, y, d, onClose, ext = null, avoidRight = 0 }) {
   const ref = useRef(null);
   const [pos, setPos] = useState({ left: x + 14, top: y - 60 });
+  const hasExt = !!(ext?.ix && (ext.ix.p2 || ext.ix.bp));
   useEffect(() => {
     const el = ref.current; if (!el) return;
-    setPos({ left: Math.min(Math.max(12, x + 14), innerWidth - el.offsetWidth - 14),
+    setPos({ left: Math.min(Math.max(12, x + 14), innerWidth - avoidRight - el.offsetWidth - 14),
              top: Math.min(Math.max(12, y - el.offsetHeight / 2),
                            innerHeight - el.offsetHeight - 14) });
-  }, [x, y, n]);
+  }, [x, y, n, avoidRight, hasExt]);
   useEffect(() => {
     const k = (e) => { if (e.key === "Escape") onClose(); };
     addEventListener("keydown", k);
@@ -41,6 +43,7 @@ export function InfoPanel({ n, x, y, d, onClose }) {
             <div className="ex"><em>{e.s}</em></div>
           </div>))}
         </div>)}
+      {hasExt && <ExtensionDetails n={n} ix={ext.ix} layer={ext.layer} />}
     </div>
   );
 }
