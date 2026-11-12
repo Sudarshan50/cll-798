@@ -25,6 +25,13 @@ jobs:
           ALLOW_SKIPPED_TIERS: "1"
         run: python3 scripts/test_checks.py
 
+      # Toy-model tests of every extension estimator, plus the assertion that the
+      # Phase-1 outputs are byte-identical. Neither needs the dataset or the sample.
+      - name: Extension tests (Phase 2 + bipartite)
+        run: |
+          python3 scripts/test_phase2.py
+          python3 scripts/test_bipartite.py
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
