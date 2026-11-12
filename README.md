@@ -60,7 +60,8 @@ dataset, not this repository:
 | **1b** | Verify the Zenodo release's **scale and coverage** claims by one streaming pass | done — `scripts/02_scan_dataset.py` |
 | **1c** | Test the paper's stated invariants (PATH / R5 / R6) against all 73.1M labels | done — same pass |
 | **1d** | Reproduce the paper's **evaluation** claims from its own supplementary files | done — `scripts/03_verify_evaluation.py` |
-| **2** | Network-science extension (documented separately, deliberately after replication) | later |
+| **2** | Confusability overlay: are the paper's expert-flagged errors where ClassyFire hedges? | done, pre-registered — `scripts/10`–`13c`, [`docs/phase2_results.md`](docs/phase2_results.md) |
+| **E** | Bipartite extension: compound × class and compound × functional-group networks, their one-mode projections, statistically validated backbones | done — `scripts/09`, `14`–`16`, [`docs/bipartite_extension.md`](docs/bipartite_extension.md) |
 
 Phase 1 makes no claim that is not stated in the baseline paper or the dataset's own
 release notes. Every target value is quoted, with its section of origin, in
@@ -226,8 +227,88 @@ emits alternative-parent co-occurrence pairs, the Phase-2 class-class network in
 
 ```bash
 python3 scripts/test_checks.py      # 31 tests, ~2 s, no dependencies
+make test PY=.venv/bin/python       # + test_phase2.py (26) and test_bipartite.py (16)
 ```
 
 L1 unit tests on toy taxonomies (each a regression for a bug actually made), L2 fixtures
 against the real ChemOnt, L3 agreement between the streaming scan and an independent naive
-re-implementation over the sample.
+re-implementation over the sample. The extension suites test every estimator on toys with a
+known answer (BiCM against exhaustive enumeration, closed-form clique projections against
+networkx, a planted over-expressed pair, a perfectly nested matrix) and assert that the
+Phase-1 outputs are byte-identical before and after.
+
+---
+
+## Extension — the release as a bipartite network
+
+ChemOnt shows each compound in one box, but ClassyFire also attaches ~12.6 *alternative
+parents* and ~9.3 functional groups to it. The extension reads the release as what it is:
+an affiliation network of 73,105,281 compounds × 3,851 classes (995,524,038 incidences) and
+73.1M compounds × 396 functional groups (679,126,726 incidences).
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+make extension PY=.venv/bin/python   # ~4 min scan + ~10 min analysis, then copies the UI data
+```
+
+`scripts/09_scan_bipartite.py` is the only step that reads the 2 GB file (one parallel pass,
+~4 min). It writes the class-mode projection `C = BᵀB`, Newman's weighted projection, the
+direct-parent × substituent matrix and both degree sequences, and asserts the identities that
+tie them together (`Σ k_c = Σ L·n_L`, `Σ_{c<c'} C = Σ C(L,2)·n_L`). Its totals reconcile
+exactly with Phase 1b: 73,105,281 rows, 922,418,764 alternative-parent labels.
+
+**One-mode projections, and why the naive ones mislead.**
+- Per hierarchy level the compound projection is a disjoint union of cliques, so its
+  clustering is 1 by construction; its density, from Kingdom to direct parent, falls from
+  0.998 to 0.0053, exactly, without building a ~10¹⁵-edge graph.
+- Joined on any shared label, 99.2 % of compound pairs are linked; removing the 3 hub labels
+  (Hydrocarbon derivatives, Organic oxides, Azacyclic compounds) drops that to 65 %.
+- 24.3M distinct label sets: 79.8 % of compounds are indistinguishable from another in the
+  projection.
+
+**Validated class backbone.** The raw class projection has 1,393,402 edges (density 0.188).
+Against the bipartite configuration model (BiCM, Saracco et al. 2015/2017), solved exactly
+over compound-degree classes, with BH-FDR 0.01 and an effect-size floor of observed ≥ 2 ×
+expected, **174,525 edges survive**. Their clustering is 2.8× a degree-preserving null.
+Louvain communities on that backbone agree only moderately with the SuperClasses (NMI 0.41,
+ARI 0.32). On bipartite modularity (Guimerà et al. 2007), which scores partitions on the
+bipartite data itself rather than on the projection, they score 0.074 against 0.042 for the
+official SuperClass partition. The strongest surviving edges are near-synonyms (Aryl chlorides
+– Organochlorides, Anisoles – Methoxybenzenes): genuine redundancy in the alternative-parent
+layer.
+
+**Class × functional group.** The taxonomy orders functional-group chemistry only weakly
+(Mantel r = −0.20 between profile similarity and tree distance, p = 0.001). The matrix is no
+more nested than its margin-preserving null. Reactive groups cut across the skeleton classes:
+nitro groups occur in 1,960 classes. A class-level hazard screen would miss most compounds
+that carry them.
+
+## Phase 2 — the confusability overlay (pre-registered)
+
+The plan is [`docs/phase2_plan.md`](docs/phase2_plan.md). The pre-registration
+[`docs/phase2_prereg.md`](docs/phase2_prereg.md) was frozen by sha256 before the single
+primary test ran; both hashes are recorded in `results/phase2/validation.json`.
+
+| hypothesis | result | verdict |
+|---|---|---|
+| **H1a**: the 21 expert-flagged classes are more ambiguous than size-matched controls | p = 0.453, effect +0.002 bits, 95 % CI [−0.23, 0.33] | **not supported** |
+| **H1b**: overlay clustering and modularity exceed a degree-preserving null | z = 182 (weighted clustering), z = 134 (modularity) | **supported** |
+| **H1c**: overlay communities are not a relabelling of the SuperClasses | NMI 0.64, but every community lies inside one SuperClass by construction | **inconclusive** |
+
+The negative H1a is the substantive finding. The unfiltered pilot reproduces (p = 0.0102 against
+the brief's 0.0101). But the pre-registered tree-proximity filter leaves 86.7 % of classes,
+including both positive controls, with no competitor at all. A tree-free PMI score gives
+p = 0.0001, which is reported as exploratory because it was not pre-registered. None of the
+36 sensitivity-sweep cells reaches p < 0.05. **Monte Carlo error propagation**: swapping a
+compound's direct parent for a statistically likely competitor changes its SuperClass in
+54.8 % of draws, against 85.9 % for a uniformly drawn wrong class. Errors guided by the
+classifier's own hedging stay local.
+
+## Interactive view
+
+`make dev`, then choose **Extension**. The map draws either the Phase-2 competing overlay or
+the validated BiCM backbone over the radial taxonomy, coloured by taxonomy, by either
+community partition or by ambiguity, with the expert-flagged classes ringed. The side panel
+has the results, charts and method notes for both analyses. See
+[`README_FRONTEND.md`](README_FRONTEND.md). The literature survey behind the method choices
+is [`docs/extension_research.md`](docs/extension_research.md).
