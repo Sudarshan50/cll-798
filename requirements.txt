@@ -1,9 +1,12 @@
 # Python 3 pipeline (scripts/*.py). Loose minimums: nothing here uses a recent API.
 # scripts/01, 02, 03 and test_checks.py are standard library only.
-numpy>=1.24        # 06/07/08: point-cloud and layout maths
+numpy>=1.24        # 06/07/08: point-cloud and layout maths; 09-16: extension
 matplotlib>=3.7    # 07: results/network_preview.png
-openpyxl>=3.1      # 03: reads the paper's .xlsx supplementary files
+openpyxl>=3.1      # 03, 12: reads the paper's .xlsx supplementary files
+scipy>=1.11        # 09-16: sparse incidence products, hypergeometric tests, BiCM solve
+networkx>=3.2      # 13, 15: Louvain, rewiring nulls, centralities
+powerlaw>=1.5      # 13, 14: Clauset-Shalizi-Newman fits with likelihood-ratio tests
 
-# zstandard is NOT needed: scripts/02_scan_dataset.py decompresses the 2 GB
-# dataset by shelling out to the `zstd` CLI (zstd -dcq), so install that instead
+# zstandard is NOT needed: scripts/02_scan_dataset.py and 09_scan_bipartite.py decompress
+# the 2 GB dataset by shelling out to the `zstd` CLI (zstd -dcq), so install that instead
 # (brew install zstd / apt-get install zstd).

@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
-# Ship the built atlas to a remote host. Only three things travel: the compiled app
-# (~176 KB), layout.json, and points.bin. No sources, no node_modules, no dataset.
+# Ship the built atlas to a remote host. Only the compiled app (~200 KB), the
+# extension payloads (phase2.json, bipartite.json, ~1 MB), layout.json and points.bin
+# travel. No sources, no node_modules, no dataset.
 #
-#   ./deploy/ship.sh ec2-user@host /path/to/key.pem
+#   ./deploy/ship.sh ec2-user@host /path/to/key.pem [port]
 #
+# port defaults to 80; pass another when the host's :80 belongs to something else.
 # points.bin is re-sent only when the remote checksum differs, so re-running this
 # after a frontend-only change moves kilobytes, not 292 MB.
 set -euo pipefail
-HOST=${1:?usage: ship.sh user@host key.pem}
-KEY=${2:?usage: ship.sh user@host key.pem}
+HOST=${1:?usage: ship.sh user@host key.pem [port]}
+KEY=${2:?usage: ship.sh user@host key.pem [port]}
+PORT=${3:-80}
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 R() { ssh -i "$KEY" -o BatchMode=yes "$HOST" "$@"; }
 
@@ -18,6 +21,7 @@ R 'mkdir -p ~/site/html ~/site/data'
 tar -czf - -C "$ROOT/frontend/dist" index.html assets | R 'tar -xzf - -C ~/site/html'
 tar -czf - -C "$ROOT/deploy" nginx.conf | R 'tar -xzf - -C ~/site'
 R 'cat > ~/site/data/layout.json' < "$ROOT/frontend/public/layout.json"
+tar -czf - -C "$ROOT/frontend/public" phase2.json bipartite.json | R 'tar -xzf - -C ~/site/data'
 
 want=$(shasum -a 256 "$ROOT/frontend/public/points.bin" | cut -d' ' -f1)
 have=$(R 'sha256sum ~/site/data/points.bin 2>/dev/null | cut -d" " -f1' || true)
@@ -30,9 +34,9 @@ else
   echo "points.bin unchanged, skipped"
 fi
 
-R 'sudo docker rm -f web-2 >/dev/null 2>&1 || true
-   sudo docker run -d --name web-2 --restart unless-stopped -p 80:80 \
+R "sudo docker rm -f web-2 >/dev/null 2>&1 || true
+   sudo docker run -d --name web-2 --restart unless-stopped -p $PORT:80 \
      -v ~/site/html:/usr/share/nginx/html:ro \
      -v ~/site/data:/srv/atlas-data:ro \
      -v ~/site/nginx.conf:/etc/nginx/nginx.conf:ro \
-     nginx:alpine >/dev/null && echo "web-2 running on :80"'
+     nginx:alpine >/dev/null && echo 'web-2 running on :$PORT'"
