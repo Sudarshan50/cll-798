@@ -1,0 +1,2432 @@
+{
+ "graph": "primary G_c = S1 A(4) \u2229 B(3,10), weight w_pmi",
+ "basic": {
+  "nodes_nonisolated": 1069,
+  "edges": 2754,
+  "density": 0.004824418494655301,
+  "components": 171,
+  "lcc_nodes": 62,
+  "lcc_edges": 374,
+  "lcc_name_examples": [
+   "2-aminobenzamides",
+   "2-azidobenzoic acids",
+   "2-halobenzoic acids",
+   "2-halobenzoic acids and derivatives",
+   "2-pyrimidinylthiobenzoic acids",
+   "3-Mercuribenzoic acids",
+   "3-aminosalicylic acids",
+   "3-halobenzoic acids"
+  ]
+ },
+ "observed": {
+  "transitivity": 0.4729399441340782,
+  "avg_clustering": 0.3696416051368944,
+  "weighted_clustering": 0.13727058667200392,
+  "modularity": 0.9544044570627099,
+  "communities": 171,
+  "degree_assortativity": 0.47365116252286765,
+  "max_degree": 33,
+  "degree_cv": 1.1010969426322466,
+  "size_assortativity": 0.29019745698307087,
+  "within_superclass_share": 1.0
+ },
+ "centrality": {
+  "strength": {
+   "top": [
+    {
+     "id": 3305,
+     "name": "Aminosaccharides",
+     "value": 206.3075,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2207,
+     "name": "O-glycosyl compounds",
+     "value": 205.7219,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4831,
+     "name": "Oligopeptides",
+     "value": 189.328,
+     "superclass": "Organic acids and derivatives"
+    },
+    {
+     "id": 4445,
+     "name": "Organoheterosilanes",
+     "value": 188.3519,
+     "superclass": "Organometallic compounds"
+    },
+    {
+     "id": 2204,
+     "name": "C-glycosyl compounds",
+     "value": 176.9119,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 3531,
+     "name": "Flavonoid-3-O-glycosides",
+     "value": 175.868,
+     "superclass": "Phenylpropanoids and polyketides"
+    },
+    {
+     "id": 2276,
+     "name": "N-acyl-alpha-hexosamines",
+     "value": 174.4186,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2205,
+     "name": "Thioglycosides",
+     "value": 161.2348,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 1223,
+     "name": "Alpha-diketones",
+     "value": 159.1373,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2230,
+     "name": "Short-chain aldehydes",
+     "value": 157.7342,
+     "superclass": "Organic oxygen compounds"
+    }
+   ],
+   "spearman_vs_log10_label_freq": 0.0758,
+   "p": 0.013163890570757853
+  },
+  "degree": {
+   "top": [
+    {
+     "id": 2207,
+     "name": "O-glycosyl compounds",
+     "value": 33.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4831,
+     "name": "Oligopeptides",
+     "value": 32.0,
+     "superclass": "Organic acids and derivatives"
+    },
+    {
+     "id": 1363,
+     "name": "Enones",
+     "value": 29.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 3305,
+     "name": "Aminosaccharides",
+     "value": 29.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 3674,
+     "name": "Alpha-branched alpha,beta-unsaturated ketones",
+     "value": 28.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2204,
+     "name": "C-glycosyl compounds",
+     "value": 27.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4808,
+     "name": "Alpha-haloketones",
+     "value": 26.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4809,
+     "name": "Alpha-chloroketones",
+     "value": 26.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 1540,
+     "name": "Monosaccharides",
+     "value": 26.0,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2276,
+     "name": "N-acyl-alpha-hexosamines",
+     "value": 26.0,
+     "superclass": "Organic oxygen compounds"
+    }
+   ],
+   "spearman_vs_log10_label_freq": 0.3797,
+   "p": 5.413112077620711e-38
+  },
+  "eigenvector_lcc": {
+   "top": [
+    {
+     "id": 3097,
+     "name": "Halobenzoic acids",
+     "value": 0.24708,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2948,
+     "name": "Aminobenzoic acids",
+     "value": 0.24668,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 1106,
+     "name": "M-phthalic acid and derivatives",
+     "value": 0.22962,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 1108,
+     "name": "P-phthalic acid and derivatives",
+     "value": 0.22735,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2788,
+     "name": "M-sulfanylbenzoic acids",
+     "value": 0.22605,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2565,
+     "name": "Benzoic acids",
+     "value": 0.22465,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2514,
+     "name": "Salicylic acids",
+     "value": 0.2065,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2345,
+     "name": "O-methoxybenzoic acids and derivatives",
+     "value": 0.20568,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2611,
+     "name": "Dichlorobenzoic acids",
+     "value": 0.20176,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2347,
+     "name": "M-methoxybenzoic acids and derivatives",
+     "value": 0.20049,
+     "superclass": "Benzenoids"
+    }
+   ],
+   "spearman_vs_log10_label_freq": 0.1018,
+   "p": 0.43105247943680525,
+   "note": "computed on the largest component; the graph is disconnected"
+  },
+  "pagerank_directed_wcond": {
+   "top": [
+    {
+     "id": 1540,
+     "name": "Monosaccharides",
+     "value": 0.01534,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4176,
+     "name": "Amino acids",
+     "value": 0.01207,
+     "superclass": "Organic acids and derivatives"
+    },
+    {
+     "id": 124,
+     "name": "Aldehydes",
+     "value": 0.01184,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 178,
+     "name": "Benzamides",
+     "value": 0.00908,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 4276,
+     "name": "Polyprenyl monophosphates",
+     "value": 0.00864,
+     "superclass": "Lipids and lipid-like molecules"
+    },
+    {
+     "id": 3855,
+     "name": "Dolichyl monophosphates",
+     "value": 0.00791,
+     "superclass": "Lipids and lipid-like molecules"
+    },
+    {
+     "id": 2565,
+     "name": "Benzoic acids",
+     "value": 0.00769,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 3305,
+     "name": "Aminosaccharides",
+     "value": 0.00741,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 4314,
+     "name": "Alanine and derivatives",
+     "value": 0.00695,
+     "superclass": "Organic acids and derivatives"
+    },
+    {
+     "id": 339,
+     "name": "Unsaturated fatty acids",
+     "value": 0.00632,
+     "superclass": "Lipids and lipid-like molecules"
+    }
+   ],
+   "spearman_vs_log10_label_freq": 0.4184,
+   "p": 1.503009311763593e-46
+  },
+  "betweenness": {
+   "top": [
+    {
+     "id": 4831,
+     "name": "Oligopeptides",
+     "value": 0.00043,
+     "superclass": "Organic acids and derivatives"
+    },
+    {
+     "id": 2565,
+     "name": "Benzoic acids",
+     "value": 0.00036,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 3099,
+     "name": "3-halobenzoic acids and derivatives",
+     "value": 0.00036,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 2205,
+     "name": "Thioglycosides",
+     "value": 0.00033,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 1540,
+     "name": "Monosaccharides",
+     "value": 0.00025,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 3305,
+     "name": "Aminosaccharides",
+     "value": 0.00024,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2207,
+     "name": "O-glycosyl compounds",
+     "value": 0.00021,
+     "superclass": "Organic oxygen compounds"
+    },
+    {
+     "id": 2948,
+     "name": "Aminobenzoic acids",
+     "value": 0.00021,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 3009,
+     "name": "Aminosalicylic acids",
+     "value": 0.00021,
+     "superclass": "Benzenoids"
+    },
+    {
+     "id": 4361,
+     "name": "Acylaminobenzoic acid and derivatives",
+     "value": 0.00021,
+     "superclass": "Benzenoids"
+    }
+   ],
+   "spearman_vs_log10_label_freq": 0.3901,
+   "p": 3.5358153425676597e-40
+  }
+ },
+ "assortativity": {
+  "degree": 0.47365116252286765,
+  "depth_numeric": 0.38162756991892155,
+  "log10_label_freq_pearson": 0.29019745698307087,
+  "superclass": 1.0,
+  "within_superclass_share": 1.0,
+  "within_subclass_share": 1.0,
+  "mean_abs_depth_difference": 0.7222222222222222,
+  "same_depth_share": 0.46223674655047203,
+  "parent_child_share": 0.014161220043572984,
+  "sibling_share": 0.3307915758896151
+ },
+ "nulls": {
+  "degree_preserving": {
+   "transitivity": {
+    "observed": 0.4729399441340782,
+    "null_mean": 0.019479574022346367,
+    "null_sd": 0.001466269035772485,
+    "z": 309.261369536343,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     0.016655027932960895,
+     0.022534043296089386
+    ],
+    "R": 200
+   },
+   "avg_clustering": {
+    "observed": 0.3696416051368944,
+    "null_mean": 0.013855159555182829,
+    "null_sd": 0.0022338133945123276,
+    "z": 159.2731274938857,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     0.009941052429231184,
+     0.017827730041844986
+    ],
+    "R": 200
+   },
+   "weighted_clustering": {
+    "observed": 0.13727058667200392,
+    "null_mean": 0.004386742094122489,
+    "null_sd": 0.0007320513025925569,
+    "z": 181.52258469764868,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     0.0030844796313501113,
+     0.005755890384459053
+    ],
+    "R": 200
+   },
+   "modularity": {
+    "observed": 0.9544044570627099,
+    "null_mean": 0.5008688318054253,
+    "null_sd": 0.0033800431568153677,
+    "z": 134.18042439570505,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     0.4941800946374115,
+     0.507129229732696
+    ],
+    "R": 200
+   },
+   "degree_assortativity": {
+    "observed": 0.47365116252286765,
+    "null_mean": -0.014838091975720294,
+    "null_sd": 0.0191477536769014,
+    "z": 25.51156980298266,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     -0.04651515146099378,
+     0.025438317468193652
+    ],
+    "R": 200
+   },
+   "max_degree": {
+    "observed": 33.0,
+    "null_mean": 33.0,
+    "null_sd": 0.0,
+    "z": null,
+    "p_upper": 1.0,
+    "central95": [
+     33.0,
+     33.0
+    ],
+    "R": 200
+   },
+   "degree_cv": {
+    "observed": 1.1010969426322466,
+    "null_mean": 1.1010969426322463,
+    "null_sd": 2.2260180681725107e-16,
+    "z": 0.9974968671630001,
+    "p_upper": 1.0,
+    "central95": [
+     1.1010969426322466,
+     1.1010969426322466
+    ],
+    "R": 200
+   },
+   "size_assortativity": {
+    "observed": 0.29019745698307087,
+    "null_mean": -0.003273523156127933,
+    "null_sd": 0.019478186264250394,
+    "z": 15.066648206246263,
+    "p_upper": 0.004975124378109453,
+    "central95": [
+     -0.044592318300230666,
+     0.030620079229731086
+    ],
+    "R": 200
+   }
+  },
+  "tree_constrained": {
+   "transitivity": {
+    "observed": 0.4729399441340782,
+    "null_mean": 0.4471508379888268,
+    "null_sd": 0.0034059122716144476,
+    "z": 7.571864478184869,
+    "p_upper": 0.009900990099009901,
+    "central95": [
+     0.441041375698324,
+     0.4543601606145251
+    ],
+    "R": 100
+   },
+   "avg_clustering": {
+    "observed": 0.3696416051368944,
+    "null_mean": 0.3495535144918196,
+    "null_sd": 0.005342811375438399,
+    "z": 3.759835269016309,
+    "p_upper": 0.009900990099009901,
+    "central95": [
+     0.33944885488603044,
+     0.3603627855513355
+    ],
+    "R": 100
+   },
+   "weighted_clustering": {
+    "observed": 0.13727058667200392,
+    "null_mean": 0.11092196441671406,
+    "null_sd": 0.0019817025173372157,
+    "z": 13.295952356509146,
+    "p_upper": 0.009900990099009901,
+    "central95": [
+     0.1073134309294993,
+     0.11488744707227715
+    ],
+    "R": 100
+   },
+   "modularity": {
+    "observed": 0.9544044570627099,
+    "null_mean": 0.9357846215135228,
+    "null_sd": 0.00095483282176957,
+    "z": 19.500623695234307,
+    "p_upper": 0.009900990099009901,
+    "central95": [
+     0.9340354254237406,
+     0.9375582740521963
+    ],
+    "R": 100
+   },
+   "degree_assortativity": {
+    "observed": 0.47365116252286765,
+    "null_mean": 0.4701690212326578,
+    "null_sd": 0.006818664773604596,
+    "z": 0.5106778828150343,
+    "p_upper": 0.32673267326732675,
+    "central95": [
+     0.4571270179358525,
+     0.4829435553577545
+    ],
+    "R": 100
+   },
+   "max_degree": {
+    "observed": 33.0,
+    "null_mean": 33.0,
+    "null_sd": 0.0,
+    "z": null,
+    "p_upper": 1.0,
+    "central95": [
+     33.0,
+     33.0
+    ],
+    "R": 100
+   },
+   "degree_cv": {
+    "observed": 1.1010969426322466,
+    "null_mean": 1.1010969426322466,
+    "null_sd": 0.0,
+    "z": null,
+    "p_upper": 1.0,
+    "central95": [
+     1.1010969426322466,
+     1.1010969426322466
+    ],
+    "R": 100
+   },
+   "size_assortativity": {
+    "observed": 0.29019745698307087,
+    "null_mean": 0.3267123569389455,
+    "null_sd": 0.00990183183915718,
+    "z": -3.6876913836766096,
+    "p_upper": 1.0,
+    "central95": [
+     0.31013804343041534,
+     0.344137632674138
+    ],
+    "R": 100
+   }
+  },
+  "erdos_renyi": {
+   "transitivity": {
+    "observed": 0.4729399441340782,
+    "null_mean": 0.004853516485860829,
+    "null_sd": 0.0008143708407706535,
+    "z": 574.7828927730994,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.0036325729782319435,
+     0.006364165453314389
+    ],
+    "R": 50
+   },
+   "avg_clustering": {
+    "observed": 0.3696416051368944,
+    "null_mean": 0.004520485994926098,
+    "null_sd": 0.0011601848746880911,
+    "z": 314.7094287366304,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.0028703528048710466,
+     0.007415735314472452
+    ],
+    "R": 50
+   },
+   "weighted_clustering": {
+    "observed": 0.13727058667200392,
+    "null_mean": 0.0014281727839623904,
+    "null_sd": 0.0003867989891592817,
+    "z": 351.19640354619014,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.0009061036676765555,
+     0.0023122819607751337
+    ],
+    "R": 50
+   },
+   "modularity": {
+    "observed": 0.9544044570627099,
+    "null_mean": 0.5475323391211212,
+    "null_sd": 0.0025609126234978096,
+    "z": 158.8777821657439,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.5428559378728027,
+     0.5536912246796326
+    ],
+    "R": 50
+   },
+   "max_degree": {
+    "observed": 33.0,
+    "null_mean": 13.94,
+    "null_sd": 1.0184021097498068,
+    "z": 18.715593592674818,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     12.0,
+     15.774999999999999
+    ],
+    "R": 50
+   },
+   "degree_cv": {
+    "observed": 1.1010969426322466,
+    "null_mean": 0.43906092652396245,
+    "null_sd": 0.00943120059421259,
+    "z": 70.19636678224607,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.4245632518086892,
+     0.45577784652922215
+    ],
+    "R": 50
+   }
+  },
+  "chung_lu_label_freq": {
+   "transitivity": {
+    "observed": 0.4729399441340782,
+    "null_mean": 0.1962079890704382,
+    "null_sd": 0.004654096382952321,
+    "z": 59.45986767212058,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.18844493943347038,
+     0.2054573148158624
+    ],
+    "R": 50
+   },
+   "avg_clustering": {
+    "observed": 0.3696416051368944,
+    "null_mean": 0.26884930061096307,
+    "null_sd": 0.014373371980977833,
+    "z": 7.012432758250675,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.2402139200260889,
+     0.29228327369069157
+    ],
+    "R": 50
+   },
+   "weighted_clustering": {
+    "observed": 0.13727058667200392,
+    "null_mean": 0.08622838983269869,
+    "null_sd": 0.004888505852813801,
+    "z": 10.441267408921192,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.0768515500257978,
+     0.09535038772183116
+    ],
+    "R": 50
+   },
+   "modularity": {
+    "observed": 0.9544044570627099,
+    "null_mean": 0.3040770558119045,
+    "null_sd": 0.005305188951612946,
+    "z": 122.58326841555478,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     0.2937243129538145,
+     0.3121146645424126
+    ],
+    "R": 50
+   },
+   "degree_assortativity": {
+    "observed": 0.47365116252286765,
+    "null_mean": -0.27559234567763885,
+    "null_sd": 0.008446896338053355,
+    "z": 88.70045022633423,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     -0.2933903123961268,
+     -0.25928614961148005
+    ],
+    "R": 50
+   },
+   "max_degree": {
+    "observed": 33.0,
+    "null_mean": 218.8,
+    "null_sd": 9.236131357282636,
+    "z": -20.116647632290093,
+    "p_upper": 1.0,
+    "central95": [
+     203.225,
+     237.0
+    ],
+    "R": 50
+   },
+   "degree_cv": {
+    "observed": 1.1010969426322466,
+    "null_mean": 2.364049259807203,
+    "null_sd": 0.030462037467867124,
+    "z": -41.4598766910185,
+    "p_upper": 1.0,
+    "central95": [
+     2.3088069483308074,
+     2.4199821302252276
+    ],
+    "R": 50
+   },
+   "size_assortativity": {
+    "observed": 0.29019745698307087,
+    "null_mean": -0.2126136700553392,
+    "null_sd": 0.016978627403316186,
+    "z": 29.614356631691173,
+    "p_upper": 0.0196078431372549,
+    "central95": [
+     -0.24130330539941816,
+     -0.1801590835311492
+    ],
+    "R": 50
+   }
+  }
+ },
+ "replicates": {
+  "degree_preserving": 200,
+  "tree_constrained": 100,
+  "erdos_renyi": 50,
+  "chung_lu": 50,
+  "sweep": 5,
+  "variants": 20
+ },
+ "H1b": {
+  "z_weighted_clustering": 181.52258469764868,
+  "z_modularity": 134.18042439570505,
+  "verdict": "supported",
+  "tree_constrained_z_weighted_clustering": 13.295952356509146,
+  "tree_constrained_z_modularity": 19.500623695234307
+ },
+ "H1c": {
+  "nmi_superclass": 0.6378409897419978,
+  "ari_superclass": 0.19603074782809232,
+  "nmi_subclass": 0.9832732414985935,
+  "communities": 171,
+  "communities_crossing_superclass": 0,
+  "prereg_rule_verdict": "supported",
+  "verdict": "inconclusive",
+  "reason": "every A(theta>=2) edge joins two classes of one SuperClass (theta=4: one SubClass), so the Louvain partition is a refinement of the tree by construction; NMI < 0.7 then measures granularity, not re-cutting. The test is informative only on the tree-free B-only overlay (see variants)."
+ },
+ "spectral_bisection": {
+  "lcc_nodes": 62,
+  "side_sizes": [
+   32,
+   30
+  ],
+  "side_top_superclass": [
+   [
+    [
+     "Benzenoids",
+     32
+    ]
+   ],
+   [
+    [
+     "Benzenoids",
+     30
+    ]
+   ]
+  ],
+  "side_top_subclass": [
+   [
+    [
+     "Benzoic acids and derivatives",
+     32
+    ]
+   ],
+   [
+    [
+     "Benzoic acids and derivatives",
+     30
+    ]
+   ]
+  ],
+  "ari_vs_louvain_on_lcc": 0.0
+ },
+ "small_world_lcc": {
+  "lcc_L": 2.169751454257007,
+  "lcc_C": 0.5256958555563521,
+  "rewired_L": 1.9954521417239555,
+  "rewired_C": 0.3143144166434856,
+  "connected_rewires": 10,
+  "sigma": 1.5381602365319753
+ },
+ "power_law": {
+  "strength": {
+   "alpha": 2.4296198823604276,
+   "sigma": 0.0645836430931561,
+   "xmin": 28.6161,
+   "n_tail": 490,
+   "n": 1069,
+   "LR_vs_lognormal": -5.492220157739436,
+   "p_vs_lognormal": 3.969121677940682e-08,
+   "LR_vs_exponential": -6.191346738385656,
+   "p_vs_exponential": 5.965232245973443e-10,
+   "reading": "lognormal favoured over power law"
+  },
+  "degree": {
+   "alpha": 1.8501884231354286,
+   "sigma": 0.031106767705754018,
+   "xmin": 2.0,
+   "n_tail": 747,
+   "n": 1069,
+   "LR_vs_lognormal": -8.182327263159685,
+   "p_vs_lognormal": 2.784136856432581e-16,
+   "LR_vs_exponential": -5.201155090121812,
+   "p_vs_exponential": 1.9805374287620174e-07,
+   "reading": "lognormal favoured over power law"
+  }
+ },
+ "variants": {
+  "B_only_tree_free": {
+   "nodes": 3478,
+   "edges": 73184,
+   "observed": {
+    "transitivity": 0.13037082845395886,
+    "avg_clustering": 0.2167938216909672,
+    "weighted_clustering": 0.06516161663102746,
+    "modularity": 0.4474529363208266,
+    "communities": 7,
+    "degree_assortativity": -0.11860668596979677,
+    "max_degree": 388,
+    "degree_cv": 1.0889714596232707,
+    "size_assortativity": -0.3373889986780572,
+    "within_superclass_share": 0.28463871884564934
+   },
+   "null_degree_preserving": {
+    "weighted_clustering": {
+     "observed": 0.06516161663102746,
+     "null_mean": 0.012012618236275719,
+     "null_sd": 0.00016104888151538126,
+     "z": 330.01780512009117,
+     "p_upper": 0.09090909090909091,
+     "central95": [
+      0.011832602790858276,
+      0.012310986333288134
+     ],
+     "R": 10
+    },
+    "modularity": {
+     "observed": 0.4474529363208266,
+     "null_mean": 0.12443325207398918,
+     "null_sd": 0.0016912811761037607,
+     "z": 190.9911189285418,
+     "p_upper": 0.09090909090909091,
+     "central95": [
+      0.12226476988554973,
+      0.12735709136151985
+     ],
+     "R": 10
+    },
+    "transitivity": {
+     "observed": 0.13037082845395886,
+     "null_mean": 0.052834832711666745,
+     "null_sd": 0.0003309052142203435,
+     "z": 234.31482010634733,
+     "p_upper": 0.09090909090909091,
+     "central95": [
+      0.052389088902778234,
+      0.053342444085297126
+     ],
+     "R": 10
+    }
+   },
+   "nmi_superclass": 0.38251658343882317,
+   "ari_superclass": 0.2161114956835755,
+   "communities_crossing_superclass": 7,
+   "largest_communities": [
+    {
+     "size": 976,
+     "top_superclasses": [
+      [
+       "Organoheterocyclic compounds",
+       296
+      ],
+      [
+       "Organic acids and derivatives",
+       127
+      ],
+      [
+       "Organometallic compounds",
+       99
+      ]
+     ]
+    },
+    {
+     "size": 661,
+     "top_superclasses": [
+      [
+       "Organoheterocyclic compounds",
+       429
+      ],
+      [
+       "Alkaloids and derivatives",
+       103
+      ],
+      [
+       "Benzenoids",
+       63
+      ]
+     ]
+    },
+    {
+     "size": 513,
+     "top_superclasses": [
+      [
+       "Phenylpropanoids and polyketides",
+       200
+      ],
+      [
+       "Benzenoids",
+       182
+      ],
+      [
+       "Organoheterocyclic compounds",
+       56
+      ]
+     ]
+    },
+    {
+     "size": 469,
+     "top_superclasses": [
+      [
+       "Lipids and lipid-like molecules",
+       281
+      ],
+      [
+       "Organic oxygen compounds",
+       74
+      ],
+      [
+       "Organoheterocyclic compounds",
+       32
+      ]
+     ]
+    },
+    {
+     "size": 330,
+     "top_superclasses": [
+      [
+       "Lipids and lipid-like molecules",
+       125
+      ],
+      [
+       "Nucleosides, nucleotides, and analogues",
+       93
+      ],
+      [
+       "Organoheterocyclic compounds",
+       41
+      ]
+     ]
+    },
+    {
+     "size": 278,
+     "top_superclasses": [
+      [
+       "Mixed metal/non-metal compounds",
+       213
+      ],
+      [
+       "Homogeneous non-metal compounds",
+       26
+      ],
+      [
+       "Miscellaneous inorganic compounds",
+       14
+      ]
+     ]
+    },
+    {
+     "size": 251,
+     "top_superclasses": [
+      [
+       "Organic acids and derivatives",
+       79
+      ],
+      [
+       "Lipids and lipid-like molecules",
+       61
+      ],
+      [
+       "Organic oxygen compounds",
+       39
+      ]
+     ]
+    }
+   ]
+  },
+  "S1_union_S2": {
+   "nodes": 1170,
+   "edges": 3807,
+   "observed": {
+    "transitivity": 0.641706210564739,
+    "avg_clustering": 0.4480435612264879,
+    "weighted_clustering": 0.1710927614340743,
+    "modularity": 0.9459417814072806,
+    "communities": 186,
+    "degree_assortativity": 0.6459139794298667,
+    "max_degree": 41,
+    "degree_cv": 1.2148348627976604,
+    "size_assortativity": 0.25381929673358916,
+    "within_superclass_share": 1.0
+   },
+   "null_degree_preserving": {
+    "weighted_clustering": {
+     "observed": 0.1710927614340743,
+     "null_mean": 0.006918282936607014,
+     "null_sd": 0.0012517617114433189,
+     "z": 131.15473735665645,
+     "p_upper": 0.047619047619047616,
+     "central95": [
+      0.00517715527217017,
+      0.00913405960648501
+     ],
+     "R": 20
+    },
+    "modularity": {
+     "observed": 0.9459417814072806,
+     "null_mean": 0.4181249707645073,
+     "null_sd": 0.0030197841718025815,
+     "z": 174.7862696848652,
+     "p_upper": 0.047619047619047616,
+     "central95": [
+      0.41453421295344556,
+      0.42462516278383394
+     ],
+     "R": 20
+    },
+    "transitivity": {
+     "observed": 0.641706210564739,
+     "null_mean": 0.02979871721332847,
+     "null_sd": 0.0015330916441712427,
+     "z": 399.13301704947645,
+     "p_upper": 0.047619047619047616,
+     "central95": [
+      0.026998487771809982,
+      0.03173202273556865
+     ],
+     "R": 20
+    }
+   },
+   "nmi_superclass": 0.6322747200844795,
+   "ari_superclass": 0.1816051696265491,
+   "communities_crossing_superclass": 0,
+   "largest_communities": [
+    {
+     "size": 62,
+     "top_superclasses": [
+      [
+       "Benzenoids",
+       62
+      ]
+     ]
+    },
+    {
+     "size": 57,
+     "top_superclasses": [
+      [
+       "Organic acids and derivatives",
+       57
+      ]
+     ]
+    },
+    {
+     "size": 52,
+     "top_superclasses": [
+      [
+       "Organic oxygen compounds",
+       52
+      ]
+     ]
+    },
+    {
+     "size": 50,
+     "top_superclasses": [
+      [
+       "Organic oxygen compounds",
+       50
+      ]
+     ]
+    },
+    {
+     "size": 27,
+     "top_superclasses": [
+      [
+       "Organic nitrogen compounds",
+       27
+      ]
+     ]
+    },
+    {
+     "size": 27,
+     "top_superclasses": [
+      [
+       "Lipids and lipid-like molecules",
+       27
+      ]
+     ]
+    },
+    {
+     "size": 25,
+     "top_superclasses": [
+      [
+       "Organometallic compounds",
+       25
+      ]
+     ]
+    },
+    {
+     "size": 23,
+     "top_superclasses": [
+      [
+       "Phenylpropanoids and polyketides",
+       23
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "sweep_h1bc": [
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 10,
+   "nodes": 2984,
+   "edges": 38080,
+   "modularity": 0.8117,
+   "weighted_clustering": 0.092,
+   "z_modularity": 685.5,
+   "z_wclust": 805.4,
+   "nmi_superclass": 0.9843
+  },
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 100,
+   "nodes": 2355,
+   "edges": 19492,
+   "modularity": 0.7995,
+   "weighted_clustering": 0.1086,
+   "z_modularity": 545.8,
+   "z_wclust": 278.3,
+   "nmi_superclass": 0.9287
+  },
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 1000,
+   "nodes": 1506,
+   "edges": 7433,
+   "modularity": 0.7959,
+   "weighted_clustering": 0.0955,
+   "z_modularity": 292.93,
+   "z_wclust": 149.16,
+   "nmi_superclass": 0.8093
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 10,
+   "nodes": 2951,
+   "edges": 27475,
+   "modularity": 0.8199,
+   "weighted_clustering": 0.0944,
+   "z_modularity": 542.41,
+   "z_wclust": 801.83,
+   "nmi_superclass": 0.9794
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 100,
+   "nodes": 2322,
+   "edges": 14062,
+   "modularity": 0.8186,
+   "weighted_clustering": 0.1115,
+   "z_modularity": 587.06,
+   "z_wclust": 172.79,
+   "nmi_superclass": 0.8929
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 1000,
+   "nodes": 1464,
+   "edges": 5292,
+   "modularity": 0.8253,
+   "weighted_clustering": 0.1002,
+   "z_modularity": 148.87,
+   "z_wclust": 214.55,
+   "nmi_superclass": 0.7907
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 10,
+   "nodes": 2916,
+   "edges": 20831,
+   "modularity": 0.8255,
+   "weighted_clustering": 0.0962,
+   "z_modularity": 362.72,
+   "z_wclust": 366.33,
+   "nmi_superclass": 0.956
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 100,
+   "nodes": 2275,
+   "edges": 10749,
+   "modularity": 0.8297,
+   "weighted_clustering": 0.1109,
+   "z_modularity": 378.65,
+   "z_wclust": 217.63,
+   "nmi_superclass": 0.8587
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 1000,
+   "nodes": 1416,
+   "edges": 4010,
+   "modularity": 0.8495,
+   "weighted_clustering": 0.0977,
+   "z_modularity": 221.79,
+   "z_wclust": 190.52,
+   "nmi_superclass": 0.7789
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 10,
+   "nodes": 2007,
+   "edges": 14330,
+   "modularity": 0.9027,
+   "weighted_clustering": 0.1313,
+   "z_modularity": 436.31,
+   "z_wclust": 748.99,
+   "nmi_superclass": 0.7199
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 100,
+   "nodes": 1555,
+   "edges": 8090,
+   "modularity": 0.9058,
+   "weighted_clustering": 0.1371,
+   "z_modularity": 352.95,
+   "z_wclust": 278.5,
+   "nmi_superclass": 0.7255
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 1000,
+   "nodes": 988,
+   "edges": 3494,
+   "modularity": 0.902,
+   "weighted_clustering": 0.1114,
+   "z_modularity": 137.28,
+   "z_wclust": 234.21,
+   "nmi_superclass": 0.7201
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 10,
+   "nodes": 1977,
+   "edges": 11836,
+   "modularity": 0.9023,
+   "weighted_clustering": 0.1348,
+   "z_modularity": 488.72,
+   "z_wclust": 348.73,
+   "nmi_superclass": 0.7188
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 100,
+   "nodes": 1530,
+   "edges": 6546,
+   "modularity": 0.9076,
+   "weighted_clustering": 0.1387,
+   "z_modularity": 502.86,
+   "z_wclust": 246.3,
+   "nmi_superclass": 0.7228
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 1000,
+   "nodes": 963,
+   "edges": 2664,
+   "modularity": 0.9148,
+   "weighted_clustering": 0.1145,
+   "z_modularity": 81.56,
+   "z_wclust": 118.17,
+   "nmi_superclass": 0.7121
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 10,
+   "nodes": 1933,
+   "edges": 10011,
+   "modularity": 0.8996,
+   "weighted_clustering": 0.1354,
+   "z_modularity": 298.86,
+   "z_wclust": 201.51,
+   "nmi_superclass": 0.7164
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 100,
+   "nodes": 1496,
+   "edges": 5515,
+   "modularity": 0.9067,
+   "weighted_clustering": 0.1375,
+   "z_modularity": 631.93,
+   "z_wclust": 229.08,
+   "nmi_superclass": 0.7154
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 1000,
+   "nodes": 928,
+   "edges": 2130,
+   "modularity": 0.9247,
+   "weighted_clustering": 0.1122,
+   "z_modularity": 127.76,
+   "z_wclust": 106.97,
+   "nmi_superclass": 0.6991
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 10,
+   "nodes": 1113,
+   "edges": 3391,
+   "modularity": 0.9517,
+   "weighted_clustering": 0.1344,
+   "z_modularity": 145.26,
+   "z_wclust": 178.58,
+   "nmi_superclass": 0.6363
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 100,
+   "nodes": 797,
+   "edges": 2011,
+   "modularity": 0.9396,
+   "weighted_clustering": 0.1184,
+   "z_modularity": 131.3,
+   "z_wclust": 244.21,
+   "nmi_superclass": 0.6489
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 1000,
+   "nodes": 456,
+   "edges": 1002,
+   "modularity": 0.9079,
+   "weighted_clustering": 0.1128,
+   "z_modularity": 65.66,
+   "z_wclust": 53.05,
+   "nmi_superclass": 0.6731
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 10,
+   "nodes": 1092,
+   "edges": 3079,
+   "modularity": 0.9527,
+   "weighted_clustering": 0.1359,
+   "z_modularity": 194.33,
+   "z_wclust": 176.82,
+   "nmi_superclass": 0.6358
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 100,
+   "nodes": 780,
+   "edges": 1850,
+   "modularity": 0.9407,
+   "weighted_clustering": 0.121,
+   "z_modularity": 92.47,
+   "z_wclust": 175.98,
+   "nmi_superclass": 0.6482
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 1000,
+   "nodes": 444,
+   "edges": 923,
+   "modularity": 0.9093,
+   "weighted_clustering": 0.1146,
+   "z_modularity": 121.06,
+   "z_wclust": 55.33,
+   "nmi_superclass": 0.6745
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 10,
+   "nodes": 1069,
+   "edges": 2754,
+   "modularity": 0.9544,
+   "weighted_clustering": 0.1373,
+   "z_modularity": 112.35,
+   "z_wclust": 150.14,
+   "nmi_superclass": 0.6378
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 100,
+   "nodes": 763,
+   "edges": 1668,
+   "modularity": 0.9424,
+   "weighted_clustering": 0.12,
+   "z_modularity": 78.12,
+   "z_wclust": 122.8,
+   "nmi_superclass": 0.6517
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 1000,
+   "nodes": 431,
+   "edges": 826,
+   "modularity": 0.9133,
+   "weighted_clustering": 0.1143,
+   "z_modularity": 70.74,
+   "z_wclust": 82.04,
+   "nmi_superclass": 0.6773
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 10,
+   "nodes": 420,
+   "edges": 834,
+   "modularity": 0.9152,
+   "weighted_clustering": 0.1366,
+   "z_modularity": 44.4,
+   "z_wclust": 217.29,
+   "nmi_superclass": 0.6418
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 100,
+   "nodes": 279,
+   "edges": 509,
+   "modularity": 0.8766,
+   "weighted_clustering": 0.1017,
+   "z_modularity": 18.07,
+   "z_wclust": 43.98,
+   "nmi_superclass": 0.6533
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 1000,
+   "nodes": 147,
+   "edges": 278,
+   "modularity": 0.7552,
+   "weighted_clustering": 0.0981,
+   "z_modularity": 26.22,
+   "z_wclust": 12.71,
+   "nmi_superclass": 0.6793
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 10,
+   "nodes": 412,
+   "edges": 745,
+   "modularity": 0.9199,
+   "weighted_clustering": 0.1369,
+   "z_modularity": 40.51,
+   "z_wclust": 123.37,
+   "nmi_superclass": 0.6429
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 100,
+   "nodes": 269,
+   "edges": 457,
+   "modularity": 0.8841,
+   "weighted_clustering": 0.1014,
+   "z_modularity": 29.35,
+   "z_wclust": 27.9,
+   "nmi_superclass": 0.6573
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 1000,
+   "nodes": 143,
+   "edges": 248,
+   "modularity": 0.7663,
+   "weighted_clustering": 0.0981,
+   "z_modularity": 17.61,
+   "z_wclust": 69.06,
+   "nmi_superclass": 0.6864
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 10,
+   "nodes": 405,
+   "edges": 664,
+   "modularity": 0.9261,
+   "weighted_clustering": 0.1369,
+   "z_modularity": 26.94,
+   "z_wclust": 121.54,
+   "nmi_superclass": 0.6414
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 100,
+   "nodes": 266,
+   "edges": 407,
+   "modularity": 0.8957,
+   "weighted_clustering": 0.0973,
+   "z_modularity": 34.95,
+   "z_wclust": 40.93,
+   "nmi_superclass": 0.6567
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 1000,
+   "nodes": 140,
+   "edges": 216,
+   "modularity": 0.7897,
+   "weighted_clustering": 0.0936,
+   "z_modularity": 18.17,
+   "z_wclust": 31.58,
+   "nmi_superclass": 0.6895
+  }
+ ],
+ "communities": [
+  {
+   "id": 0,
+   "size": 62,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Benzoic acids and derivatives",
+   "examples": [
+    "2-aminobenzamides",
+    "2-azidobenzoic acids",
+    "2-halobenzoic acids",
+    "2-halobenzoic acids and derivatives",
+    "2-pyrimidinylthiobenzoic acids"
+   ]
+  },
+  {
+   "id": 1,
+   "size": 56,
+   "label": "Organic acids and derivatives",
+   "purity": 1.0,
+   "subclass": "Amino acids, peptides, and analogues",
+   "examples": [
+    "4-arylsulfanyl-substituted kainoids",
+    "Alanine and derivatives",
+    "Alpha amino acid amides",
+    "Alpha amino acid esters",
+    "Alpha amino acids"
+   ]
+  },
+  {
+   "id": 2,
+   "size": 51,
+   "label": "Organic oxygen compounds",
+   "purity": 1.0,
+   "subclass": "Carbohydrates and carbohydrate conjugates",
+   "examples": [
+    "2-deoxystreptamine aminoglycosides",
+    "4,5-disubstituted 2-deoxystreptamines",
+    "4,6-disubstituted 2-deoxystreptamines",
+    "Acylaminosugars",
+    "Alkylglucosinolates"
+   ]
+  },
+  {
+   "id": 3,
+   "size": 48,
+   "label": "Organic oxygen compounds",
+   "purity": 1.0,
+   "subclass": "Carbonyl compounds",
+   "examples": [
+    "1,3-dicarbonyl compounds",
+    "Acyloins",
+    "Adamantanones",
+    "Aldehydes",
+    "Alkyl-phenylketones"
+   ]
+  },
+  {
+   "id": 4,
+   "size": 25,
+   "label": "Organometallic compounds",
+   "purity": 1.0,
+   "subclass": "Organosilicon compounds",
+   "examples": [
+    "Alkoxysilanes",
+    "Alkylarylsilanes",
+    "Alkylhalosilanes",
+    "Alkylsilanes",
+    "Dialkylsilanediols"
+   ]
+  },
+  {
+   "id": 5,
+   "size": 23,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Flavonoid glycosides",
+   "examples": [
+    "Anthocyanidin 3-O-6-p-coumaroyl glycosides",
+    "Anthocyanidin 3p-O-6-p-coumaroyl glycosides",
+    "Anthocyanidin 5-O-6-p-coumaroyl glycosides",
+    "Anthocyanidin 7-O-6-p-coumaroyl glycosides",
+    "Anthocyanidin-3-O-glycosides"
+   ]
+  },
+  {
+   "id": 6,
+   "size": 23,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Hydroxysteroids",
+   "examples": [
+    "1-hydroxysteroids",
+    "11-alpha-hydroxysteroids",
+    "11-beta-hydroxysteroids",
+    "11-hydroxysteroids",
+    "12-hydroxysteroids"
+   ]
+  },
+  {
+   "id": 7,
+   "size": 22,
+   "label": "Organic nitrogen compounds",
+   "purity": 1.0,
+   "subclass": "Amines",
+   "examples": [
+    "1,2-aminoalcohols",
+    "1,3-aminoalcohols",
+    "2-arylethylamines",
+    "Alkanolamines",
+    "Alkyldiarylamines"
+   ]
+  },
+  {
+   "id": 8,
+   "size": 21,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Pyrimidines and pyrimidine derivatives",
+   "examples": [
+    "2-Thiopyrimidines",
+    "2-halopyrimidines",
+    "4-Thiopyrimidines",
+    "Aminopyrimidines and derivatives",
+    "Barbituric acid derivatives"
+   ]
+  },
+  {
+   "id": 9,
+   "size": 19,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Fatty acids and conjugates",
+   "examples": [
+    "Amino fatty acids",
+    "Branched fatty acids",
+    "Carbocyclic fatty acids",
+    "Epoxy fatty acids",
+    "Furanoid fatty acids"
+   ]
+  },
+  {
+   "id": 10,
+   "size": 19,
+   "label": "Organic acids and derivatives",
+   "purity": 1.0,
+   "subclass": "Carboxylic acid derivatives",
+   "examples": [
+    "1,2-diacyl-1-alkylhydrazines",
+    "Acetamides",
+    "Acetate salts",
+    "Acetohydroxamic acids",
+    "Acylals"
+   ]
+  },
+  {
+   "id": 11,
+   "size": 18,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Oxosteroids",
+   "examples": [
+    "1,2-epoxy-3-oxosteroids",
+    "11-oxosteroids",
+    "16-oxosteroids",
+    "17-oxosteroids",
+    "19-oxosteroids"
+   ]
+  },
+  {
+   "id": 12,
+   "size": 18,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Piperazines",
+   "examples": [
+    "2,5-dioxopiperazines",
+    "5-piperazinylimidazo[1,2-a]pyridines",
+    "6-piperazinylimidazo[1,2-a]pyridines",
+    "7-piperazinylimidazo[1,2-a]pyridines",
+    "8-piperazinylimidazo[1,2-a]pyridines"
+   ]
+  },
+  {
+   "id": 13,
+   "size": 17,
+   "label": "Organic oxygen compounds",
+   "purity": 1.0,
+   "subclass": "Alcohols and polyols",
+   "examples": [
+    "1,1-diols",
+    "1,2-diols",
+    "Aminocyclitols",
+    "Aminocyclitols and derivatives",
+    "Carbonyl hydrates"
+   ]
+  },
+  {
+   "id": 14,
+   "size": 14,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "1-benzopyrans",
+   "examples": [
+    "2,2-dimethyl-1-benzopyrans",
+    "2-prenylated xanthones",
+    "4-prenylated xanthones",
+    "8-prenylated xanthones",
+    "Benzoxanthenes"
+   ]
+  },
+  {
+   "id": 15,
+   "size": 14,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Flavans",
+   "examples": [
+    "2'-prenylated flavanones",
+    "3'-prenylated flavanones",
+    "6-prenylated flavanones",
+    "6-prenylated flavans",
+    "8-prenylated flavanones"
+   ]
+  },
+  {
+   "id": 16,
+   "size": 13,
+   "label": "Organometallic compounds",
+   "purity": 1.0,
+   "subclass": "Organoarsenic compounds",
+   "examples": [
+    "Alkylarsine oxides",
+    "Arsines",
+    "Dihaloarsines",
+    "Monohaloarsines",
+    "Organoarsenic sulfides"
+   ]
+  },
+  {
+   "id": 17,
+   "size": 12,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Fatty acyl thioesters",
+   "examples": [
+    "(R)-3-hydroxyacyl CoAs",
+    "(S)-3-hydroxyacyl CoAs",
+    "2,3,4-saturated fatty acyl CoAs",
+    "3-hydroxy-3-alkylglutaryl CoAs",
+    "3-hydroxyacyl CoAs"
+   ]
+  },
+  {
+   "id": 18,
+   "size": 12,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "O-methylated isoflavonoids",
+   "examples": [
+    "2'-O-methylated isoflavonoids",
+    "2-O-methylated isoflavonoids",
+    "3'-O-methylated isoflavonoids",
+    "3'-O-methylisoflavones",
+    "3'-hydroxy,4'-methoxyisoflavonoids"
+   ]
+  },
+  {
+   "id": 19,
+   "size": 12,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Halophenols",
+   "examples": [
+    "M-bromophenols",
+    "M-chlorophenols",
+    "M-fluorophenols",
+    "M-iodophenols",
+    "O-bromophenols"
+   ]
+  },
+  {
+   "id": 20,
+   "size": 11,
+   "label": "Organic nitrogen compounds",
+   "purity": 1.0,
+   "subclass": "Hydrazines and derivatives",
+   "examples": [
+    "Alkylhydrazines",
+    "Formazans",
+    "Hydrazidines",
+    "Hydrazones",
+    "Ketazines"
+   ]
+  },
+  {
+   "id": 21,
+   "size": 11,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Imidazoles",
+   "examples": [
+    "1,2,4,5-tetrasubstituted imidazoles",
+    "1,2,4-trisubstituted imidazoles",
+    "1,2,5-trisubstituted imidazoles",
+    "2,4,5-trisubstituted imidazoles",
+    "Aminoimidazoles"
+   ]
+  },
+  {
+   "id": 22,
+   "size": 11,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Toluenes",
+   "examples": [
+    "Aminotoluenes",
+    "Dinitrotoluenes",
+    "N,N-dialkyl-m-toluamides",
+    "N,N-dialkyl-p-toluamides",
+    "N,N-disubstituted p-toluenesulfonamides"
+   ]
+  },
+  {
+   "id": 23,
+   "size": 10,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "O-methylated flavonoids",
+   "examples": [
+    "2'-O-methylated flavonoids",
+    "2-O-methylated flavonoids",
+    "3'-O-methylated flavonoids",
+    "3-O-methylated flavonoids",
+    "4'-O-methylated flavonoids"
+   ]
+  },
+  {
+   "id": 24,
+   "size": 9,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Thiazoles",
+   "examples": [
+    "2,4,5-trisubstituted thiazoles",
+    "2,4-disubstituted thiazoles",
+    "2,5-disubstituted thiazoles",
+    "2-amino-1,3-thiazoles",
+    "4,5-disubstituted thiazoles"
+   ]
+  },
+  {
+   "id": 25,
+   "size": 9,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Purines and purine derivatives",
+   "examples": [
+    "6-alkylaminopurines",
+    "6-aminopurines",
+    "6-oxopurines",
+    "6-thiopurines",
+    "Hypoxanthines"
+   ]
+  },
+  {
+   "id": 26,
+   "size": 9,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Hydroxyflavonoids",
+   "examples": [
+    "3'-hydroxyflavonoids",
+    "3-hydroxyflavonoids",
+    "4'-hydroxyflavonoids",
+    "4-hydroxyflavonoids",
+    "5-hydroxyflavonoids"
+   ]
+  },
+  {
+   "id": 27,
+   "size": 8,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Benzoquinolines",
+   "examples": [
+    "Acridines",
+    "Acridones",
+    "Benzacridines",
+    "Benzo[f]quinolin-3-ones",
+    "Phenanthridines and derivatives"
+   ]
+  },
+  {
+   "id": 28,
+   "size": 8,
+   "label": "Organic acids and derivatives",
+   "purity": 1.0,
+   "subclass": "Organosulfonic acids and derivatives",
+   "examples": [
+    "1-sulfo,2-unsubstituted aromatic compounds",
+    "Alkanesulfonic acids",
+    "Arylsulfonic acids and derivatives",
+    "Methanesulfonates",
+    "Organosulfonic acid esters"
+   ]
+  },
+  {
+   "id": 29,
+   "size": 8,
+   "label": "Organic acids and derivatives",
+   "purity": 1.0,
+   "subclass": "Phosphate esters",
+   "examples": [
+    "Acyl monophosphates",
+    "Acyl phosphates",
+    "Alkyl phosphates",
+    "Aryl phosphotriesters",
+    "Dialkyl phosphates"
+   ]
+  },
+  {
+   "id": 30,
+   "size": 8,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Fatty acyl glycosides",
+   "examples": [
+    "Alkyl glycosides",
+    "Di-rhamnolipids",
+    "Fatty acyl glycosides of mono- and disaccharides",
+    "Mannosylerythritol lipids",
+    "Mono-rhamnolipids"
+   ]
+  },
+  {
+   "id": 31,
+   "size": 7,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Biphenyls and derivatives",
+   "examples": [
+    "3,3'-disubstituted benzidines",
+    "Benzidines",
+    "Biphenylcarbonitriles",
+    "Brominated biphenyls",
+    "Chlorinated biphenyls"
+   ]
+  },
+  {
+   "id": 32,
+   "size": 7,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Benzenesulfonic acids and derivatives",
+   "examples": [
+    "2-sulfobenzoic acids",
+    "3-sulfobenzoic acids",
+    "4-sulfobenzoic acids",
+    "Benzenesulfonate esters",
+    "p-Bromobenzenesulfonates"
+   ]
+  },
+  {
+   "id": 33,
+   "size": 7,
+   "label": "Organic nitrogen compounds",
+   "purity": 1.0,
+   "subclass": "Quaternary ammonium salts",
+   "examples": [
+    "Acyl cholines",
+    "Carnitines",
+    "Cholines",
+    "Decamethonium compounds",
+    "Hexamethonium compounds"
+   ]
+  },
+  {
+   "id": 34,
+   "size": 7,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Terpene lactones",
+   "examples": [
+    "Diterpene lactones",
+    "Elemanolides",
+    "Eremophilanolides and secoeremophilanolides",
+    "Eudesmanolides, secoeudesmanolides, and derivatives",
+    "Quassinoids"
+   ]
+  },
+  {
+   "id": 35,
+   "size": 7,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Fatty acyl thioesters",
+   "examples": [
+    "2-enoyl CoAs",
+    "3,4-dienoyl CoAs",
+    "3-enoyl CoAs",
+    "Acyl CoAs",
+    "Long-chain 2-enoyl CoAs"
+   ]
+  },
+  {
+   "id": 36,
+   "size": 7,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Polyprenols",
+   "examples": [
+    "Bactoprenol diphosphates",
+    "Bactoprenol monophosphates",
+    "Dolichyl diphosphates",
+    "Dolichyl monophosphates",
+    "Polyprenyl diphosphates"
+   ]
+  },
+  {
+   "id": 37,
+   "size": 7,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Flavones",
+   "examples": [
+    "2'-prenylated flavones",
+    "3'-prenylated flavones",
+    "3-prenylated flavones",
+    "6-prenylated flavones",
+    "8-prenylated flavones"
+   ]
+  },
+  {
+   "id": 38,
+   "size": 7,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Glycosphingolipids",
+   "examples": [
+    "GalNAcb1-3Gala1-4Galb1-4Glc- (Globo series)",
+    "GalNAcb1-4Galb1-4Glc- (Ganglio series)",
+    "Galb1-3GlcNAcb1-3Galb1-4Glc- (Lacto series)",
+    "Galb1-4GlcNAcb1-3Galb1-4Glc- (Neolacto series)",
+    "Gangliosides"
+   ]
+  },
+  {
+   "id": 39,
+   "size": 7,
+   "label": "Nucleosides, nucleotides, and analogues",
+   "purity": 1.0,
+   "subclass": "Purine ribonucleotides",
+   "examples": [
+    "Coenzyme A and derivatives",
+    "Purine ribonucleoside 2',5'-bisphosphates",
+    "Purine ribonucleoside 3',5'-bisphosphates",
+    "Purine ribonucleoside diphosphates",
+    "Purine ribonucleoside monophosphates"
+   ]
+  },
+  {
+   "id": 40,
+   "size": 7,
+   "label": "Organometallic compounds",
+   "purity": 1.0,
+   "subclass": "Organoselenium compounds",
+   "examples": [
+    "Selenenyl halides",
+    "Seleninyl compounds",
+    "Selenocyanates",
+    "Selenoesters",
+    "Selenoethers"
+   ]
+  },
+  {
+   "id": 41,
+   "size": 7,
+   "label": "Organic salts",
+   "purity": 1.0,
+   "subclass": "Organic transition metal salts",
+   "examples": [
+    "Organic cadmium salts",
+    "Organic chromium salts",
+    "Organic cobalt salts",
+    "Organic copper salts",
+    "Organic silver salts"
+   ]
+  },
+  {
+   "id": 42,
+   "size": 6,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Hydroxycinnamic acids and derivatives",
+   "examples": [
+    "Avenanthramides",
+    "Coumaric acid esters",
+    "Coumaric acids",
+    "Coumaric acids and derivatives",
+    "Hydroxycinnamic acid glycosides"
+   ]
+  },
+  {
+   "id": 43,
+   "size": 6,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Bile acids, alcohols and derivatives",
+   "examples": [
+    "Dihydroxy bile acids, alcohols and derivatives",
+    "Glycinated bile acids and derivatives",
+    "Monohydroxy bile acids, alcohols and derivatives",
+    "Taurinated bile acids and derivatives",
+    "Tetrahydroxy bile acids, alcohols and derivatives"
+   ]
+  },
+  {
+   "id": 44,
+   "size": 6,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Quinolones and derivatives",
+   "examples": [
+    "Fluoroquinolones",
+    "Hydroquinolones",
+    "Hydroxyquinolones",
+    "Pyranoquinolines",
+    "Thienoquinolines"
+   ]
+  },
+  {
+   "id": 45,
+   "size": 6,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Imidazolidines",
+   "examples": [
+    "5-monosubstituted hydantoins",
+    "Allantoins",
+    "Hydantoins",
+    "Imidazolidinones",
+    "Phenylhydantoins"
+   ]
+  },
+  {
+   "id": 46,
+   "size": 6,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Naphthalenecarboxylic acids and derivatives",
+   "examples": [
+    "1,8-naphthalic anhydrides",
+    "6-hydroxynaphthalene-2-carboxanilides",
+    "Naphthalene-1-carboxanilides",
+    "Naphthalene-2-carboxanilides",
+    "Naphthalenecarboxamides"
+   ]
+  },
+  {
+   "id": 47,
+   "size": 6,
+   "label": "Organic acids and derivatives",
+   "purity": 1.0,
+   "subclass": "Thiophosphoric acid esters",
+   "examples": [
+    "Aryl thiophosphates",
+    "Phenyl thiophosphates",
+    "Pyrimidinyl phosphorothioates",
+    "Thiophosphate diesters",
+    "Thiophosphate monoesters"
+   ]
+  },
+  {
+   "id": 48,
+   "size": 6,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Chalcones and dihydrochalcones",
+   "examples": [
+    "2'-Hydroxy-dihydrochalcones",
+    "2'-Hydroxychalcones",
+    "3-prenylated chalcones",
+    "Furanochalcones",
+    "Retro-dihydrochalcones"
+   ]
+  },
+  {
+   "id": 49,
+   "size": 6,
+   "label": "Benzenoids",
+   "purity": 1.0,
+   "subclass": "Naphthalene sulfonic acids and derivatives",
+   "examples": [
+    "1-naphthalene sulfonamides",
+    "1-naphthalene sulfonates",
+    "1-naphthalene sulfonic acids and derivatives",
+    "2-naphthalene sulfonamides",
+    "2-naphthalene sulfonates"
+   ]
+  },
+  {
+   "id": 50,
+   "size": 6,
+   "label": "Organometallic compounds",
+   "purity": 1.0,
+   "subclass": "Organotin compounds",
+   "examples": [
+    "Dialkyltin dicarboxylates",
+    "Dialkyltin salts",
+    "Dialkyltins",
+    "Monoalkyltins",
+    "Tetraalkyltins"
+   ]
+  },
+  {
+   "id": 51,
+   "size": 6,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "1,3,5-triazines",
+   "examples": [
+    "2-methoxy-1,3,5-triazines",
+    "Alkoxy-S-triazines",
+    "Alkyl-2-thio-S-triazines",
+    "Chloro-s-triazines",
+    "Halo-S-triazines"
+   ]
+  },
+  {
+   "id": 52,
+   "size": 5,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Monoterpenoids",
+   "examples": [
+    "Aromatic monoterpenoids",
+    "Bicyclic monoterpenoids",
+    "Iridoids and derivatives",
+    "Menthane monoterpenoids",
+    "Monocyclic monoterpenoids"
+   ]
+  },
+  {
+   "id": 53,
+   "size": 5,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Sesquiterpenoids",
+   "examples": [
+    "Agarofurans",
+    "Chamigranes",
+    "Elemane sesquiterpenoids",
+    "Eremophilane, 8,9-secoeremophilane and furoeremophilane sesquiterpenoids",
+    "Eudesmane, isoeudesmane or cycloeudesmane sesquiterpenoids"
+   ]
+  },
+  {
+   "id": 54,
+   "size": 5,
+   "label": "Lipids and lipid-like molecules",
+   "purity": 1.0,
+   "subclass": "Glycosylglycerols",
+   "examples": [
+    "1-acyl-3-O-beta-D-digalactosyl-sn-glycerols",
+    "1-acyl-3-O-beta-D-galactosyl-sn-glycerols",
+    "Glycosyldialkylglycerols",
+    "Glycosylglycerols",
+    "Glycosylmonoacylglycerols"
+   ]
+  },
+  {
+   "id": 55,
+   "size": 5,
+   "label": "Organic oxygen compounds",
+   "purity": 1.0,
+   "subclass": "Ethers",
+   "examples": [
+    "Acetals",
+    "Hemiacetals",
+    "Hemiketals",
+    "Ketals",
+    "Polyethylene glycols"
+   ]
+  },
+  {
+   "id": 56,
+   "size": 5,
+   "label": "Organic nitrogen compounds",
+   "purity": 1.0,
+   "subclass": "Imines",
+   "examples": [
+    "Ketimines",
+    "N-acylimines",
+    "Primary aldimines",
+    "Secondary ketimines",
+    "Shiff bases"
+   ]
+  },
+  {
+   "id": 57,
+   "size": 5,
+   "label": "Organoheterocyclic compounds",
+   "purity": 1.0,
+   "subclass": "Pyrazines",
+   "examples": [
+    "Aminopyrazines",
+    "Methoxypyrazines",
+    "Pyrazine carboxylic acids",
+    "Pyrazine carboxylic acids and derivatives",
+    "Pyrazinecarboxamides"
+   ]
+  },
+  {
+   "id": 58,
+   "size": 5,
+   "label": "Phenylpropanoids and polyketides",
+   "purity": 1.0,
+   "subclass": "Isoflavans",
+   "examples": [
+    "2-hydroxyisoflavanones",
+    "3'-prenylated isoflavanones",
+    "8-prenylated isoflavanones",
+    "Isoflavanols",
+    "Isoflavanones"
+   ]
+  },
+  {
+   "id": 59,
+   "size": 5,
+   "label": "Nucleosides, nucleotides, and analogues",
+   "purity": 1.0,
+   "subclass": "Purine deoxyribonucleotides",
+   "examples": [
+    "Purine 2'-deoxyribonucleoside diphosphates",
+    "Purine 2'-deoxyribonucleoside monophosphates",
+    "Purine 3'-deoxyribonucleoside monophosphates",
+    "Purine deoxyribonucleoside 2',5'-bisphosphates",
+    "Purine deoxyribonucleoside 3',5'-bisphosphates"
+   ]
+  }
+ ],
+ "n_communities": 171,
+ "runtime_s": 267.6
+}

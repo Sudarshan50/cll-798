@@ -1,0 +1,1227 @@
+{
+ "prereg": {
+  "file": "docs/phase2_prereg.md",
+  "sha256": "acbe48ec6301ae757adb88734fc6ee70f1e28e3072f01ef61349e05478ba827c",
+  "frozen_at": "2026-11-12T06:26:34+00:00",
+  "sha256_sections_1_8": "9197d8532a04ab1215a5cf235ebe981329326d42d05154af78cf89532fcf4a7c",
+  "sections_1_8_written_at": "2026-11-12T06:18:02Z",
+  "note": "frozen by hash, not by git commit (commits not authorised); \u00a79 appended after calibration, before this script first ran. On re-runs sha256/frozen_at are those recorded with the primary test, and sha256_now must equal them",
+  "sha256_now": "acbe48ec6301ae757adb88734fc6ee70f1e28e3072f01ef61349e05478ba827c",
+  "unchanged_since_primary": true,
+  "frozen_at_note": "first run computed the hash in-process immediately before the test; its timestamp was not persisted, run_at is the bound"
+ },
+ "join_chain": {
+  "fp_fn_markings": 30,
+  "distinct_names": 26,
+  "resolved_exact": 25,
+  "resolved_total": 26,
+  "direct_parent_classes_primary": 21,
+  "direct_parent_classes_exact_join": 20
+ },
+ "join_audit": [
+  {
+   "name": "5,10-cycloaromadendrane sesquiterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 3562,
+   "resolved_by": "exact",
+   "dictionary_name": "5,10-cycloaromadendrane sesquiterpenoids",
+   "is_dp": true,
+   "size": 947,
+   "decile": 5,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.1079,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 6
+  },
+  {
+   "name": "Acyclic diterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 1357,
+   "resolved_by": "exact",
+   "dictionary_name": "Acyclic diterpenoids",
+   "is_dp": true,
+   "size": 5413,
+   "decile": 7,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.9496,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Acyl carnitines",
+   "fp": 0,
+   "fn": 1,
+   "id": 1095,
+   "resolved_by": "exact",
+   "dictionary_name": "Acyl carnitines",
+   "is_dp": true,
+   "size": 1837,
+   "decile": 6,
+   "H_filtered": 0.0,
+   "H_unfiltered": 4.7252,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Alpha amino acids and derivatives",
+   "fp": 1,
+   "fn": 0,
+   "id": 60,
+   "resolved_by": "exact",
+   "dictionary_name": "Alpha amino acids and derivatives",
+   "is_dp": true,
+   "size": 1261686,
+   "decile": 9,
+   "H_filtered": 0.0,
+   "H_unfiltered": 6.6564,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 6
+  },
+  {
+   "name": "Amino acids and derivatives",
+   "fp": 1,
+   "fn": 0,
+   "id": 347,
+   "resolved_by": "exact",
+   "dictionary_name": "Amino acids and derivatives",
+   "is_dp": true,
+   "size": 395,
+   "decile": 4,
+   "H_filtered": 0.0,
+   "H_unfiltered": 3.6609,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Amino acids, peptides, and analogues",
+   "fp": 1,
+   "fn": 0,
+   "id": 13,
+   "resolved_by": "exact",
+   "dictionary_name": "Amino acids, peptides, and analogues",
+   "is_dp": false,
+   "size": 0,
+   "decile": null,
+   "H_filtered": null,
+   "H_unfiltered": null,
+   "maxshare_filtered": null,
+   "pct_H_filtered": null,
+   "depth": 4
+  },
+  {
+   "name": "Aromadendrane sesquiterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 1781,
+   "resolved_by": "exact",
+   "dictionary_name": "Aromadendrane sesquiterpenoids",
+   "is_dp": true,
+   "size": 106,
+   "decile": 2,
+   "H_filtered": 0.0,
+   "H_unfiltered": 4.5641,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Aromatic monoterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 51,
+   "resolved_by": "exact",
+   "dictionary_name": "Aromatic monoterpenoids",
+   "is_dp": true,
+   "size": 221812,
+   "decile": 9,
+   "H_filtered": 0.6193,
+   "H_unfiltered": 6.6696,
+   "maxshare_filtered": 0.1538,
+   "pct_H_filtered": 88.8,
+   "depth": 5
+  },
+  {
+   "name": "Carbohydrates and carbohydrate conjugates",
+   "fp": 0,
+   "fn": 1,
+   "id": 11,
+   "resolved_by": "exact",
+   "dictionary_name": "Carbohydrates and carbohydrate conjugates",
+   "is_dp": false,
+   "size": 0,
+   "decile": null,
+   "H_filtered": null,
+   "H_unfiltered": null,
+   "maxshare_filtered": null,
+   "pct_H_filtered": null,
+   "depth": 4
+  },
+  {
+   "name": "Dipeptides",
+   "fp": 0,
+   "fn": 1,
+   "id": 4830,
+   "resolved_by": "exact",
+   "dictionary_name": "Dipeptides",
+   "is_dp": true,
+   "size": 144576,
+   "decile": 9,
+   "H_filtered": 3.0069,
+   "H_unfiltered": 6.7337,
+   "maxshare_filtered": 0.7173,
+   "pct_H_filtered": 99.8,
+   "depth": 6
+  },
+  {
+   "name": "Diterpenoids",
+   "fp": 0,
+   "fn": 1,
+   "id": 1551,
+   "resolved_by": "exact",
+   "dictionary_name": "Diterpenoids",
+   "is_dp": true,
+   "size": 58165,
+   "decile": 9,
+   "H_filtered": 0.0,
+   "H_unfiltered": 7.3392,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  },
+  {
+   "name": "Hexoses",
+   "fp": 0,
+   "fn": 1,
+   "id": 1498,
+   "resolved_by": "exact",
+   "dictionary_name": "Hexoses",
+   "is_dp": true,
+   "size": 14689,
+   "decile": 8,
+   "H_filtered": 1.073,
+   "H_unfiltered": 6.1427,
+   "maxshare_filtered": 0.2546,
+   "pct_H_filtered": 92.6,
+   "depth": 6
+  },
+  {
+   "name": "Ketoximes",
+   "fp": 0,
+   "fn": 1,
+   "id": 3079,
+   "resolved_by": "exact",
+   "dictionary_name": "Ketoximes",
+   "is_dp": true,
+   "size": 2701,
+   "decile": 6,
+   "H_filtered": 0.9275,
+   "H_unfiltered": 4.756,
+   "maxshare_filtered": 0.3429,
+   "pct_H_filtered": 90.5,
+   "depth": 5
+  },
+  {
+   "name": "Lipids and lipid-like molecules",
+   "fp": 2,
+   "fn": 0,
+   "id": 12,
+   "resolved_by": "exact",
+   "dictionary_name": "Lipids and lipid-like molecules",
+   "is_dp": false,
+   "size": 0,
+   "decile": null,
+   "H_filtered": null,
+   "H_unfiltered": null,
+   "maxshare_filtered": null,
+   "pct_H_filtered": null,
+   "depth": 2
+  },
+  {
+   "name": "Monocyclic monoterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 1563,
+   "resolved_by": "exact",
+   "dictionary_name": "Monocyclic monoterpenoids",
+   "is_dp": true,
+   "size": 42088,
+   "decile": 9,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.9766,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Monosaccharides",
+   "fp": 0,
+   "fn": 1,
+   "id": 1540,
+   "resolved_by": "exact",
+   "dictionary_name": "Monosaccharides",
+   "is_dp": true,
+   "size": 30416,
+   "decile": 8,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.7657,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Monoterpenoids",
+   "fp": 2,
+   "fn": 0,
+   "id": 1549,
+   "resolved_by": "exact",
+   "dictionary_name": "Monoterpenoids",
+   "is_dp": true,
+   "size": 27505,
+   "decile": 8,
+   "H_filtered": 0.0,
+   "H_unfiltered": 6.0536,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  },
+  {
+   "name": "Organic zwitterions",
+   "fp": 0,
+   "fn": 1,
+   "id": 3610,
+   "resolved_by": "exact",
+   "dictionary_name": "Organic zwitterions",
+   "is_dp": false,
+   "size": 0,
+   "decile": null,
+   "H_filtered": null,
+   "H_unfiltered": null,
+   "maxshare_filtered": null,
+   "pct_H_filtered": null,
+   "depth": 2
+  },
+  {
+   "name": "Polyols",
+   "fp": 0,
+   "fn": 1,
+   "id": 2286,
+   "resolved_by": "exact",
+   "dictionary_name": "Polyols",
+   "is_dp": true,
+   "size": 609,
+   "decile": 5,
+   "H_filtered": 0.0,
+   "H_unfiltered": 4.4857,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Prenol lipids",
+   "fp": 2,
+   "fn": 0,
+   "id": 259,
+   "resolved_by": "exact",
+   "dictionary_name": "Prenol lipids",
+   "is_dp": false,
+   "size": 0,
+   "decile": null,
+   "H_filtered": null,
+   "H_unfiltered": null,
+   "maxshare_filtered": null,
+   "pct_H_filtered": null,
+   "depth": 3
+  },
+  {
+   "name": "Purine ribonucleoside monophosphates",
+   "fp": 2,
+   "fn": 0,
+   "id": 1617,
+   "resolved_by": "exact",
+   "dictionary_name": "Purine ribonucleoside monophosphates",
+   "is_dp": true,
+   "size": 6982,
+   "decile": 7,
+   "H_filtered": 0.0,
+   "H_unfiltered": 6.2401,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 5
+  },
+  {
+   "name": "Pyrimidine nucleotide sugars",
+   "fp": 0,
+   "fn": 1,
+   "id": 1296,
+   "resolved_by": "exact",
+   "dictionary_name": "Pyrimidine nucleotide sugars",
+   "is_dp": true,
+   "size": 2335,
+   "decile": 6,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.8586,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  },
+  {
+   "name": "Saccharolipids",
+   "fp": 0,
+   "fn": 1,
+   "id": 3918,
+   "resolved_by": "exact",
+   "dictionary_name": "Saccharolipids",
+   "is_dp": true,
+   "size": 11770,
+   "decile": 8,
+   "H_filtered": 0.0,
+   "H_unfiltered": 6.4977,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 3
+  },
+  {
+   "name": "Sesquiterpenoids",
+   "fp": 1,
+   "fn": 0,
+   "id": 1550,
+   "resolved_by": "exact",
+   "dictionary_name": "Sesquiterpenoids",
+   "is_dp": true,
+   "size": 103853,
+   "decile": 9,
+   "H_filtered": 0.0,
+   "H_unfiltered": 7.3622,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  },
+  {
+   "name": "Tetraterpenoids",
+   "fp": 0,
+   "fn": 1,
+   "id": 1554,
+   "resolved_by": "exact",
+   "dictionary_name": "Tetraterpenoids",
+   "is_dp": true,
+   "size": 104,
+   "decile": 2,
+   "H_filtered": 0.0,
+   "H_unfiltered": 5.7217,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  },
+  {
+   "name": "Transition Metal Hydrides",
+   "fp": 0,
+   "fn": 1,
+   "id": 536,
+   "resolved_by": "case-insensitive",
+   "dictionary_name": "Transition metal hydrides",
+   "is_dp": true,
+   "size": 136,
+   "decile": 3,
+   "H_filtered": 0.0,
+   "H_unfiltered": 2.121,
+   "maxshare_filtered": 0.0,
+   "pct_H_filtered": 86.7,
+   "depth": 4
+  }
+ ],
+ "primary": {
+  "run_at": "2026-11-12T06:26:34+00:00",
+  "prereg_sha256": "acbe48ec6301ae757adb88734fc6ee70f1e28e3072f01ef61349e05478ba827c",
+  "score_sha256": "2e437c49ee00a0ace7d17a66d6b597a348023033b0ee222755992936076af176",
+  "statistic": "mean H_filtered over flagged direct-parent classes",
+  "n": 21,
+  "R": 10000,
+  "seed": 798,
+  "T_obs": 0.2679380952380952,
+  "null_mean": 0.2657745438095238,
+  "null_sd": 0.14183485225222656,
+  "p": 0.45295470452954706,
+  "alpha": 0.05,
+  "verdict": "not supported"
+ },
+ "secondary": {
+  "filtered_uncontrolled": {
+   "T_obs": 0.2679,
+   "null_mean": 0.1841,
+   "null_sd": 0.119,
+   "p": 0.22538,
+   "n": 21
+  },
+  "unfiltered_matched": {
+   "T_obs": 5.6375,
+   "null_mean": 5.3541,
+   "null_sd": 0.2014,
+   "p": 0.06949,
+   "n": 21
+  },
+  "unfiltered_uncontrolled": {
+   "T_obs": 5.6375,
+   "null_mean": 4.6637,
+   "null_sd": 0.3205,
+   "p": 0.0004,
+   "n": 21
+  },
+  "filtered_matched_labeltotal_deciles": {
+   "T_obs": 0.2679,
+   "null_mean": 0.2527,
+   "null_sd": 0.1362,
+   "p": 0.41696,
+   "n": 21
+  },
+  "unfiltered_matched_labeltotal_deciles": {
+   "T_obs": 5.6375,
+   "null_mean": 5.3995,
+   "null_sd": 0.165,
+   "p": 0.06769,
+   "n": 21
+  },
+  "exact20_filtered_matched": {
+   "T_obs": 0.2813,
+   "null_mean": 0.2734,
+   "null_sd": 0.1475,
+   "p": 0.43816,
+   "n": 20
+  },
+  "exact20_filtered_uncontrolled": {
+   "T_obs": 0.2813,
+   "null_mean": 0.1831,
+   "null_sd": 0.1213,
+   "p": 0.19848,
+   "n": 20
+  },
+  "exact20_unfiltered_matched_labeltotal_deciles (pilot definition)": {
+   "T_obs": 5.8134,
+   "null_mean": 5.4636,
+   "null_sd": 0.1647,
+   "p": 0.0102,
+   "n": 20
+  },
+  "exact20_unfiltered_uncontrolled (pilot definition)": {
+   "T_obs": 5.8134,
+   "null_mean": 4.6607,
+   "null_sd": 0.3281,
+   "p": 0.0002,
+   "n": 20
+  },
+  "altscore_1_minus_maxshare_matched": {
+   "T_obs": 0.0699,
+   "null_mean": 0.0734,
+   "null_sd": 0.0392,
+   "p": 0.49685,
+   "n": 21
+  },
+  "altscore_1_minus_maxshare_uncontrolled": {
+   "T_obs": 0.0699,
+   "null_mean": 0.0528,
+   "null_sd": 0.034,
+   "p": 0.28147,
+   "n": 21
+  },
+  "gate_fallback_A4_only_matched": {
+   "T_obs": 0.4154,
+   "null_mean": 0.4,
+   "null_sd": 0.1769,
+   "p": 0.43706,
+   "n": 21
+  },
+  "gate_fallback_A4_only_uncontrolled": {
+   "T_obs": 0.4154,
+   "null_mean": 0.2926,
+   "null_sd": 0.1504,
+   "p": 0.20108,
+   "n": 21
+  },
+  "B_only_matched": {
+   "T_obs": 3.8168,
+   "null_mean": 2.8899,
+   "null_sd": 0.2267,
+   "p": 0.0001,
+   "n": 21
+  }
+ },
+ "descriptive": {
+  "flagged_mean_H_filtered": 0.2679,
+  "overall_mean_H_filtered": 0.1838,
+  "flagged_mean_H_filtered_percentile": 87.5,
+  "flagged_nonzero_H_filtered": 4,
+  "overall_nonzero_share_H_filtered": 0.1329,
+  "flagged_mean_H_unfiltered": 5.6375,
+  "overall_mean_H_unfiltered": 4.6706,
+  "flagged_mean_H_unfiltered_percentile": 70.0,
+  "exact20_mean_H_unfiltered": 5.8134,
+  "exact20_mean_H_unfiltered_percentile": 76.3,
+  "effect_bits_filtered": 0.0021,
+  "effect_ci95_filtered": [
+   -0.2256,
+   0.3312
+  ],
+  "effect_bits_unfiltered": 0.2814,
+  "effect_ci95_unfiltered": [
+   -0.1249,
+   0.6421
+  ]
+ },
+ "positive_controls": {
+  "Sesquiterpenoids": {
+   "H_filtered": 0.0,
+   "pct_filtered": 86.7,
+   "H_unfiltered": 7.3622,
+   "pct_unfiltered": 100.0
+  },
+  "Diterpenoids": {
+   "H_filtered": 0.0,
+   "pct_filtered": 86.7,
+   "H_unfiltered": 7.3392,
+   "pct_unfiltered": 99.9
+  }
+ },
+ "size_balance": {
+  "flagged_log10size_quartiles": [
+   2.976,
+   3.844,
+   4.624
+  ],
+  "matched_pool_log10size_quartiles": [
+   2.982,
+   3.855,
+   4.627
+  ],
+  "all_log10size_quartiles": [
+   1.82,
+   2.782,
+   3.771
+  ],
+  "flagged_deciles": [
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    7,
+    2
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    9,
+    6
+   ]
+  ]
+ },
+ "leakage": {
+  "test_compounds": 800,
+  "found_in_release_by_cid": 765,
+  "label_instances_removed": 8616,
+  "pairs_touched": 6134,
+  "pairs_not_in_counts": 0,
+  "flagged_with_test_compound_as_dp": 29,
+  "max_abs_delta_H_filtered_flagged": 0.0002640621893326145,
+  "max_abs_delta_H_unfiltered_flagged": 0.0006195891739961823,
+  "delta_T_obs": 1.2790644344395918e-05,
+  "unchanged_to_3dp": true
+ },
+ "chebi_secondary": {
+  "n_compounds": 20,
+  "found_in_release": 18,
+  "rows": [
+   {
+    "cid": 72194,
+    "disagreement": 0.22972972972972974,
+    "direct_parent": "Purine 2',3'-dideoxyribonucleosides",
+    "H_filtered": 0.0,
+    "H_unfiltered": 5.9058
+   },
+   {
+    "cid": 60021,
+    "disagreement": 0.2054794520547945,
+    "direct_parent": "Phenylquinolines",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.8783
+   },
+   {
+    "cid": 644213,
+    "disagreement": 0.36585365853658536,
+    "direct_parent": "Nitrobenzenes",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.1638
+   },
+   {
+    "cid": 439501,
+    "disagreement": 0.3717948717948718,
+    "direct_parent": "Other non-metal oxides",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.6444
+   },
+   {
+    "cid": 6914568,
+    "disagreement": 0.3620689655172414,
+    "direct_parent": "Phenylpiperazines",
+    "H_filtered": 1.5442,
+    "H_unfiltered": 6.5364
+   },
+   {
+    "cid": 3180,
+    "disagreement": 0.25,
+    "direct_parent": "Alkyl-phenylketones",
+    "H_filtered": 1.3632,
+    "H_unfiltered": 6.6759
+   },
+   {
+    "cid": 6196,
+    "disagreement": 0.2727272727272727,
+    "direct_parent": "Dipeptides",
+    "H_filtered": 3.0069,
+    "H_unfiltered": 6.7337
+   },
+   {
+    "cid": 24812758,
+    "disagreement": 0.3469387755102041,
+    "direct_parent": "Phenolic glycosides",
+    "H_filtered": 2.3311,
+    "H_unfiltered": 6.5741
+   },
+   {
+    "cid": 5327013,
+    "disagreement": 0.4,
+    "direct_parent": null,
+    "H_filtered": null,
+    "H_unfiltered": null
+   },
+   {
+    "cid": 445958,
+    "disagreement": 0.34,
+    "direct_parent": "Phenol ethers",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.0927
+   },
+   {
+    "cid": 2083,
+    "disagreement": 0.32558139534883723,
+    "direct_parent": "Benzyl alcohols",
+    "H_filtered": 0.0,
+    "H_unfiltered": 5.9934
+   },
+   {
+    "cid": 42890,
+    "disagreement": 0.6909090909090909,
+    "direct_parent": "Anthracyclines",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.1955
+   },
+   {
+    "cid": 11987868,
+    "disagreement": 0.22916666666666666,
+    "direct_parent": "Dialkylarylamines",
+    "H_filtered": 0.0,
+    "H_unfiltered": 5.8703
+   },
+   {
+    "cid": 6443013,
+    "disagreement": 0.23684210526315788,
+    "direct_parent": "Lineolic acids and derivatives",
+    "H_filtered": 0.0,
+    "H_unfiltered": 5.5544
+   },
+   {
+    "cid": 2907,
+    "disagreement": 0.36363636363636365,
+    "direct_parent": "Nitrogen mustard compounds",
+    "H_filtered": 0.0,
+    "H_unfiltered": 6.1628
+   },
+   {
+    "cid": 456468,
+    "disagreement": 0.2857142857142857,
+    "direct_parent": "D-alpha-amino acids",
+    "H_filtered": 0.0,
+    "H_unfiltered": 5.8755
+   },
+   {
+    "cid": 2681,
+    "disagreement": 0.2777777777777778,
+    "direct_parent": "Tetraalkylammonium salts",
+    "H_filtered": 0.0,
+    "H_unfiltered": 4.675
+   },
+   {
+    "cid": 54684589,
+    "disagreement": 0.29411764705882354,
+    "direct_parent": null,
+    "H_filtered": null,
+    "H_unfiltered": null
+   },
+   {
+    "cid": 5572,
+    "disagreement": 0.5714285714285714,
+    "direct_parent": "Aralkylamines",
+    "H_filtered": 0.2534,
+    "H_unfiltered": 5.2093
+   },
+   {
+    "cid": 3468,
+    "disagreement": 0.6153846153846154,
+    "direct_parent": "Diphenylmethanes",
+    "H_filtered": 0.0,
+    "H_unfiltered": 7.0383
+   }
+  ],
+  "definition": "(missed + suggestions) / (ChEBI terms + suggestions); exploratory",
+  "spearman_H_filtered": [
+   0.022202881729243833,
+   0.9303167256577101
+  ],
+  "spearman_H_unfiltered": [
+   0.16821465428276572,
+   0.5046325110850309
+  ]
+ },
+ "sensitivity_sweep_h1a": [
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 10,
+   "T_obs": 2.1444,
+   "null_mean": 1.95,
+   "p_h1a": 0.2209,
+   "flagged_nonzero": 18
+  },
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 100,
+   "T_obs": 1.5867,
+   "null_mean": 1.6013,
+   "p_h1a": 0.5357,
+   "flagged_nonzero": 13
+  },
+  {
+   "theta": 2,
+   "tau": 1,
+   "nmin": 1000,
+   "T_obs": 1.0076,
+   "null_mean": 1.0688,
+   "p_h1a": 0.6347,
+   "flagged_nonzero": 8
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 10,
+   "T_obs": 2.0028,
+   "null_mean": 1.6612,
+   "p_h1a": 0.096,
+   "flagged_nonzero": 17
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 100,
+   "T_obs": 1.4879,
+   "null_mean": 1.329,
+   "p_h1a": 0.2484,
+   "flagged_nonzero": 11
+  },
+  {
+   "theta": 2,
+   "tau": 2,
+   "nmin": 1000,
+   "T_obs": 0.9777,
+   "null_mean": 0.8358,
+   "p_h1a": 0.2289,
+   "flagged_nonzero": 8
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 10,
+   "T_obs": 1.7256,
+   "null_mean": 1.3997,
+   "p_h1a": 0.1064,
+   "flagged_nonzero": 16
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 100,
+   "T_obs": 1.3217,
+   "null_mean": 1.095,
+   "p_h1a": 0.1654,
+   "flagged_nonzero": 11
+  },
+  {
+   "theta": 2,
+   "tau": 3,
+   "nmin": 1000,
+   "T_obs": 0.8482,
+   "null_mean": 0.6718,
+   "p_h1a": 0.1659,
+   "flagged_nonzero": 8
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 10,
+   "T_obs": 1.2457,
+   "null_mean": 1.0091,
+   "p_h1a": 0.1804,
+   "flagged_nonzero": 13
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 100,
+   "T_obs": 0.8581,
+   "null_mean": 0.8415,
+   "p_h1a": 0.4588,
+   "flagged_nonzero": 9
+  },
+  {
+   "theta": 3,
+   "tau": 1,
+   "nmin": 1000,
+   "T_obs": 0.5888,
+   "null_mean": 0.56,
+   "p_h1a": 0.4243,
+   "flagged_nonzero": 5
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 10,
+   "T_obs": 1.1099,
+   "null_mean": 0.8608,
+   "p_h1a": 0.1494,
+   "flagged_nonzero": 12
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 100,
+   "T_obs": 0.7627,
+   "null_mean": 0.709,
+   "p_h1a": 0.3933,
+   "flagged_nonzero": 8
+  },
+  {
+   "theta": 3,
+   "tau": 2,
+   "nmin": 1000,
+   "T_obs": 0.5437,
+   "null_mean": 0.4461,
+   "p_h1a": 0.2724,
+   "flagged_nonzero": 5
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 10,
+   "T_obs": 0.9716,
+   "null_mean": 0.746,
+   "p_h1a": 0.1589,
+   "flagged_nonzero": 12
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 100,
+   "T_obs": 0.6755,
+   "null_mean": 0.603,
+   "p_h1a": 0.3528,
+   "flagged_nonzero": 8
+  },
+  {
+   "theta": 3,
+   "tau": 3,
+   "nmin": 1000,
+   "T_obs": 0.4545,
+   "null_mean": 0.3646,
+   "p_h1a": 0.2724,
+   "flagged_nonzero": 5
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 10,
+   "T_obs": 0.3469,
+   "null_mean": 0.3131,
+   "p_h1a": 0.3943,
+   "flagged_nonzero": 5
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 100,
+   "T_obs": 0.2572,
+   "null_mean": 0.251,
+   "p_h1a": 0.4478,
+   "flagged_nonzero": 3
+  },
+  {
+   "theta": 4,
+   "tau": 1,
+   "nmin": 1000,
+   "T_obs": 0.2036,
+   "null_mean": 0.1742,
+   "p_h1a": 0.3673,
+   "flagged_nonzero": 2
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 10,
+   "T_obs": 0.3324,
+   "null_mean": 0.2903,
+   "p_h1a": 0.3658,
+   "flagged_nonzero": 5
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 100,
+   "T_obs": 0.2429,
+   "null_mean": 0.234,
+   "p_h1a": 0.4388,
+   "flagged_nonzero": 3
+  },
+  {
+   "theta": 4,
+   "tau": 2,
+   "nmin": 1000,
+   "T_obs": 0.1904,
+   "null_mean": 0.1603,
+   "p_h1a": 0.3633,
+   "flagged_nonzero": 2
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 10,
+   "T_obs": 0.2679,
+   "null_mean": 0.2646,
+   "p_h1a": 0.4513,
+   "flagged_nonzero": 4
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 100,
+   "T_obs": 0.2238,
+   "null_mean": 0.2127,
+   "p_h1a": 0.4268,
+   "flagged_nonzero": 3
+  },
+  {
+   "theta": 4,
+   "tau": 3,
+   "nmin": 1000,
+   "T_obs": 0.1711,
+   "null_mean": 0.1445,
+   "p_h1a": 0.3608,
+   "flagged_nonzero": 2
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 10,
+   "T_obs": 0.0,
+   "null_mean": 0.0841,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 100,
+   "T_obs": 0.0,
+   "null_mean": 0.0685,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 1,
+   "nmin": 1000,
+   "T_obs": 0.0,
+   "null_mean": 0.0501,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 10,
+   "T_obs": 0.0,
+   "null_mean": 0.077,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 100,
+   "T_obs": 0.0,
+   "null_mean": 0.0618,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 2,
+   "nmin": 1000,
+   "T_obs": 0.0,
+   "null_mean": 0.0449,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 10,
+   "T_obs": 0.0,
+   "null_mean": 0.0698,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 100,
+   "T_obs": 0.0,
+   "null_mean": 0.0566,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  },
+  {
+   "theta": 5,
+   "tau": 3,
+   "nmin": 1000,
+   "T_obs": 0.0,
+   "null_mean": 0.0403,
+   "p_h1a": 1.0,
+   "flagged_nonzero": 0
+  }
+ ],
+ "perm_null_hist": {
+  "bins": [
+   0.0,
+   0.0258,
+   0.0515,
+   0.0773,
+   0.103,
+   0.1288,
+   0.1545,
+   0.1803,
+   0.206,
+   0.2318,
+   0.2576,
+   0.2833,
+   0.3091,
+   0.3348,
+   0.3606,
+   0.3863,
+   0.4121,
+   0.4378,
+   0.4636,
+   0.4894,
+   0.5151,
+   0.5409,
+   0.5666,
+   0.5924,
+   0.6181,
+   0.6439,
+   0.6696,
+   0.6954,
+   0.7212,
+   0.7469,
+   0.7727,
+   0.7984,
+   0.8242,
+   0.8499,
+   0.8757,
+   0.9015,
+   0.9272,
+   0.953,
+   0.9787,
+   1.0045,
+   1.0302
+  ],
+  "counts": [
+   210,
+   243,
+   301,
+   456,
+   506,
+   620,
+   684,
+   686,
+   756,
+   694,
+   705,
+   652,
+   563,
+   519,
+   454,
+   400,
+   317,
+   283,
+   224,
+   194,
+   127,
+   110,
+   80,
+   80,
+   42,
+   34,
+   21,
+   12,
+   7,
+   11,
+   3,
+   4,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "observed": 0.2679380952380952
+ },
+ "config": {
+  "theta": 4,
+  "tau": 3,
+  "nmin": 10
+ }
+}

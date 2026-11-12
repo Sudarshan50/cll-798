@@ -1,0 +1,43 @@
+{
+ "replicates": 200,
+ "primary_cell": {
+  "theta": 4,
+  "tau": 3,
+  "nmin": 10,
+  "A": 6386,
+  "B": 73184,
+  "edges": 2754,
+  "mass": 16298289,
+  "nodes": 1069,
+  "jaccard": 0.0359,
+  "share_of_A": 0.4313,
+  "share_of_B": 0.0376,
+  "enrichment": 6.16,
+  "stable95": 0.9016,
+  "mean_retention": 0.9736,
+  "aryl_thioethers": 1,
+  "aryl_thioethers_pctile": 22.9,
+  "aryl_thioethers_pctile_raw": 99.9,
+  "oxosteroids": 1,
+  "oxosteroids_pctile": 82.7,
+  "oxosteroids_pctile_raw": 87.0,
+  "depsipeptides_axis": 0,
+  "depsipeptides_axis_pctile": null,
+  "depsipeptides_axis_pctile_raw": null,
+  "primary": 1
+ },
+ "face_cases_present_in_s1": {
+  "aryl_thioethers": true,
+  "oxosteroids": true,
+  "depsipeptides_axis": false
+ },
+ "face_cases_in_s3_tier": {
+  "aryl_thioethers": true,
+  "oxosteroids": true,
+  "depsipeptides_axis": true
+ },
+ "cells_stable95_ge_0.9": 29,
+ "cells_jaccard_ge_0.1": 2,
+ "cells_share_of_smaller_ge_0.1": 36,
+ "runtime_s": 25.3
+}

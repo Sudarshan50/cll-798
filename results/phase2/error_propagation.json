@@ -1,0 +1,190 @@
+{
+ "levels": [
+  "kingdom",
+  "superclass",
+  "class",
+  "subclass",
+  "none"
+ ],
+ "replicates": 200,
+ "draws_per_replicate": 20000,
+ "config": {
+  "theta": 4,
+  "tau": 3,
+  "nmin": 10
+ },
+ "profiles": {
+  "B_only": {
+   "mean": [
+    0.00046,
+    0.54762,
+    0.20245,
+    0.12624,
+    0.12324
+   ],
+   "ci95_lo": [
+    0.0002,
+    0.54059,
+    0.19745,
+    0.12215,
+    0.11835
+   ],
+   "ci95_hi": [
+    0.0008,
+    0.55421,
+    0.20731,
+    0.13056,
+    0.12766
+   ]
+  },
+  "primary_A_and_B": {
+   "mean": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ci95_lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ci95_hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "unfiltered_S1": {
+   "mean": [
+    0.00056,
+    0.77742,
+    0.12939,
+    0.07038,
+    0.02225
+   ],
+   "ci95_lo": [
+    0.0003,
+    0.7709,
+    0.1249,
+    0.06775,
+    0.0204
+   ],
+   "ci95_hi": [
+    0.0009,
+    0.7836,
+    0.13426,
+    0.07426,
+    0.024
+   ]
+  },
+  "uniform": {
+   "mean": [
+    0.11806,
+    0.74074,
+    0.11495,
+    0.02222,
+    0.00403
+   ],
+   "ci95_lo": [
+    0.11345,
+    0.7347,
+    0.11039,
+    0.0199,
+    0.0033
+   ],
+   "ci95_hi": [
+    0.12265,
+    0.74653,
+    0.1194,
+    0.02415,
+    0.00485
+   ]
+  },
+  "size": {
+   "mean": [
+    0.00233,
+    0.74404,
+    0.1641,
+    0.07325,
+    0.01627
+   ],
+   "ci95_lo": [
+    0.0017,
+    0.7376,
+    0.15929,
+    0.06995,
+    0.01465
+   ],
+   "ci95_hi": [
+    0.003,
+    0.74961,
+    0.1692,
+    0.07705,
+    0.0182
+   ]
+  }
+ },
+ "expected_exact": {
+  "B_only": [
+   0.00046,
+   0.54734,
+   0.20247,
+   0.12658,
+   0.12315
+  ],
+  "primary_A_and_B": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "unfiltered_S1": [
+   0.00056,
+   0.77761,
+   0.12941,
+   0.07034,
+   0.02209
+  ]
+ },
+ "coverage_compound_share_with_competitor": {
+  "B_only": {
+   "mean": 0.9975316004259095,
+   "ci95": [
+    0.997519477632247,
+    0.9975413876202426
+   ]
+  },
+  "primary_A_and_B": {
+   "mean": 0.3107285274716565,
+   "ci95": [
+    0.3106392851562423,
+    0.3108346017637315
+   ]
+  },
+  "unfiltered_S1": {
+   "mean": 0.9999998578691149,
+   "ci95": [
+    0.9999996990681599,
+    0.9999999726437522
+   ]
+  }
+ },
+ "notes": {
+  "primary_A_and_B": "fixed by construction: LCA depth >= 4 forces the four label slots to agree, so every swap lands in 'none'",
+  "nulls": "drawn for the same compounds as B_only (direct parents that have at least one B-competitor), uniform over the other 3,603 direct-parent classes, or proportional to compounds-as-direct-parent"
+ },
+ "headline": {
+  "B_only_superclass_or_above": 0.54808,
+  "uniform_superclass_or_above": 0.8588,
+  "size_superclass_or_above": 0.7463700000000001,
+  "B_only_within_subclass_or_none": 0.24947999999999998,
+  "uniform_within_subclass_or_none": 0.02625
+ }
+}

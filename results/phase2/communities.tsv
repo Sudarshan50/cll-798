@@ -1,0 +1,1070 @@
+id	name	community	superclass	superclass_name	subclass_name	depth	degree	strength	size	spectral_side
+178	Benzamides	0	2448	Benzenoids	Benzoic acids and derivatives	5	9	33.0058	467851	1
+179	Hippuric acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	8	29.6928	316925	1
+281	Aminobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	5	13	55.7684	39692	1
+487	Salicylic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	12	74.4205	1944	1
+1106	M-phthalic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	19	110.8992	5705	0
+1107	O-phthalic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	2	27.4947	25	0
+1108	P-phthalic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	16	107.5135	2846	0
+1248	Hydroxybenzoic acid derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	5	19	98.2352	5684	0
+1251	Gallic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	8	50.4372	8125	1
+1318	Hippuric acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	14	56.6077	36766	1
+1350	Benzoic acid esters	0	2448	Benzenoids	Benzoic acids and derivatives	5	19	90.1363	488311	1
+1779	Guanidinobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	7	28.6605	2508	1
+1917	Aminobenzamides	0	2448	Benzenoids	Benzoic acids and derivatives	6	9	39.7976	120199	1
+1992	Nitrobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	5	24	116.9022	79009	0
+2345	O-methoxybenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	24	118.8894	27855	0
+2346	P-methoxybenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	19	97.1947	36623	0
+2347	M-methoxybenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	25	124.3881	31250	0
+2514	Salicylic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	20	107.6271	7312	0
+2515	Salicylamides	0	2448	Benzenoids	Benzoic acids and derivatives	7	7	38.088	58341	1
+2559	Sulfosalicylic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	7	5	37.3887	166	1
+2565	Benzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	5	26	137.2003	89144	0
+2611	Dichlorobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	6	15	89.8532	3890	0
+2786	M-sulfanylbenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	14	59.3208	16292	1
+2787	P-sulfanylbenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	9	38.279	18280	1
+2788	M-sulfanylbenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	17	103.9846	7020	0
+2789	P-sulfanylbenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	15	85.9411	3173	0
+2947	Guanidinobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	3	13.637	875	0
+2948	Aminobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	6	23	135.8258	58165	0
+3008	Aminosalicylic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	7	7	42.2763	3516	1
+3009	Aminosalicylic acids	0	2448	Benzenoids	Benzoic acids and derivatives	8	7	66.4919	332	0
+3010	3-aminosalicylic acids	0	2448	Benzenoids	Benzoic acids and derivatives	9	1	15.8256	0	0
+3011	4-aminosalicylic acids	0	2448	Benzenoids	Benzoic acids and derivatives	9	1	15.985	0	0
+3085	Peroxybenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	5	14	81.6862	2024	0
+3097	Halobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	6	22	126.4688	41395	0
+3098	2-halobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	10	39.5941	134371	1
+3099	3-halobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	21	79.8611	200184	1
+3100	4-halobenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	13	47.6987	194817	1
+3101	2-halobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	12	72.5985	0	0
+3102	3-halobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	18	93.4679	0	0
+3103	4-halobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	13	73.5551	0	0
+3105	O-sulfanylbenzoic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	6	14	61.0848	41646	0
+3106	O-sulfanylbenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	11	66.2426	867	0
+3469	N-benzylbenzamides	0	2448	Benzenoids	Benzoic acids and derivatives	6	15	59.5932	233038	1
+3538	Gallic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	2	12.2178	223	0
+3539	Galloyl esters	0	2448	Benzenoids	Benzoic acids and derivatives	7	5	42.5663	1251	1
+4000	2-aminobenzamides	0	2448	Benzenoids	Benzoic acids and derivatives	7	3	16.3427	146	1
+4010	m-Phthalate esters	0	2448	Benzenoids	Benzoic acids and derivatives	7	22	109.4284	11709	1
+4011	o-Phthalate esters	0	2448	Benzenoids	Benzoic acids and derivatives	7	3	33.4574	28	0
+4012	p-Phthalate esters	0	2448	Benzenoids	Benzoic acids and derivatives	7	16	83.9361	8072	1
+4034	3-Mercuribenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	7	1	8.6819	10	0
+4295	2-azidobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	6	4	25.8798	56	0
+4361	Acylaminobenzoic acid and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	5	21	86.1739	439505	0
+4413	Anthranilamides	0	2448	Benzenoids	Benzoic acids and derivatives	6	6	31.2591	54399	1
+4576	Acylsalicylic acids and derivatives	0	2448	Benzenoids	Benzoic acids and derivatives	7	9	44.1241	2989	1
+4577	Acylsalicylic acids	0	2448	Benzenoids	Benzoic acids and derivatives	8	9	44.4932	1249	0
+4578	Acylsalicylamides	0	2448	Benzenoids	Benzoic acids and derivatives	8	3	11.8935	1674	1
+4699	m-Hydroxybenzoic acid esters	0	2448	Benzenoids	Benzoic acids and derivatives	6	16	97.4967	4532	1
+4700	o-Hydroxybenzoic acid esters	0	2448	Benzenoids	Benzoic acids and derivatives	6	19	119.1213	14974	1
+4701	p-Hydroxybenzoic acid esters	0	2448	Benzenoids	Benzoic acids and derivatives	6	4	35.162	135	1
+4702	p-Hydroxybenzoic acid alkyl esters	0	2448	Benzenoids	Benzoic acids and derivatives	7	12	77.9484	7446	1
+4750	2-pyrimidinylthiobenzoic acids	0	2448	Benzenoids	Benzoic acids and derivatives	6	9	73.0679	318	0
+4815	Fluoromethoxy benzamides	0	2448	Benzenoids	Benzoic acids and derivatives	6	4	15.7287	4458	1
+60	Alpha amino acids and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	2	7.9159	1261686	
+271	Carbamic acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	4	15.1843	5656	
+348	Peptides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	5	26	128.2518	520859	
+394	Alpha amino acid esters	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	19	78.6753	537442	
+1162	Carbamate esters	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	3	11.0834	46480	
+1189	N-acyl-alpha amino acids and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	19	74.0965	414648	
+1192	Carbamic acid halides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	2	10.2201	614	
+1224	N-carbamoyl-alpha amino acids and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	13	62.3768	52937	
+1441	Alpha-amino acyl ester of carbohydrates	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	4	15.7039	381	
+1588	N-epsilon-acyl lysines	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	6	33.6853	120	
+1801	Kainoids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	7	45.2613	427	
+1812	Glycosyl-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	11	63.891	440	
+1879	Delta amino acids and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	2	12.8375	78658	
+1880	Gamma amino acids and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	6	29.3467	245543	
+1995	Cyclic peptides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	6	30.2163	67393	
+2309	Alpha amino acid amides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	14	55.9575	1878192	
+2402	N-acyl-alpha amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	25	109.554	151245	
+2403	N-carbamoyl-alpha amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	16	89.7022	80417	
+2404	Alpha amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	20	99.8561	173758	
+2620	N-benzylalanines	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	9	2	12.9223	1007	
+2964	N-formyl-alpha amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	18	81.7218	7323	
+3024	Gamma-glutamyl amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	16	95.3481	1354	
+3025	Gamma-glutamyl peptides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	14	109.3474	2614	
+3051	N-acylglutathiones	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	2	21.1857	0	
+3052	S-acylglutathiones	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	2	21.2776	0	
+3336	Glycosyl-alpha-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	1	4.1799	12	
+3350	N-hydroxyl-alpha-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	16	94.6674	573	
+3441	S-alkyl-L-cysteines	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	9	2	17.8881	1	
+4045	Amatoxins	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	4	27.7469	183	
+4082	4-arylsulfanyl-substituted kainoids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	2	11.7557	26	
+4143	Methionine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	12	53.0598	55412	
+4145	D-alpha-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	22	107.6785	18009	
+4146	L-alpha-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	24	145.5271	43064	
+4148	N-acyl-L-alpha-amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	9	23	102.3982	33203	
+4176	Amino acids	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	17	67.7581	1354	
+4267	N-acyl-L-glutamines	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	10	6	35.0437	0	
+4310	Valine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	16	72.0972	89252	
+4311	Histidine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	13	61.5155	11489	
+4312	Asparagine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	11	60.8437	26343	
+4313	Cysteine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	15	92.1939	10505	
+4314	Alanine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	12	46.8751	159004	
+4315	Glutamine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	16	90.425	19141	
+4316	Serine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	10	50.3501	7149	
+4317	Aspartic acid and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	13	62.8878	31650	
+4319	Tyrosine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	14	69.8276	18120	
+4320	Arginine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	9	39.0935	1608	
+4321	Phenylalanine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	15	68.1414	272816	
+4322	Proline and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	12	58.9442	209581	
+4323	Glutamic acid and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	15	74.0358	33677	
+4329	Leucine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	16	70.9865	96097	
+4330	Isoleucine and derivatives	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	17	77.5919	52933	
+4546	S-(2-hydroxyacyl)glutathiones	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	7	1	9.4124	0	
+4555	L-cysteine-S-conjugates	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	7	46.5585	1809	
+4787	Methylcarbamates	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	8	4	19.395	2945	
+4830	Dipeptides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	18	81.3095	144576	
+4831	Oligopeptides	1	264	Organic acids and derivatives	Amino acids, peptides, and analogues	6	32	189.328	62914	
+146	Acylaminosugars	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	20	153.7072	11183	
+198	Oligosaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	20	144.9104	33191	
+215	Sugar acids and derivatives	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	17	121.1131	5255	
+282	Aminoglycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	19	107.2521	38144	
+373	Glucosinolates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	1	13.122	28	
+1497	Pentoses	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	11	63.7926	7363	
+1498	Hexoses	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	22	136.3354	14689	
+1499	Heptoses	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	3	32.5828	745	
+1500	Octoses	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	3	35.8111	327	
+1501	Nonoses	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	2	22.3151	139	
+1540	Monosaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	26	139.4945	30416	
+1541	Monosaccharide phosphates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	13	94.1084	1805	
+1542	Disaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	22	125.6117	2003	
+1599	Disaccharide phosphates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	8	62.2997	353	
+1675	Aminocyclitol glycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	13	89.9388	4796	
+1696	Furanoid amino acids and derivatives	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	1	14.3632	31176	
+1697	Pyranoid amino acids and derivatives	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	10	80.0126	1161	
+1849	Carbopeptoids	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	4	44.1175	88	
+2094	Glucuronic acid derivatives	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	17	107.9615	3106	
+2191	Oligosaccharide phosphates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	13	112.991	709	
+2203	Glycosylamines	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	12	66.7764	24845	
+2204	C-glycosyl compounds	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	27	176.9119	34031	
+2205	Thioglycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	21	161.2348	8677	
+2206	Selenoglycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	5	30.7626	177	
+2207	O-glycosyl compounds	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	33	205.7219	50466	
+2210	Sugar alcohols	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	9	59.7201	1976	
+2259	Pentose phosphates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	9	57.758	6342	
+2260	Hexose phosphates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	18	131.9306	1978	
+2262	Gluconolactones	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	3	26.8944	347	
+2276	N-acyl-alpha-hexosamines	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	26	174.4186	12737	
+2365	Cyanogenic glycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	8	55.8728	752	
+2813	O-glucuronides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	18	114.3194	4194	
+2814	N-glucuronides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	3	18.4689	705	
+2815	C-glucuronides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	19	124.9318	4408	
+2816	S-glucuronides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	3	23.5425	321	
+3048	N-acylneuraminic acids	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	10	15	115.9604	7315	
+3049	N-acylneuraminic acids and derivatives	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	9	11	73.9119	1371	
+3050	Neuraminic acids	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	9	11	91.5582	1263	
+3305	Aminosaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	5	29	206.3075	1136	
+3306	Monosaccharide sulfates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	13	93.9999	309	
+3307	Disaccharide sulfates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	10	77.1481	720	
+3308	Oligosaccharide sulfates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	12	97.0061	3448	
+3573	4,5-disubstituted 2-deoxystreptamines	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	9	6	38.4832	2032	
+3574	4,6-disubstituted 2-deoxystreptamines	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	9	3	16.3994	2031	
+3575	2-deoxystreptamine aminoglycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	7	53.5296	737	
+3576	Streptamine aminoglycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	5	50.0434	286	
+3925	Alkylglucosinolates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	8	2	18.5574	1109	
+4100	Thio-linked disaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	1	12.3497	31	
+4101	N-linked disaccharides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	3	22.6276	38	
+4135	Desulfoglucosinolates	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	7	1	12.9881	122	
+4165	Phenolic glycosides	2	4603	Organic oxygen compounds	Carbohydrates and carbohydrate conjugates	6	18	100.5967	32905	
+118	Ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	5	11	66.6819	49242	
+122	Alpha-amino ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	16	86.7344	7332	
+124	Aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	5	9	51.3758	0	
+133	1,3-dicarbonyl compounds	3	4603	Organic oxygen compounds	Carbonyl compounds	5	10	52.0642	7639	
+156	Adamantanones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	4	18.2628	1408	
+280	Beta-amino ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	16	86.6876	4265	
+1118	Gamma-amino ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	14	75.6227	2831	
+1223	Alpha-diketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	22	159.1373	1962	
+1280	Alpha ketoaldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	13	106.132	335	
+1363	Enones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	29	140.4025	11883	
+1373	Ynones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	5	23.221	4655	
+1376	Beta ketoaldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	19	153.7378	483	
+2075	M-quinomethanes	3	4603	Organic oxygen compounds	Carbonyl compounds	8	4	28.3709	117	
+2088	Acyloins	3	4603	Organic oxygen compounds	Carbonyl compounds	5	24	149.0718	3124	
+2122	O-quinomethanes	3	4603	Organic oxygen compounds	Carbonyl compounds	8	9	49.7393	3661	
+2123	P-quinomethanes	3	4603	Organic oxygen compounds	Carbonyl compounds	8	4	20.3303	2533	
+2229	Medium-chain aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	19	142.9394	9537	
+2230	Short-chain aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	17	157.7342	381	
+2385	O-quinones	3	4603	Organic oxygen compounds	Carbonyl compounds	8	1	7.5798	58	
+2434	Alpha-hydrogen aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	11	70.1587	7997	
+2435	Beta-hydroxy aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	7	61.5558	955	
+2436	Enals	3	4603	Organic oxygen compounds	Carbonyl compounds	7	10	71.8285	3594	
+2437	Ynals	3	4603	Organic oxygen compounds	Carbonyl compounds	7	3	33.6638	149	
+2492	O-benzoquinones	3	4603	Organic oxygen compounds	Carbonyl compounds	9	6	43.5548	904	
+2493	M-benzoquinones	3	4603	Organic oxygen compounds	Carbonyl compounds	9	12	86.7911	532	
+2494	P-benzoquinones	3	4603	Organic oxygen compounds	Carbonyl compounds	9	6	43.5685	4799	
+2912	Alpha-hydroxy ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	21	122.139	759	
+2913	Beta-hydroxy ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	22	132.2489	3656	
+3213	Aryl-aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	1	4.0317	14899	
+3420	Alpha-acyloxy ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	20	100.714	2812	
+3444	Glycerone and derivatives	3	4603	Organic oxygen compounds	Carbonyl compounds	6	1	9.5324	1	
+3446	Glycerone phosphates	3	4603	Organic oxygen compounds	Carbonyl compounds	7	3	28.9172	146	
+3448	O-acylglycerone-phosphates	3	4603	Organic oxygen compounds	Carbonyl compounds	8	1	9.552	19	
+3487	Cyclic ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	13	63.0328	20390	
+3670	Aryl ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	10	57.7268	19227	
+3671	Aryl alkyl ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	11	51.2465	137486	
+3672	Alpha,beta-unsaturated ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	11	79.7945	1013	
+3673	b'-hydroxy-alpha,beta-unsaturated ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	10	65.2797	646	
+3674	Alpha-branched alpha,beta-unsaturated ketones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	28	141.1206	7582	
+3675	Alpha-hydroxyaldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	6	55.4385	262	
+3685	Alpha-acyloxy aldehydes	3	4603	Organic oxygen compounds	Carbonyl compounds	6	3	29.6516	170	
+3926	Beta-diketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	25	134.6547	10593	
+4297	Aryl-phenylketones	3	4603	Organic oxygen compounds	Carbonyl compounds	8	1	3.1917	101621	
+4298	Alkyl-phenylketones	3	4603	Organic oxygen compounds	Carbonyl compounds	8	11	44.717	844969	
+4325	Cyclohexenones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	17	86.13	29628	
+4673	Benzoylcyclohexane-1,3-diones	3	4603	Organic oxygen compounds	Carbonyl compounds	9	6	31.4677	799	
+4808	Alpha-haloketones	3	4603	Organic oxygen compounds	Carbonyl compounds	6	26	149.0978	4875	
+4809	Alpha-chloroketones	3	4603	Organic oxygen compounds	Carbonyl compounds	7	26	153.5662	3507	
+2053	Silyl enol ethers	4	462	Organometallic compounds	Organosilicon compounds	5	8	67.9527	0	
+3140	Trialkoxysilanes	4	462	Organometallic compounds	Organosilicon compounds	6	14	81.0848	22844	
+3195	Alkylsilanes	4	462	Organometallic compounds	Organosilicon compounds	5	12	57.8689	0	
+3196	Alkylarylsilanes	4	462	Organometallic compounds	Organosilicon compounds	5	17	113.1484	27389	
+3200	Silyl ethers	4	462	Organometallic compounds	Organosilicon compounds	5	12	96.404	3203	
+3201	Silanols	4	462	Organometallic compounds	Organosilicon compounds	5	9	78.2078	0	
+3205	Disiloxanes	4	462	Organometallic compounds	Organosilicon compounds	6	10	59.6963	3713	
+3265	Alkoxysilanes	4	462	Organometallic compounds	Organosilicon compounds	5	15	108.5932	12530	
+3266	Monoalkylsilanols	4	462	Organometallic compounds	Organosilicon compounds	6	1	14.8537	1	
+3267	Dialkylsilanols	4	462	Organometallic compounds	Organosilicon compounds	6	1	10.6476	33	
+3268	Trialkylsilanols	4	462	Organometallic compounds	Organosilicon compounds	6	4	28.3936	108	
+3269	Monoalkylsilanediols	4	462	Organometallic compounds	Organosilicon compounds	6	1	10.6591	17	
+3270	Monoalkylsilanetriols	4	462	Organometallic compounds	Organosilicon compounds	6	1	10.2504	473	
+3271	Dialkylsilanediols	4	462	Organometallic compounds	Organosilicon compounds	6	1	10.5187	368	
+3273	Alkylhalosilanes	4	462	Organometallic compounds	Organosilicon compounds	5	10	78.3623	0	
+3867	Trialkylsilanes	4	462	Organometallic compounds	Organosilicon compounds	6	12	69.3562	10307	
+3895	Ketene silyl acetals	4	462	Organometallic compounds	Organosilicon compounds	5	8	73.5781	38	
+3896	Silyl monohalides	4	462	Organometallic compounds	Organosilicon compounds	5	7	71.488	358	
+4444	Organochlorosilanes	4	462	Organometallic compounds	Organosilicon compounds	6	13	119.3218	2537	
+4445	Organoheterosilanes	4	462	Organometallic compounds	Organosilicon compounds	5	20	188.3519	3247	
+4446	Siloxanes	4	462	Organometallic compounds	Organosilicon compounds	5	14	93.2349	6589	
+4479	Trialkylheterosilanes	4	462	Organometallic compounds	Organosilicon compounds	6	17	127.1929	50072	
+4480	Trialkylchlorosilanes	4	462	Organometallic compounds	Organosilicon compounds	7	7	64.7595	1403	
+4481	Trimethylsilyl esters	4	462	Organometallic compounds	Organosilicon compounds	5	10	65.9234	1662	
+4698	N-silyl compounds	4	462	Organometallic compounds	Organosilicon compounds	5	14	100.6076	2328	
+1361	Anthocyanins	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	1	16.1375	26	
+1583	Flavonoid O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	5	2	23.1505	4561	
+1737	Flavonoid C-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	5	3	29.8803	1442	
+2711	Anthocyanidin 3-O-6-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	8	3	41.5955	301	
+2713	Anthocyanidin 3p-O-6-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	8	5	79.3695	40	
+2715	Anthocyanidin 5-O-6-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	8	5	75.7485	49	
+2934	Flavonoid O-glucuronides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	3	36.8163	390	
+2996	Anthocyanidin-3-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	11	145.3004	1104	
+2997	Anthocyanidin-5-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	6	83.3448	778	
+3531	Flavonoid-3-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	16	175.868	8505	
+3532	Flavonoid-3-O-glucuronides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	4	45.4377	337	
+3533	Flavonoid-7-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	11	125.7918	9318	
+3534	Flavonoid-7-O-glucuronides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	3	36.4514	1430	
+3535	Flavonoid 8-C-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	2	21.954	1632	
+3540	Flavonoid-8-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	3	35.9685	601	
+3541	Flavonoid-8-O-glucuronides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	1	17.9644	115	
+3551	Anthocyanin-3'-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	7	105.2572	0	
+3552	Anthocyanin-4'-O-glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	1	14.0224	0	
+3554	Anthocyanidin 7-O-6-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	8	7	111.3758	47	
+3555	Anthocyanidin-7-O-Glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	7	5	74.1175	146	
+3678	Flavonoid 3-O-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	4	48.5131	855	
+3679	Flavonoid 5-O-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	1	11.3951	31	
+3681	Flavonoid 3p-O-p-coumaroyl glycosides	5	261	Phenylpropanoids and polyketides	Flavonoid glycosides	6	2	25.0684	96	
+2968	3-hydroxy delta-1-steroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	4	42.0362	15	
+2970	3-hydroxy delta-4-steroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	2	16.0795	20	
+2971	3-hydroxy delta-5-steroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	8	65.671	118	
+2985	3-hydroxy delta-7-steroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	8	66.3193	132	
+3027	3-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	10	82.6891	1308	
+3095	21-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	19	123.3792	8839	
+3226	3-beta-hydroxy delta-5-steroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	7	8	60.5362	21	
+3227	11-beta-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	3	26.5176	0	
+3228	11-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	9	68.8614	583	
+3229	16-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	12	101.4207	586	
+3230	16-alpha-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	2	20.5917	0	
+3231	16-beta-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	3	25.2114	0	
+3232	3-alpha-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	12	98.6384	704	
+3233	3-beta-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	17	130.8041	1510	
+3234	11-alpha-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	4	37.345	0	
+3236	17-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	18	119.2541	3440	
+3238	7-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	10	80.8859	643	
+3239	7-alpha-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	6	9	83.0253	232	
+3241	12-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	8	66.4337	264	
+3578	6-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	9	71.5193	313	
+4158	1-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	11	71.1267	855	
+4159	18-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	4	28.9266	177	
+4495	14-hydroxysteroids	6	12	Lipids and lipid-like molecules	Hydroxysteroids	5	4	19.6878	207	
+469	Monoalkylamines	7	4707	Organic nitrogen compounds	Amines	6	6	25.1599	26906	
+470	Enamines	7	4707	Organic nitrogen compounds	Amines	5	5	28.1268	4249	
+1088	Hemiaminals	7	4707	Organic nitrogen compounds	Amines	6	3	13.3959	6709	
+1210	Ynamines	7	4707	Organic nitrogen compounds	Amines	5	4	21.5641	260	
+1852	1,3-aminoalcohols	7	4707	Organic nitrogen compounds	Amines	6	6	23.8048	24796	
+1897	1,2-aminoalcohols	7	4707	Organic nitrogen compounds	Amines	6	3	12.4433	42343	
+2228	Dialkylamines	7	4707	Organic nitrogen compounds	Amines	6	9	33.4908	130762	
+2239	Trialkylamines	7	4707	Organic nitrogen compounds	Amines	6	6	21.9261	122423	
+2450	Primary amines	7	4707	Organic nitrogen compounds	Amines	5	1	3.0324	278	
+2451	Secondary amines	7	4707	Organic nitrogen compounds	Amines	5	2	9.4833	247	
+2452	Tertiary amines	7	4707	Organic nitrogen compounds	Amines	5	2	8.0186	3791	
+2454	Tertiary alkylarylamines	7	4707	Organic nitrogen compounds	Amines	6	4	29.8873	3068	
+2457	Triarylamines	7	4707	Organic nitrogen compounds	Amines	6	2	11.5037	79276	
+2460	Alkanolamines	7	4707	Organic nitrogen compounds	Amines	5	2	8.183	3563	
+3192	Ammonium ylides	7	4707	Organic nitrogen compounds	Amines	5	1	4.2352	0	
+3899	Aralkylamines	7	4707	Organic nitrogen compounds	Amines	5	3	9.4743	1104447	
+3901	Dialkylarylamines	7	4707	Organic nitrogen compounds	Amines	7	2	7.2486	671976	
+3902	Alkyldiarylamines	7	4707	Organic nitrogen compounds	Amines	7	2	10.8345	138837	
+4218	Allylamines	7	4707	Organic nitrogen compounds	Amines	5	3	20.8922	1	
+4253	2-arylethylamines	7	4707	Organic nitrogen compounds	Amines	6	3	11.3782	23710	
+4796	Phenylisopropylamines	7	4707	Organic nitrogen compounds	Amines	7	4	16.3748	12893	
+4797	Methoxyphenylisopropylamines	7	4707	Organic nitrogen compounds	Amines	8	1	3.3014	69	
+291	Pyrimidones	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	7	31.597	121163	
+292	Barbituric acid derivatives	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	1	3.0161	20027	
+342	Pyridinylpyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	9	39.1743	78688	
+1122	Thiobarbituric acid derivatives	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	3	10.1038	7172	
+1262	Aminopyrimidines and derivatives	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	10	41.5014	190662	
+1285	Thiamines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	1	4.57	476	
+1287	Thiamine phosphates	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	1	4.2571	162	
+1319	Pyrimidinecarboxylic acids and derivatives	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	7	28.6525	37274	
+1321	Pyrimidinecarboxamides	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	4	15.5368	76542	
+1893	Halopyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	11	44.9502	127684	
+1921	Pyrimidinethiones	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	11	63.3323	8188	
+1927	Nitropyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	4	15.2323	1817	
+1978	Bipyrimidines and oligopyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	7	33.6961	6944	
+2202	Hydropyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	8	38.1917	11948	
+2222	Hydropyrimidine carboxylic acids and derivatives	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	5	29.001	37678	
+2308	Phenylpyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	11	47.4683	217170	
+2415	Pyrimidinecarboxylic acids	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	10	47.2251	39759	
+4161	Hydroxypyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	5	10	51.5444	9470	
+4171	2-Thiopyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	4	26.6354	0	
+4172	4-Thiopyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	1	12.5447	3	
+4531	2-halopyrimidines	8	2	Organoheterocyclic compounds	Pyrimidines and pyrimidine derivatives	6	5	20.4799	4903	
+333	Straight chain fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	9	70.5602	5521	
+338	Branched fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	14	86.9868	17425	
+339	Unsaturated fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	16	101.9303	1659	
+340	Hydroperoxy fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	8	57.7523	1011	
+341	Hydroxy fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	17	105.2488	12707	
+409	Keto fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	1	10.6127	0	
+471	Nitro fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	11	62.4451	1301	
+483	Halogenated fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	14	77.1774	12857	
+489	Amino fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	10	59.6316	5459	
+495	Carbocyclic fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	11	54.5323	9179	
+1423	Thia fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	10	54.0552	13954	
+1425	Sulfated fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	9	60.0424	242	
+1528	Furanoid fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	6	3	12.6337	15241	
+1537	Epoxy fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	6	9	56.4934	816	
+1989	Heterocyclic fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	14	77.8001	25379	
+2949	Long-chain fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	17	113.1752	44219	
+2950	Very long-chain fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	15	97.1565	11134	
+3086	Medium-chain fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	5	14	94.0457	80963	
+3544	Methyl-branched fatty acids	9	12	Lipids and lipid-like molecules	Fatty acids and conjugates	6	14	90.8399	22548	
+376	Hydroxamic acids	10	264	Organic acids and derivatives	Carboxylic acid derivatives	7	1	6.6433	1556	
+1165	Carboxylic acid hydrazides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	5	2	8.0364	4172	
+1238	Carboxylic acid esters	10	264	Organic acids and derivatives	Carboxylic acid derivatives	5	1	4.0119	32582	
+1658	N-substituted carboxylic acid imides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	1	5.7991	9455	
+1659	N-unsubstituted carboxylic acid imides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	3	14.8073	375	
+1664	Tertiary carboxylic acid amides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	2	9.3536	41314	
+2354	Enol esters	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	2	10.2638	2371	
+3033	Dicarboximides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	3	17.2487	698	
+3223	Acetohydroxamic acids	10	264	Organic acids and derivatives	Carboxylic acid derivatives	8	1	6.8966	136	
+3283	N-aryl-N-hydroxylamides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	8	1	3.5989	767	
+3416	Methyl esters	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	1	3.218	12453	
+3626	Enoate esters	10	264	Organic acids and derivatives	Carboxylic acid derivatives	7	3	12.8718	16511	
+3919	Acetate salts	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	4	19.4399	13311	
+3922	Acetamides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	8	36.7886	10300	
+3989	Acylals	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	2	11.5578	1246	
+4512	1,2-diacyl-1-alkylhydrazines	10	264	Organic acids and derivatives	Carboxylic acid derivatives	8	2	12.0119	205	
+4527	Chloroacetamides	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	1	6.0513	796	
+4666	N-acylphosphoramidothioic acid and derivatives	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	1	4.7871	70	
+4684	Diacylhydrazines	10	264	Organic acids and derivatives	Carboxylic acid derivatives	6	1	4.7012	1201	
+1194	Oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	4	12	92.5929	15898	
+2972	3-oxo delta-1-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	3	23.0257	10	
+2973	3-oxo delta-1,4-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	3	23.2288	36	
+2974	3-oxo delta-4-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	4	29.4149	227	
+2975	3-oxo delta-5-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	4	33.2647	4	
+2986	3-oxo delta-7-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	2	13.9719	4	
+3026	3-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	4	33.3933	0	
+3058	20-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	13	92.6035	6312	
+3059	11-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	10	78.3395	688	
+3060	16-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	7	48.6715	1931	
+3244	7-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	5	39.5972	0	
+3245	3-oxo-5-alpha-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	4	32.8347	0	
+3247	1,2-epoxy-3-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	1	10.1858	29	
+3249	6-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	2	14.0165	0	
+3252	3-oxo-4-azasteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	3	22.7566	147	
+3256	3-oxo-5-beta-steroids	11	12	Lipids and lipid-like molecules	Oxosteroids	6	2	13.7354	0	
+3557	19-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	4	33.3141	418	
+3558	17-oxosteroids	11	12	Lipids and lipid-like molecules	Oxosteroids	5	5	43.3794	0	
+1731	Dioxopiperazines	12	2	Organoheterocyclic compounds	Piperazines	5	4	15.5383	0	
+1790	Epipolythiodioxopiperazines	12	2	Organoheterocyclic compounds	Piperazines	8	2	10.0046	258	
+1791	Gliotoxins	12	2	Organoheterocyclic compounds	Piperazines	9	1	7.0792	22	
+1976	Pyridinylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	5	9	34.4718	204890	
+1984	Phenylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	5	11	44.4553	695421	
+2184	Piperazinesulfonamides	12	2	Organoheterocyclic compounds	Piperazines	5	7	29.0611	9459	
+2316	Piperazine carboxamides	12	2	Organoheterocyclic compounds	Piperazines	6	8	31.0189	25277	
+2410	Piperazine carboxylic acids	12	2	Organoheterocyclic compounds	Piperazines	6	8	34.8594	34609	
+2516	N-piperazineacetamides	12	2	Organoheterocyclic compounds	Piperazines	5	9	39.2382	49059	
+3357	N-alkylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	5	10	38.8779	111646	
+3358	N-methylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	6	9	41.4326	32967	
+3359	N-arylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	5	12	55.985	362733	
+3663	Dimethoxybenzyl-N-methylpiperazines	12	2	Organoheterocyclic compounds	Piperazines	7	1	5.0194	179	
+3684	2,5-dioxopiperazines	12	2	Organoheterocyclic compounds	Piperazines	6	2	6.9935	0	
+4397	5-piperazinylimidazo[1,2-a]pyridines	12	2	Organoheterocyclic compounds	Piperazines	6	4	18.6909	1356	
+4398	6-piperazinylimidazo[1,2-a]pyridines	12	2	Organoheterocyclic compounds	Piperazines	6	4	18.4473	272	
+4399	7-piperazinylimidazo[1,2-a]pyridines	12	2	Organoheterocyclic compounds	Piperazines	6	4	19.0622	168	
+4400	8-piperazinylimidazo[1,2-a]pyridines	12	2	Organoheterocyclic compounds	Piperazines	6	1	5.6966	77	
+286	Primary alcohols	13	4603	Organic oxygen compounds	Alcohols and polyols	5	5	19.9483	11075	
+1292	Cyclic alcohols and derivatives	13	4603	Organic oxygen compounds	Alcohols and polyols	5	8	44.3901	30362	
+1605	Carbonyl hydrates	13	4603	Organic oxygen compounds	Alcohols and polyols	5	9	60.9236	795	
+1661	Secondary alcohols	13	4603	Organic oxygen compounds	Alcohols and polyols	5	8	37.6158	83920	
+1670	Tertiary alcohols	13	4603	Organic oxygen compounds	Alcohols and polyols	5	9	41.7058	43971	
+2278	Shikimic acids and derivatves	13	4603	Organic oxygen compounds	Alcohols and polyols	7	3	17.1103	205	
+2286	Polyols	13	4603	Organic oxygen compounds	Alcohols and polyols	5	8	52.0898	609	
+2467	1,2-diols	13	4603	Organic oxygen compounds	Alcohols and polyols	6	14	75.5145	5412	
+2509	Cyclitols and derivatives	13	4603	Organic oxygen compounds	Alcohols and polyols	6	8	48.6925	2047	
+2510	Aminocyclitols and derivatives	13	4603	Organic oxygen compounds	Alcohols and polyols	7	3	22.1749	325	
+2511	Inositol phosphates	13	4603	Organic oxygen compounds	Alcohols and polyols	7	3	19.3605	3252	
+2512	Quinic acids and derivatives	13	4603	Organic oxygen compounds	Alcohols and polyols	7	4	23.6064	2188	
+2513	O-galloylquinic acids and derivatives	13	4603	Organic oxygen compounds	Alcohols and polyols	8	2	14.4433	25	
+2647	Cyclohexanols	13	4603	Organic oxygen compounds	Alcohols and polyols	6	11	72.2487	67866	
+2856	1,1-diols	13	4603	Organic oxygen compounds	Alcohols and polyols	6	9	54.3387	674	
+2938	Cyclopentanols	13	4603	Organic oxygen compounds	Alcohols and polyols	6	8	46.9138	18235	
+4343	Aminocyclitols	13	4603	Organic oxygen compounds	Alcohols and polyols	8	6	36.8806	772	
+144	Chromones	14	2	Organoheterocyclic compounds	1-benzopyrans	5	8	61.2625	110130	
+200	Xanthenes	14	2	Organoheterocyclic compounds	1-benzopyrans	6	2	10.1634	61880	
+204	Xanthones	14	2	Organoheterocyclic compounds	1-benzopyrans	7	3	24.5553	11928	
+1735	Furanochromones	14	2	Organoheterocyclic compounds	1-benzopyrans	6	3	36.1714	948	
+2339	Chromenopyridines	14	2	Organoheterocyclic compounds	1-benzopyrans	5	6	42.2951	6493	
+2817	Dibenzopyrans	14	2	Organoheterocyclic compounds	1-benzopyrans	5	1	8.6858	4366	
+3483	Benzoxanthenes	14	2	Organoheterocyclic compounds	1-benzopyrans	7	1	6.4942	1584	
+3517	2-prenylated xanthones	14	2	Organoheterocyclic compounds	1-benzopyrans	8	6	73.0544	289	
+3518	4-prenylated xanthones	14	2	Organoheterocyclic compounds	1-benzopyrans	8	7	88.5631	407	
+3519	8-prenylated xanthones	14	2	Organoheterocyclic compounds	1-benzopyrans	8	7	85.4511	747	
+3521	Pyranoxanthones	14	2	Organoheterocyclic compounds	1-benzopyrans	8	6	75.3445	2123	
+3522	2,2-dimethyl-1-benzopyrans	14	2	Organoheterocyclic compounds	1-benzopyrans	5	8	66.438	42086	
+3543	Pyranochromenes	14	2	Organoheterocyclic compounds	1-benzopyrans	5	11	87.9099	2403	
+4775	Chromeno[2,3-b]pyridine-5-ones	14	2	Organoheterocyclic compounds	1-benzopyrans	6	3	25.6703	1055	
+1138	Leucoanthocyanidins	15	261	Phenylpropanoids and polyketides	Flavans	5	3	36.0481	390	
+1362	Flavanonols	15	261	Phenylpropanoids and polyketides	Flavans	6	6	65.9089	588	
+1584	Catechins	15	261	Phenylpropanoids and polyketides	Flavans	6	3	37.4069	2102	
+1587	Catechin gallates	15	261	Phenylpropanoids and polyketides	Flavans	7	3	35.7008	712	
+1594	Epigallocatechins	15	261	Phenylpropanoids and polyketides	Flavans	7	4	49.188	685	
+1632	Flavanones	15	261	Phenylpropanoids and polyketides	Flavans	5	4	49.7237	4498	
+3012	Flavan-3-ols	15	261	Phenylpropanoids and polyketides	Flavans	5	1	10.8435	535	
+3013	Flavan-4-ols	15	261	Phenylpropanoids and polyketides	Flavans	5	2	29.0124	1186	
+3506	3'-prenylated flavanones	15	261	Phenylpropanoids and polyketides	Flavans	6	5	67.1505	308	
+3507	6-prenylated flavanones	15	261	Phenylpropanoids and polyketides	Flavans	6	6	80.2667	567	
+3508	8-prenylated flavanones	15	261	Phenylpropanoids and polyketides	Flavans	6	5	68.8197	1192	
+3588	2'-prenylated flavanones	15	261	Phenylpropanoids and polyketides	Flavans	6	5	67.7323	238	
+3642	8-prenylated flavans	15	261	Phenylpropanoids and polyketides	Flavans	5	3	37.9058	112	
+3646	6-prenylated flavans	15	261	Phenylpropanoids and polyketides	Flavans	5	2	27.4563	83	
+3984	Arsines	16	462	Organometallic compounds	Organoarsenic compounds	5	3	47.4871	0	
+4055	Trivalent organic arsenic compounds	16	462	Organometallic compounds	Organoarsenic compounds	5	6	85.8196	365	
+4059	Trialkylarsanes	16	462	Organometallic compounds	Organoarsenic compounds	7	2	29.4557	174	
+4185	Trialkylarsane oxides	16	462	Organometallic compounds	Organoarsenic compounds	6	2	33.7266	13	
+4237	Tertiary arsines	16	462	Organometallic compounds	Organoarsenic compounds	6	2	29.039	63	
+4238	Tetraorganoarsonium salts	16	462	Organometallic compounds	Organoarsenic compounds	5	1	13.0507	64	
+4239	Pentaorganoarsanes	16	462	Organometallic compounds	Organoarsenic compounds	6	5	69.9701	365	
+4240	Sulfur-containing organoarsenic compounds	16	462	Organometallic compounds	Organoarsenic compounds	5	2	23.6016	10	
+4241	Organoarsenic sulfides	16	462	Organometallic compounds	Organoarsenic compounds	6	2	28.2025	13	
+4280	Oxygen-containing organoarsenic compounds	16	462	Organometallic compounds	Organoarsenic compounds	5	6	74.2635	41	
+4281	Monohaloarsines	16	462	Organometallic compounds	Organoarsenic compounds	5	1	16.7528	27	
+4282	Dihaloarsines	16	462	Organometallic compounds	Organoarsenic compounds	5	2	29.6149	85	
+4641	Alkylarsine oxides	16	462	Organometallic compounds	Organoarsenic compounds	7	2	35.3505	45	
+1328	3-oxo-acyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	2	27.0203	312	
+1653	Long-chain fatty acyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	5	78.3615	425	
+2960	3-hydroxyacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	4	57.4288	203	
+3175	Very long-chain fatty acyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	4	64.3397	118	
+3176	Long-chain 3-oxoacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	2	31.7132	80	
+3177	Very-long-chain 3-oxoacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	2	33.8735	27	
+3206	Medium-chain fatty acyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	5	72.9406	16	
+3208	2,3,4-saturated fatty acyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	11	150.9614	655	
+3224	(R)-3-hydroxyacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	2	28.7388	46	
+3225	(S)-3-hydroxyacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	4	57.8778	42	
+4179	Long-chain (3R)-3-hydroxyacyl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	8	2	31.8382	37	
+4301	3-hydroxy-3-alkylglutaryl CoAs	17	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	1	12.845	27	
+2597	2-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	1	14.8873	15	
+2600	5-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	3	44.6909	94	
+2601	6-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	4	58.8506	95	
+2602	7-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	8	118.789	935	
+2603	8-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	5	80.2705	95	
+2604	2'-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	6	83.9933	118	
+2605	3'-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	6	86.6145	375	
+2606	4'-O-methylated isoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	5	7	97.8493	635	
+2687	4'-O-methylisoflavones	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	6	3	40.631	2859	
+2689	7-O-methylisoflavones	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	6	4	49.7515	805	
+2690	3'-O-methylisoflavones	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	6	3	36.2681	174	
+3651	3'-hydroxy,4'-methoxyisoflavonoids	18	261	Phenylpropanoids and polyketides	O-methylated isoflavonoids	6	8	113.6796	272	
+2767	M-bromophenols	19	2448	Benzenoids	Halophenols	6	7	44.2706	399	
+2768	O-bromophenols	19	2448	Benzenoids	Halophenols	6	8	48.8722	1932	
+2769	P-bromophenols	19	2448	Benzenoids	Halophenols	6	7	43.5076	3685	
+2770	M-chlorophenols	19	2448	Benzenoids	Halophenols	6	7	36.9124	1033	
+2771	O-chlorophenols	19	2448	Benzenoids	Halophenols	6	9	51.909	2147	
+2772	P-chlorophenols	19	2448	Benzenoids	Halophenols	6	7	44.4091	3667	
+2773	M-fluorophenols	19	2448	Benzenoids	Halophenols	6	8	49.4448	3669	
+2774	O-fluorophenols	19	2448	Benzenoids	Halophenols	6	10	58.2307	3846	
+2775	P-fluorophenols	19	2448	Benzenoids	Halophenols	6	7	44.5439	2553	
+2776	M-iodophenols	19	2448	Benzenoids	Halophenols	6	3	28.9178	88	
+2777	O-iodophenols	19	2448	Benzenoids	Halophenols	6	10	67.974	682	
+2778	P-iodophenols	19	2448	Benzenoids	Halophenols	6	3	27.3639	512	
+114	Semicarbazides	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	2	14.3486	2494	
+115	Semicarbazones	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	6	1	6.4665	1848	
+116	Hydrazones	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	3	18.768	970	
+1207	Thiosemicarbazides	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	1	6.3533	1381	
+1208	Thiosemicarbazones	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	6	1	6.7429	2903	
+2038	Formazans	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	1	7.9208	91	
+2235	Ketazines	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	6	1	3.0832	606	
+2464	Hydrazidines	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	3	22.3599	325	
+3295	N-alkylated hydrazones	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	6	5	33.6542	1770	
+3296	N-alkyl sulfonyl hydrazones	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	6	1	10.3316	10	
+4511	Alkylhydrazines	20	4707	Organic nitrogen compounds	Hydrazines and derivatives	5	1	3.5126	8309	
+242	Nitroimidazoles	21	2	Organoheterocyclic compounds	Imidazoles	6	8	46.7477	10825	
+1225	Aminoimidazoles	21	2	Organoheterocyclic compounds	Imidazoles	6	8	47.039	13248	
+1227	Imidazolyl carboxylic acids and derivatives	21	2	Organoheterocyclic compounds	Imidazoles	6	9	43.5867	23141	
+2311	N-substituted imidazoles	21	2	Organoheterocyclic compounds	Imidazoles	6	8	37.5831	90442	
+2327	Phenylimidazoles	21	2	Organoheterocyclic compounds	Imidazoles	6	8	42.7876	390820	
+2529	Carbonylimidazoles	21	2	Organoheterocyclic compounds	Imidazoles	6	9	48.7736	12612	
+2629	1,2,4-trisubstituted imidazoles	21	2	Organoheterocyclic compounds	Imidazoles	7	7	41.7711	26247	
+2630	1,2,5-trisubstituted imidazoles	21	2	Organoheterocyclic compounds	Imidazoles	7	7	42.9205	20509	
+2631	2,4,5-trisubstituted imidazoles	21	2	Organoheterocyclic compounds	Imidazoles	7	5	29.0798	9673	
+2633	1,2,4,5-tetrasubstituted imidazoles	21	2	Organoheterocyclic compounds	Imidazoles	7	7	41.7135	16637	
+4786	N-acylimidazoles	21	2	Organoheterocyclic compounds	Imidazoles	7	4	18.7492	21	
+3964	Aminotoluenes	22	2448	Benzenoids	Toluenes	5	3	11.9109	73062	
+3969	Dinitrotoluenes	22	2448	Benzenoids	Toluenes	6	6	31.1305	2517	
+3983	Toluene diisocyanates	22	2448	Benzenoids	Toluenes	5	3	18.7874	427	
+4108	Nitrotoluenes	22	2448	Benzenoids	Toluenes	5	3	12.0101	0	
+4220	m-Toluamides	22	2448	Benzenoids	Toluenes	6	1	7.1434	10	
+4221	o-Toluamides	22	2448	Benzenoids	Toluenes	6	4	20.9251	18	
+4222	p-Toluamides	22	2448	Benzenoids	Toluenes	6	2	11.809	29	
+4223	N,N-dialkyl-m-toluamides	22	2448	Benzenoids	Toluenes	7	2	8.4505	30210	
+4224	N,N-dialkyl-p-toluamides	22	2448	Benzenoids	Toluenes	7	3	13.5257	27044	
+4517	P-toluenesulfonamides	22	2448	Benzenoids	Toluenes	6	3	14.7204	57108	
+4518	N,N-disubstituted p-toluenesulfonamides	22	2448	Benzenoids	Toluenes	7	2	7.4024	136827	
+2587	2-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	4	52.5642	95	
+2588	3-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	8	86.3877	566	
+2589	4-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	1	17.4532	80	
+2590	5-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	7	73.0127	1493	
+2591	6-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	7	72.611	2625	
+2592	7-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	8	90.0416	4792	
+2593	8-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	7	81.7476	1502	
+2594	2'-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	7	74.2354	621	
+2595	3'-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	7	71.6956	1900	
+2596	4'-O-methylated flavonoids	23	261	Phenylpropanoids and polyketides	O-methylated flavonoids	5	8	81.0568	10210	
+225	Nitrothiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	6	30.137	1863	
+2007	Thiazolecarboxylic acids and derivatives	24	2	Organoheterocyclic compounds	Thiazoles	5	7	36.9919	82987	
+2008	Thiazolecarboxamides	24	2	Organoheterocyclic compounds	Thiazoles	6	6	32.7798	100889	
+2329	Aminothiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	6	31.9468	4761	
+2634	2,4-disubstituted thiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	4	16.7177	185431	
+2635	2,5-disubstituted thiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	4	21.3777	59939	
+2636	4,5-disubstituted thiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	4	20.7445	16271	
+2637	2,4,5-trisubstituted thiazoles	24	2	Organoheterocyclic compounds	Thiazoles	5	5	28.801	162807	
+4003	2-amino-1,3-thiazoles	24	2	Organoheterocyclic compounds	Thiazoles	6	6	29.1848	2517	
+246	Hypoxanthines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	6	2	18.1015	19269	
+247	Xanthines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	3	21.5595	81540	
+249	Thioxanthines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	2	16.0131	584	
+597	Purinones	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	6	44.3771	14015	
+1505	6-oxopurines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	6	4	29.2623	580	
+1998	Purinethiones	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	6	38.2696	1659	
+2987	6-aminopurines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	2	12.9903	21687	
+3453	6-thiopurines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	5	1	6.9095	3078	
+3454	6-alkylaminopurines	25	2	Organoheterocyclic compounds	Purines and purine derivatives	6	2	10.2851	27629	
+2914	3-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	4	37.8793	47	
+2915	3'-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	6	54.2395	0	
+2988	4-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	3	30.1832	106	
+2989	4'-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	7	68.42	41	
+2990	6-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	4	25.4038	1567	
+2992	5-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	6	50.2393	225	
+2993	7-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	7	66.7897	1524	
+2994	8-hydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	3	30.4374	81	
+3006	Monohydroxyflavonoids	26	261	Phenylpropanoids and polyketides	Hydroxyflavonoids	5	2	19.6254	624	
+100	Phenanthridines and derivatives	27	2	Organoheterocyclic compounds	Benzoquinolines	5	4	31.4457	17171	
+274	Acridines	27	2	Organoheterocyclic compounds	Benzoquinolines	5	1	7.3	42303	
+1728	Quinacridines	27	2	Organoheterocyclic compounds	Benzoquinolines	6	2	30.0449	188	
+1762	Pyrroloacridines	27	2	Organoheterocyclic compounds	Benzoquinolines	6	1	10.1779	1751	
+1763	Pyridoacridines	27	2	Organoheterocyclic compounds	Benzoquinolines	6	5	59.3137	1538	
+1811	Acridones	27	2	Organoheterocyclic compounds	Benzoquinolines	6	3	37.3471	9056	
+3017	Benzacridines	27	2	Organoheterocyclic compounds	Benzoquinolines	6	3	31.1064	2103	
+4423	Benzo[f]quinolin-3-ones	27	2	Organoheterocyclic compounds	Benzoquinolines	5	1	10.3755	65	
+1178	Organosulfonic acid esters	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	5	32.6	10472	
+1179	Organosulfonic acids	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	7	45.2353	36778	
+2095	Methanesulfonates	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	6	3	23.4345	75	
+2237	Arylsulfonic acids and derivatives	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	2	14.6774	3500	
+3075	1-sulfo,2-unsubstituted aromatic compounds	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	7	2	12.3986	1084	
+3311	Alkanesulfonic acids	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	6	4	24.4975	141	
+3990	Organosulfonic anhydrides	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	3	22.6985	251	
+4581	Trifluoromethanesulfonates	28	264	Organic acids and derivatives	Organosulfonic acids and derivatives	7	4	34.7116	9674	
+237	Acyl monophosphates	29	264	Organic acids and derivatives	Phosphate esters	6	1	5.6139	381	
+1266	Phosphoethanolamines	29	264	Organic acids and derivatives	Phosphate esters	5	6	44.4431	5758	
+3457	Alkyl phosphates	29	264	Organic acids and derivatives	Phosphate esters	5	3	22.4608	1650	
+3458	Monoalkyl phosphates	29	264	Organic acids and derivatives	Phosphate esters	6	5	36.3253	7938	
+3459	Dialkyl phosphates	29	264	Organic acids and derivatives	Phosphate esters	6	3	22.8237	6742	
+3460	Trialkyl phosphates	29	264	Organic acids and derivatives	Phosphate esters	6	1	9.9955	4740	
+4619	Aryl phosphotriesters	29	264	Organic acids and derivatives	Phosphate esters	6	4	28.7596	2330	
+4781	Acyl phosphates	29	264	Organic acids and derivatives	Phosphate esters	5	5	46.6363	107	
+1462	Mannosylerythritol lipids	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	5	2	17.1902	71	
+1754	Simplexides	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	6	1	8.8706	236	
+1765	Rhamnolipids	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	5	4	50.4827	242	
+2125	Alkyl glycosides	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	5	4	30.9157	0	
+2201	Sophorolipids	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	5	2	16.0451	825	
+3365	Mono-rhamnolipids	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	6	1	17.6293	0	
+3366	Di-rhamnolipids	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	6	1	17.6746	0	
+3861	Fatty acyl glycosides of mono- and disaccharides	30	12	Lipids and lipid-like molecules	Fatty acyl glycosides	5	5	42.4324	61478	
+52	Brominated biphenyls	31	2448	Benzenoids	Biphenyls and derivatives	5	3	24.3479	8562	
+500	Chlorinated biphenyls	31	2448	Benzenoids	Biphenyls and derivatives	5	4	27.8525	46608	
+1892	Biphenylcarbonitriles	31	2448	Benzenoids	Biphenyls and derivatives	5	4	28.0561	26358	
+3030	Polychlorinated biphenyls	31	2448	Benzenoids	Biphenyls and derivatives	6	5	47.7333	13857	
+3954	Polybrominated biphenyls	31	2448	Benzenoids	Biphenyls and derivatives	6	4	28.9023	4502	
+3955	Benzidines	31	2448	Benzenoids	Biphenyls and derivatives	5	3	27.6171	2009	
+3956	3,3'-disubstituted benzidines	31	2448	Benzenoids	Biphenyls and derivatives	6	1	11.9136	1219	
+62	2-sulfobenzoic acids	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	6	3	34.2426	397	
+2761	3-sulfobenzoic acids	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	6	3	33.8086	1200	
+2762	4-sulfobenzoic acids	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	6	2	28.6354	377	
+3057	p-Bromobenzenesulfonates	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	5	1	14.0788	0	
+3277	p-Nitrobenzenesulfonates	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	5	2	24.3032	2242	
+3278	p-Methylbenzenesulfonates	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	5	3	20.388	12074	
+4309	Benzenesulfonate esters	32	2448	Benzenoids	Benzenesulfonic acids and derivatives	5	2	19.3792	61492	
+386	Acyl cholines	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	6	2	19.8706	3236	
+1012	Cholines	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	5	4	38.9333	9742	
+1250	Phosphocholines	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	6	1	8.294	20256	
+1281	Decamethonium compounds	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	5	3	28.446	282	
+1282	Hexamethonium compounds	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	5	2	18.3042	817	
+1609	Carnitines	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	5	2	19.801	446	
+4225	Tetraalkylammonium salts	33	4707	Organic nitrogen compounds	Quaternary ammonium salts	5	6	50.1783	16234	
+502	Xanthanolides	34	12	Lipids and lipid-like molecules	Terpene lactones	6	1	10.8805	390	
+1283	Terpene lactones	34	12	Lipids and lipid-like molecules	Terpene lactones	4	1	10.7964	32186	
+1538	Diterpene lactones	34	12	Lipids and lipid-like molecules	Terpene lactones	5	4	38.7106	18640	
+1772	Eudesmanolides, secoeudesmanolides, and derivatives	34	12	Lipids and lipid-like molecules	Terpene lactones	6	2	18.1556	8987	
+2047	Eremophilanolides and secoeremophilanolides	34	12	Lipids and lipid-like molecules	Terpene lactones	6	3	25.7538	66	
+2119	Quassinoids	34	12	Lipids and lipid-like molecules	Terpene lactones	5	2	13.8194	2441	
+2242	Elemanolides	34	12	Lipids and lipid-like molecules	Terpene lactones	6	1	10.8125	0	
+1090	Acyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	5	6	88.5979	2578	
+3181	2-enoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	3	46.0381	164	
+3182	3-enoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	1	14.8376	36	
+3184	Long-chain 2-enoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	2	30.1192	116	
+3185	Long-chain 3-enoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	7	1	14.6576	13	
+3207	Medium-chain 2-enoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	2	30.6839	125	
+3329	3,4-dienoyl CoAs	35	12	Lipids and lipid-like molecules	Fatty acyl thioesters	6	1	14.8591	30	
+1117	Polyprenyl phospho carbohydrates	36	12	Lipids and lipid-like molecules	Polyprenols	5	4	63.3582	607	
+3855	Dolichyl monophosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	1	16.7711	56	
+3856	Dolichyl diphosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	3	49.0335	24	
+3859	Bactoprenol monophosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	2	32.5605	35	
+3860	Bactoprenol diphosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	3	52.1334	77	
+4276	Polyprenyl monophosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	6	99.5451	48	
+4277	Polyprenyl diphosphates	36	12	Lipids and lipid-like molecules	Polyprenols	6	3	52.5644	31	
+1136	Flavonols	37	261	Phenylpropanoids and polyketides	Flavones	5	5	59.6927	2907	
+1759	Furanoflavones	37	261	Phenylpropanoids and polyketides	Flavones	5	4	52.833	191	
+3501	3-prenylated flavones	37	261	Phenylpropanoids and polyketides	Flavones	5	3	44.7104	172	
+3502	3'-prenylated flavones	37	261	Phenylpropanoids and polyketides	Flavones	5	4	55.7514	179	
+3503	6-prenylated flavones	37	261	Phenylpropanoids and polyketides	Flavones	5	4	57.4635	325	
+3504	8-prenylated flavones	37	261	Phenylpropanoids and polyketides	Flavones	5	6	83.4345	819	
+3587	2'-prenylated flavones	37	261	Phenylpropanoids and polyketides	Flavones	5	2	26.8453	76	
+1429	GalNAcb1-3Gala1-4Galb1-4Glc- (Globo series)	38	12	Lipids and lipid-like molecules	Glycosphingolipids	6	2	26.5513	395	
+1431	Galb1-3GlcNAcb1-3Galb1-4Glc- (Lacto series)	38	12	Lipids and lipid-like molecules	Glycosphingolipids	6	3	38.8178	499	
+1432	Galb1-4GlcNAcb1-3Galb1-4Glc- (Neolacto series)	38	12	Lipids and lipid-like molecules	Glycosphingolipids	6	3	41.7871	1201	
+1439	Gangliosides	38	12	Lipids and lipid-like molecules	Glycosphingolipids	5	5	64.7918	365	
+1440	Sulfatides	38	12	Lipids and lipid-like molecules	Glycosphingolipids	5	1	13.7752	47	
+3257	GalNAcb1-4Galb1-4Glc- (Ganglio series)	38	12	Lipids and lipid-like molecules	Glycosphingolipids	6	4	57.1633	887	
+4305	Glycosyl-N-acylsphingosines	38	12	Lipids and lipid-like molecules	Glycosphingolipids	7	6	81.4789	2243	
+1143	Coenzyme A and derivatives	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	7	1	11.8084	287	
+1617	Purine ribonucleoside monophosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	5	5	59.9312	6982	
+1618	Purine ribonucleoside diphosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	5	4	47.9602	2098	
+1619	Purine ribonucleoside triphosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	5	3	31.7641	2312	
+1627	Purine ribonucleoside polyphosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	5	1	12.4761	151	
+2208	Purine ribonucleoside 2',5'-bisphosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	6	4	47.0949	410	
+2209	Purine ribonucleoside 3',5'-bisphosphates	39	289	Nucleosides, nucleotides, and analogues	Purine ribonucleotides	6	4	45.1615	350	
+2429	Selenoethers	40	462	Organometallic compounds	Organoselenium compounds	5	4	51.9431	573	
+2430	Selenoesters	40	462	Organometallic compounds	Organoselenium compounds	5	1	12.8489	58	
+2470	Selenocyanates	40	462	Organometallic compounds	Organoselenium compounds	5	1	13.2165	71	
+2471	Selenenyl halides	40	462	Organometallic compounds	Organoselenium compounds	5	1	13.1801	76	
+2473	Selenoxides	40	462	Organometallic compounds	Organoselenium compounds	5	3	48.161	48	
+3119	Seleninyl compounds	40	462	Organometallic compounds	Organoselenium compounds	5	1	17.6484	1	
+3120	Selenonyl compounds	40	462	Organometallic compounds	Organoselenium compounds	5	1	17.815	1	
+3995	Organic cobalt salts	41	3865	Organic salts	Organic transition metal salts	5	2	20.3857	1	
+3997	Organic transition metal salts	41	3865	Organic salts	Organic transition metal salts	4	5	46.1758	15647	
+4018	Organic copper salts	41	3865	Organic salts	Organic transition metal salts	5	2	20.0933	0	
+4063	Organic silver salts	41	3865	Organic salts	Organic transition metal salts	5	2	19.9947	1	
+4064	Transition metal cyanide salts	41	3865	Organic salts	Organic transition metal salts	5	3	32.7842	543	
+4075	Organic cadmium salts	41	3865	Organic salts	Organic transition metal salts	5	1	9.5935	0	
+4369	Organic chromium salts	41	3865	Organic salts	Organic transition metal salts	5	1	8.8928	15	
+59	Coumaric acids and derivatives	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	5	4	36.6522	89730	
+465	Coumaric acid esters	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	6	4	38.673	2909	
+2503	Hydroxycinnamic acids	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	5	3	33.7429	2028	
+2505	Coumaric acids	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	6	2	18.5111	5943	
+3003	Hydroxycinnamic acid glycosides	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	6	2	20.742	363	
+4559	Avenanthramides	42	261	Phenylpropanoids and polyketides	Hydroxycinnamic acids and derivatives	6	1	7.8274	68	
+260	Monohydroxy bile acids, alcohols and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	6	2	21.0976	5498	
+516	Dihydroxy bile acids, alcohols and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	6	2	24.4691	6714	
+1104	Trihydroxy bile acids, alcohols and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	6	2	24.8382	3696	
+1110	Tetrahydroxy bile acids, alcohols and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	6	2	19.9893	1183	
+1124	Glycinated bile acids and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	5	5	57.7501	1462	
+1159	Taurinated bile acids and derivatives	43	12	Lipids and lipid-like molecules	Bile acids, alcohols and derivatives	5	5	59.3609	884	
+1144	Fluoroquinolones	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	3	17.5843	12515	
+1291	Pyranoquinolines	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	3	22.8995	7188	
+1714	Hydroxyquinolones	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	2	14.474	2444	
+1716	Hydroquinolones	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	5	35.2419	195820	
+1896	Thienoquinolines	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	1	6.7234	6519	
+2240	Thiopyranoquinolines	44	2	Organoheterocyclic compounds	Quinolones and derivatives	5	2	20.3617	1036	
+1149	Imidazolidinones	45	2	Organoheterocyclic compounds	Imidazolidines	5	1	7.7955	6938	
+2273	Hydantoins	45	2	Organoheterocyclic compounds	Imidazolidines	7	1	9.1294	63368	
+2274	Allantoins	45	2	Organoheterocyclic compounds	Imidazolidines	8	1	11.0805	143	
+2282	Phenylhydantoins	45	2	Organoheterocyclic compounds	Imidazolidines	8	2	16.6826	39459	
+2547	Phenylimidazolidines	45	2	Organoheterocyclic compounds	Imidazolidines	5	2	16.6622	76727	
+3210	5-monosubstituted hydantoins	45	2	Organoheterocyclic compounds	Imidazolidines	8	3	28.0258	0	
+2349	Naphthalenecarboxamides	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	5	1	5.1814	83083	
+2421	Naphthalenecarboxylic acids	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	5	5	34.8465	38124	
+3071	1,8-naphthalic anhydrides	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	5	1	7.1264	521	
+4686	Naphthalene-1-carboxanilides	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	6	2	22.0437	5588	
+4687	Naphthalene-2-carboxanilides	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	6	2	18.0973	9197	
+4690	6-hydroxynaphthalene-2-carboxanilides	46	2448	Benzenoids	Naphthalenecarboxylic acids and derivatives	7	1	7.8881	149	
+3382	Thiophosphate monoesters	47	264	Organic acids and derivatives	Thiophosphoric acid esters	5	2	27.5031	355	
+3383	Thiophosphate diesters	47	264	Organic acids and derivatives	Thiophosphoric acid esters	5	2	21.4745	274	
+3384	Thiophosphate triesters	47	264	Organic acids and derivatives	Thiophosphoric acid esters	5	3	44.9934	651	
+4623	Aryl thiophosphates	47	264	Organic acids and derivatives	Thiophosphoric acid esters	5	3	38.6685	505	
+4748	Phenyl thiophosphates	47	264	Organic acids and derivatives	Thiophosphoric acid esters	6	3	40.1168	1297	
+4771	Pyrimidinyl phosphorothioates	47	264	Organic acids and derivatives	Thiophosphoric acid esters	6	1	15.1857	259	
+3472	2'-Hydroxychalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	3	31.7595	5367	
+3473	2'-Hydroxy-dihydrochalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	1	9.7979	1509	
+3474	Retrochalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	4	33.901	57941	
+3475	Retro-dihydrochalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	2	19.3955	20003	
+3509	3-prenylated chalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	2	22.3641	748	
+3542	Furanochalcones	48	261	Phenylpropanoids and polyketides	Chalcones and dihydrochalcones	5	2	25.2238	914	
+3595	1-naphthalene sulfonamides	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	6	4	23.3332	28	
+3596	2-naphthalene sulfonamides	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	6	1	10.7882	41	
+3598	1-naphthalene sulfonic acids and derivatives	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	5	4	36.7811	23275	
+3599	2-naphthalene sulfonic acids and derivatives	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	5	5	34.0553	32236	
+3600	1-naphthalene sulfonates	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	6	4	29.1571	12090	
+3601	2-naphthalene sulfonates	49	2448	Benzenoids	Naphthalene sulfonic acids and derivatives	6	4	34.6689	21429	
+4070	Monoalkyltins	50	462	Organometallic compounds	Organotin compounds	5	3	38.0281	0	
+4071	Dialkyltins	50	462	Organometallic compounds	Organotin compounds	5	1	14.5642	129	
+4072	Trialkyltins	50	462	Organometallic compounds	Organotin compounds	6	2	19.4978	1821	
+4085	Dialkyltin dicarboxylates	50	462	Organometallic compounds	Organotin compounds	6	1	16.5901	66	
+4090	Dialkyltin salts	50	462	Organometallic compounds	Organotin compounds	6	2	28.6161	790	
+4347	Tetraalkyltins	50	462	Organometallic compounds	Organotin compounds	6	1	8.0599	1451	
+4637	Alkyl-2-thio-S-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	5	5	49.0852	2076	
+4638	Alkoxy-S-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	5	4	33.6996	14690	
+4639	Halo-S-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	5	4	33.6939	353	
+4721	Chloro-s-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	6	4	34.3219	622	
+4731	2-methoxy-1,3,5-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	6	4	32.1806	7317	
+4735	Methylthio-s-triazines	51	2	Organoheterocyclic compounds	1,3,5-triazines	5	5	41.3044	1315	
+51	Aromatic monoterpenoids	52	12	Lipids and lipid-like molecules	Monoterpenoids	5	3	21.6016	221812	
+1401	Menthane monoterpenoids	52	12	Lipids and lipid-like molecules	Monoterpenoids	5	3	21.8915	36944	
+1563	Monocyclic monoterpenoids	52	12	Lipids and lipid-like molecules	Monoterpenoids	5	3	22.9726	42088	
+1564	Bicyclic monoterpenoids	52	12	Lipids and lipid-like molecules	Monoterpenoids	5	2	13.6848	197892	
+1565	Iridoids and derivatives	52	12	Lipids and lipid-like molecules	Monoterpenoids	5	3	21.3475	18437	
+101	Eudesmane, isoeudesmane or cycloeudesmane sesquiterpenoids	53	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	3	35.2374	5613	
+2051	Agarofurans	53	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	1	11.9464	1740	
+2517	Chamigranes	53	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	1	11.3173	1049	
+2872	Elemane sesquiterpenoids	53	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	2	24.8793	2729	
+3655	Eremophilane, 8,9-secoeremophilane and furoeremophilane sesquiterpenoids	53	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	1	10.9872	3542	
+637	Glycosylglycerols	54	12	Lipids and lipid-like molecules	Glycosylglycerols	4	2	29.1381	677	
+1773	Glycosylmonoacylglycerols	54	12	Lipids and lipid-like molecules	Glycosylglycerols	6	3	53.7357	263	
+3341	1-acyl-3-O-beta-D-galactosyl-sn-glycerols	54	12	Lipids and lipid-like molecules	Glycosylglycerols	6	1	17.7048	0	
+3343	1-acyl-3-O-beta-D-digalactosyl-sn-glycerols	54	12	Lipids and lipid-like molecules	Glycosylglycerols	6	1	20.6897	20	
+3820	Glycosyldialkylglycerols	54	12	Lipids and lipid-like molecules	Glycosylglycerols	6	1	13.7969	120	
+1092	Hemiacetals	55	4603	Organic oxygen compounds	Ethers	5	3	10.8783	3704	
+1656	Acetals	55	4603	Organic oxygen compounds	Ethers	5	1	3.5456	10915	
+2539	Hemiketals	55	4603	Organic oxygen compounds	Ethers	6	2	9.9726	1054	
+3338	Polyethylene glycols	55	4603	Organic oxygen compounds	Ethers	6	2	9.7217	10844	
+4472	Ketals	55	4603	Organic oxygen compounds	Ethers	6	2	7.5836	84142	
+1673	Ketimines	56	4707	Organic nitrogen compounds	Imines	5	3	16.1481	3357	
+2375	Secondary ketimines	56	4707	Organic nitrogen compounds	Imines	6	3	15.1329	4658	
+2394	Shiff bases	56	4707	Organic nitrogen compounds	Imines	6	4	25.2993	3784	
+2395	Primary aldimines	56	4707	Organic nitrogen compounds	Imines	6	3	23.2258	910	
+3091	N-acylimines	56	4707	Organic nitrogen compounds	Imines	5	3	16.2243	804	
+1694	Aminopyrazines	57	2	Organoheterocyclic compounds	Pyrazines	5	4	25.6144	37499	
+2085	Pyrazinecarboxamides	57	2	Organoheterocyclic compounds	Pyrazines	6	3	17.2876	50634	
+2265	Pyrazine carboxylic acids and derivatives	57	2	Organoheterocyclic compounds	Pyrazines	5	2	16.0201	594	
+2413	Pyrazine carboxylic acids	57	2	Organoheterocyclic compounds	Pyrazines	6	3	18.5193	14323	
+2563	Methoxypyrazines	57	2	Organoheterocyclic compounds	Pyrazines	5	4	27.133	9455	
+1827	Isoflavanones	58	261	Phenylpropanoids and polyketides	Isoflavans	5	1	12.862	508	
+1828	Isoflavanols	58	261	Phenylpropanoids and polyketides	Isoflavans	5	4	54.2146	1461	
+2686	2-hydroxyisoflavanones	58	261	Phenylpropanoids and polyketides	Isoflavans	6	1	14.7323	0	
+3525	3'-prenylated isoflavanones	58	261	Phenylpropanoids and polyketides	Isoflavans	6	2	31.0563	260	
+3527	8-prenylated isoflavanones	58	261	Phenylpropanoids and polyketides	Isoflavans	6	2	30.9918	257	
+2139	Purine 2'-deoxyribonucleoside diphosphates	59	289	Nucleosides, nucleotides, and analogues	Purine deoxyribonucleotides	6	1	13.3538	108	
+2141	Purine 2'-deoxyribonucleoside monophosphates	59	289	Nucleosides, nucleotides, and analogues	Purine deoxyribonucleotides	6	2	26.5908	688	
+2142	Purine 3'-deoxyribonucleoside monophosphates	59	289	Nucleosides, nucleotides, and analogues	Purine deoxyribonucleotides	6	1	16.6346	107	
+2175	Purine deoxyribonucleoside 3',5'-bisphosphates	59	289	Nucleosides, nucleotides, and analogues	Purine deoxyribonucleotides	6	2	26.5952	922	
+2176	Purine deoxyribonucleoside 2',5'-bisphosphates	59	289	Nucleosides, nucleotides, and analogues	Purine deoxyribonucleotides	6	2	29.984	94	
+2638	2,4-disubstituted oxazoles	60	2	Organoheterocyclic compounds	Oxazoles	5	1	7.0	11200	
+2639	2,5-disubstituted oxazoles	60	2	Organoheterocyclic compounds	Oxazoles	5	1	7.4217	18057	
+2640	4,5-disubstituted oxazoles	60	2	Organoheterocyclic compounds	Oxazoles	5	1	6.6997	4353	
+2641	2,4,5-trisubstituted oxazoles	60	2	Organoheterocyclic compounds	Oxazoles	5	1	7.5183	33980	
+4342	Phenyl-1,3-oxazoles	60	2	Organoheterocyclic compounds	Oxazoles	5	4	28.6397	176571	
+46	Hydroxyeicosatetraenoic acids	61	12	Lipids and lipid-like molecules	Eicosanoids	5	1	17.4517	621	
+515	Leukotrienes	61	12	Lipids and lipid-like molecules	Eicosanoids	5	2	28.1793	268	
+1007	Lipoxins	61	12	Lipids and lipid-like molecules	Eicosanoids	6	1	13.3017	95	
+1422	Other hydroxyeicosapolyenoic acids	61	12	Lipids and lipid-like molecules	Eicosanoids	5	2	24.0293	2121	
+514	Prostaglandins and related compounds	62	12	Lipids and lipid-like molecules	Eicosanoids	5	2	18.308	25800	
+519	Thromboxanes	62	12	Lipids and lipid-like molecules	Eicosanoids	5	1	5.3747	964	
+1021	Clavulones and derivatives	62	12	Lipids and lipid-like molecules	Eicosanoids	5	2	30.7012	380	
+4814	Punaglandins and related compounds	62	12	Lipids and lipid-like molecules	Eicosanoids	6	1	17.7679	21	
+1141	Sulfonylanilines	63	2448	Benzenoids	Aniline and substituted anilines	5	1	5.2831	14810	
+3602	2-bromoanilines	63	2448	Benzenoids	Aniline and substituted anilines	5	1	4.0481	2494	
+3968	Dinitroanilines	63	2448	Benzenoids	Aniline and substituted anilines	5	3	15.5645	7954	
+4745	M-phenylenediamines	63	2448	Benzenoids	Aniline and substituted anilines	6	1	6.2333	89	
+1374	Pyridoindolones	64	2	Organoheterocyclic compounds	Pyridoindoles	5	3	34.2662	231	
+1913	Alpha carbolines	64	2	Organoheterocyclic compounds	Pyridoindoles	5	3	25.8443	5474	
+1914	Beta carbolines	64	2	Organoheterocyclic compounds	Pyridoindoles	5	3	15.9756	40722	
+1916	Gamma carbolines	64	2	Organoheterocyclic compounds	Pyridoindoles	5	3	25.1365	2549	
+1448	Furoic acids	65	2	Organoheterocyclic compounds	Furoic acid and derivatives	5	2	13.9826	29604	
+4760	Furan-3-carboxylic acids	65	2	Organoheterocyclic compounds	Furoic acid and derivatives	6	1	10.6676	0	
+4762	Furan-3-carboxylic acid esters	65	2	Organoheterocyclic compounds	Furoic acid and derivatives	6	1	9.9033	0	
+4805	Furoic acid esters	65	2	Organoheterocyclic compounds	Furoic acid and derivatives	5	2	13.2183	28266	
+1757	Colensane and clerodane diterpenoids	66	12	Lipids and lipid-like molecules	Diterpenoids	5	2	14.1192	5406	
+2550	Isocopalane and spongiane diterpenoids	66	12	Lipids and lipid-like molecules	Diterpenoids	5	2	23.2805	959	
+2738	Atisane diterpenoids	66	12	Lipids and lipid-like molecules	Diterpenoids	6	2	26.7645	2277	
+3782	Kaurane diterpenoids	66	12	Lipids and lipid-like molecules	Diterpenoids	5	2	17.6032	7997	
+2019	Phenylpyrazoles	67	2	Organoheterocyclic compounds	Pyrazoles	5	3	13.3747	935041	
+2350	Pyrazole carboxylic acids and derivatives	67	2	Organoheterocyclic compounds	Pyrazoles	5	1	4.9464	48029	
+4206	Pyrazole-4-carboxamides	67	2	Organoheterocyclic compounds	Pyrazoles	6	1	4.5562	43266	
+4207	Pyrazole-5-carboxamides	67	2	Organoheterocyclic compounds	Pyrazoles	6	1	3.8721	3898	
+2087	Indoloquinazolines	68	2	Organoheterocyclic compounds	Benzodiazines	6	1	5.3479	2266	
+2314	Quinazolinamines	68	2	Organoheterocyclic compounds	Benzodiazines	6	3	21.4856	165074	
+4167	Perimidines	68	2	Organoheterocyclic compounds	Benzodiazines	6	1	6.371	1295	
+4384	2,4-Diaminoquinazolines	68	2	Organoheterocyclic compounds	Benzodiazines	6	1	9.7667	38	
+371	Ergotamines, dihydroergotamines, and derivatives	69	279	Alkaloids and derivatives	Lysergic acids and derivatives	6	1	16.0269	148	
+2030	Ergopeptines	69	279	Alkaloids and derivatives	Lysergic acids and derivatives	5	1	16.0743	205	
+2193	Ergopeptams	69	279	Alkaloids and derivatives	Lysergic acids and derivatives	5	1	16.096	14	
+2746	Lysergamides	69	279	Alkaloids and derivatives	Lysergic acids and derivatives	5	3	48.1972	922	
+1098	Bromobenzenes	70	2448	Benzenoids	Halobenzenes	5	1	4.9688	145774	
+2564	Dichlorobenzenes	70	2448	Benzenoids	Halobenzenes	6	2	7.9601	303785	
+3664	1,2-dihalobenzenes	70	2448	Benzenoids	Halobenzenes	5	1	4.2634	12	
+3666	1,4-dihalobenzenes	70	2448	Benzenoids	Halobenzenes	5	2	8.6655	21	
+2622	N-benzylpiperidines	71	2	Organoheterocyclic compounds	Benzylpiperidines	5	3	18.7713	316059	
+3088	2-benzylpiperidines	71	2	Organoheterocyclic compounds	Benzylpiperidines	5	3	17.001	7242	
+3089	3-benzylpiperidines	71	2	Organoheterocyclic compounds	Benzylpiperidines	5	3	18.5349	18497	
+3090	4-benzylpiperidines	71	2	Organoheterocyclic compounds	Benzylpiperidines	5	3	15.5392	60114	
+2643	6,7-dihydroxycoumarins	72	261	Phenylpropanoids and polyketides	Hydroxycoumarins	5	1	13.2586	315	
+2644	7,8-dihydroxycoumarins	72	261	Phenylpropanoids and polyketides	Hydroxycoumarins	5	1	13.2165	391	
+2907	4-hydroxycoumarins	72	261	Phenylpropanoids and polyketides	Hydroxycoumarins	5	1	8.8925	3740	
+2909	7-hydroxycoumarins	72	261	Phenylpropanoids and polyketides	Hydroxycoumarins	5	3	35.3676	11687	
+1010	Oxime ethers	73	4707	Organic nitrogen compounds	Oximes	5	1	3.5316	2892	
+3078	Aldoximes	73	4707	Organic nitrogen compounds	Oximes	5	2	19.2857	1112	
+3079	Ketoximes	73	4707	Organic nitrogen compounds	Oximes	5	3	21.2068	2701	
+4723	Cyclohexene oximes	73	4707	Organic nitrogen compounds	Oximes	5	2	23.8263	37	
+3421	7,8'-epoxylignans	74	1392	Lignans, neolignans and related compounds	Tetrahydrofuran lignans	5	2	30.0227	101	
+3422	7,9'-epoxylignans	74	1392	Lignans, neolignans and related compounds	Tetrahydrofuran lignans	5	3	42.3207	698	
+3423	7,7'-epoxylignans	74	1392	Lignans, neolignans and related compounds	Tetrahydrofuran lignans	5	3	44.384	804	
+3424	9,9'-epoxylignans	74	1392	Lignans, neolignans and related compounds	Tetrahydrofuran lignans	5	2	28.001	365	
+4337	2-nitrothiophenes	75	2	Organoheterocyclic compounds	Nitrothiophenes	5	2	18.7033	10356	
+4338	3-nitrothiophenes	75	2	Organoheterocyclic compounds	Nitrothiophenes	5	2	20.4371	6958	
+4340	2-nitrohalothiophenes	75	2	Organoheterocyclic compounds	Nitrothiophenes	6	1	12.0583	29	
+4341	3-nitrohalothiophenes	75	2	Organoheterocyclic compounds	Nitrothiophenes	6	1	13.7921	17	
+4571	Alkylhaloboranes	76	462	Organometallic compounds	Organoboron compounds	6	1	15.4576	90	
+4573	Monoalkylboranes	76	462	Organometallic compounds	Organoboron compounds	6	1	9.2384	23	
+4574	Dialkylboranes	76	462	Organometallic compounds	Organoboron compounds	6	3	37.5945	436	
+4575	Trialkylboranes	76	462	Organometallic compounds	Organoboron compounds	6	1	12.8985	729	
+4389	2'-Aminoanilides	77	2448	Benzenoids	Anilides	5	1	3.1374	18311	
+4717	M-haloacetanilides	77	2448	Benzenoids	Anilides	7	2	19.0482	7116	
+4718	O-haloacetanilides	77	2448	Benzenoids	Anilides	7	2	19.0788	12146	
+4719	P-haloacetanilides	77	2448	Benzenoids	Anilides	7	3	22.4622	6169	
+169	Clavams	78	2	Organoheterocyclic compounds	Beta lactams	5	2	12.5474	261	
+173	Cephalosporins	78	2	Organoheterocyclic compounds	Beta lactams	6	1	4.2156	36742	
+174	Penicillins	78	2	Organoheterocyclic compounds	Beta lactams	6	1	8.3318	6014	
+208	Pyridazinones	79	2	Organoheterocyclic compounds	Pyridazines and derivatives	5	2	13.4712	57876	
+1924	Aminopyridazines	79	2	Organoheterocyclic compounds	Pyridazines and derivatives	5	2	12.9438	18360	
+4147	Phenylpyridazines	79	2	Organoheterocyclic compounds	Pyridazines and derivatives	5	2	12.5094	108763	
+17	Cycloalkenes	80	2837	Hydrocarbons	Olefins	6	1	3.9272	5235	
+290	Azulenes	80	2837	Hydrocarbons	Olefins	6	2	15.4731	5454	
+413	Pentalenes	80	2837	Hydrocarbons	Olefins	6	1	11.5459	196	
+370	Phenylmorpholines	81	2	Organoheterocyclic compounds	Morpholines	5	2	10.0199	189398	
+2307	Morpholine carboxylic acids and derivatives	81	2	Organoheterocyclic compounds	Morpholines	5	1	4.9791	57440	
+2407	Morpholine carboxylic acids	81	2	Organoheterocyclic compounds	Morpholines	6	1	5.0408	9350	
+1096	N-acyl amines	82	12	Lipids and lipid-like molecules	Fatty amides	5	1	4.7038	149608	
+3189	3-Oxo-acyl homoserines	82	12	Lipids and lipid-like molecules	Fatty amides	6	2	18.321	64	
+3451	Acyl L-homoserines	82	12	Lipids and lipid-like molecules	Fatty amides	6	1	13.6172	0	
+1273	Meta cresols	83	2448	Benzenoids	Cresols	5	2	15.4564	6618	
+1274	Ortho cresols	83	2448	Benzenoids	Cresols	5	2	14.8977	10218	
+1275	Para cresols	83	2448	Benzenoids	Cresols	5	2	15.0727	6464	
+1447	Steroid glucuronide conjugates	84	12	Lipids and lipid-like molecules	Steroidal glycosides	5	2	20.1576	1205	
+1687	Cucurbitacin glycosides	84	12	Lipids and lipid-like molecules	Steroidal glycosides	6	1	10.7337	3251	
+2364	Steroidal saponins	84	12	Lipids and lipid-like molecules	Steroidal glycosides	5	1	9.4239	8782	
+1458	Cephamycins	85	2	Organoheterocyclic compounds	Beta lactams	7	2	24.5479	1235	
+4410	Cephalosporin 3'-carbamates	85	2	Organoheterocyclic compounds	Beta lactams	7	1	12.928	1400	
+4411	Cephalosporin 3'-esters	85	2	Organoheterocyclic compounds	Beta lactams	7	1	11.6199	4383	
+1535	Polyprenols	86	12	Lipids and lipid-like molecules	Polyprenols	4	2	32.4624	763	
+3854	Dolichols	86	12	Lipids and lipid-like molecules	Polyprenols	5	1	16.2312	9	
+3858	Bactoprenols	86	12	Lipids and lipid-like molecules	Polyprenols	5	1	16.2312	11	
+1543	Sesquiterpene lactones	87	12	Lipids and lipid-like molecules	Terpene lactones	5	2	29.2957	951	
+1770	Guaianolides and derivatives	87	12	Lipids and lipid-like molecules	Terpene lactones	6	2	27.9682	4149	
+2046	Ambrosanolides and secoambrosanolides	87	12	Lipids and lipid-like molecules	Terpene lactones	6	2	31.0721	870	
+1580	Triterpene glycosides	88	12	Lipids and lipid-like molecules	Terpene glycosides	5	1	14.5269	44	
+1755	Diterpene glycosides	88	12	Lipids and lipid-like molecules	Terpene glycosides	5	1	5.9512	6354	
+2358	Triterpene saponins	88	12	Lipids and lipid-like molecules	Terpene glycosides	6	2	20.4781	23254	
+1598	Hydroxyanthraquinones	89	2448	Benzenoids	Anthraquinones	5	2	26.2011	2713	
+1600	Anthraquinone glycosides	89	2448	Benzenoids	Anthraquinones	5	1	13.7912	276	
+3952	2-aminoanthraquinones	89	2448	Benzenoids	Anthraquinones	5	1	12.4099	1301	
+1620	Pyrimidine ribonucleoside monophosphates	90	289	Nucleosides, nucleotides, and analogues	Pyrimidine ribonucleotides	5	2	26.095	1618	
+2248	Pyrimidine ribonucleoside 2',5'-bisphosphates	90	289	Nucleosides, nucleotides, and analogues	Pyrimidine ribonucleotides	6	1	13.8538	32	
+2249	Pyrimidine ribonucleoside 3',5'-bisphosphates	90	289	Nucleosides, nucleotides, and analogues	Pyrimidine ribonucleotides	6	1	12.2412	158	
+1651	Biopterins and derivatives	91	2	Organoheterocyclic compounds	Pterins and derivatives	5	1	16.2384	434	
+2283	Pterin carboxylates	91	2	Organoheterocyclic compounds	Pterins and derivatives	5	2	30.2923	97	
+2954	Tetrahydrofolic acids	91	2	Organoheterocyclic compounds	Pterins and derivatives	7	1	14.0539	498	
+1705	Gingerols	92	2448	Benzenoids	Methoxyphenols	5	1	15.3281	470	
+1707	Gingerdiones	92	2448	Benzenoids	Methoxyphenols	5	1	14.8438	286	
+1709	Paradols	92	2448	Benzenoids	Methoxyphenols	5	2	30.1719	73	
+1866	Indolocarbazoles	93	2	Organoheterocyclic compounds	Carbazoles	6	2	21.9747	11139	
+4392	Pyrrolo[2,3-a]carbazoles	93	2	Organoheterocyclic compounds	Carbazoles	6	1	12.5082	614	
+4720	N-acylcarbazoles	93	2	Organoheterocyclic compounds	Carbazoles	5	1	9.4665	1517	
+2089	Oxoprolines	94	2	Organoheterocyclic compounds	Pyrrolidones	5	2	9.354	5869	
+3031	Pyrrolidine-2-ones	94	2	Organoheterocyclic compounds	Pyrrolidones	5	2	9.6492	11257	
+3032	Pyrrolidine-3-ones	94	2	Organoheterocyclic compounds	Pyrrolidones	5	2	8.8076	629	
+2155	Pyrimidine deoxyribonucleoside 3',5'-bisphosphates	95	289	Nucleosides, nucleotides, and analogues	Pyrimidine deoxyribonucleotides	6	1	13.2589	482	
+2158	Pyrimidine 2'-deoxyribonucleoside monophosphates	95	289	Nucleosides, nucleotides, and analogues	Pyrimidine deoxyribonucleotides	6	2	21.9677	2131	
+2162	Pyrimidine 2'-deoxyribonucleoside triphosphates	95	289	Nucleosides, nucleotides, and analogues	Pyrimidine deoxyribonucleotides	6	1	8.7088	1369	
+2326	Thiadiazole sulfonamides	96	2	Organoheterocyclic compounds	Thiadiazoles	5	2	15.0971	5159	
+4002	2-amino-5-substituted-1,3,4-thiadiazoles	96	2	Organoheterocyclic compounds	Thiadiazoles	7	2	10.4805	6797	
+4668	1,3,4-thiadiazol-2-ylureas	96	2	Organoheterocyclic compounds	Thiadiazoles	7	2	11.5088	6756	
+170	Monobactams	97	2	Organoheterocyclic compounds	Beta lactams	5	1	4.4349	54526	
+2362	Thienamycins	97	2	Organoheterocyclic compounds	Beta lactams	6	2	13.3316	5644	
+3066	Carbapenams	97	2	Organoheterocyclic compounds	Beta lactams	5	1	8.8967	693	
+2459	Nitramines	98	3630	Organic 1,3-dipolar compounds	Organic nitro compounds	5	2	16.5208	779	
+4117	C-nitro compounds	98	3630	Organic 1,3-dipolar compounds	Organic nitro compounds	5	1	7.1054	9532	
+4607	Fluorodinitromethyl compounds	98	3630	Organic 1,3-dipolar compounds	Organic nitro compounds	6	1	9.4154	304	
+182	Catecholamines and derivatives	99	2448	Benzenoids	Benzenediols	6	1	10.6424	846	
+2697	4-chlorocatechols	99	2448	Benzenoids	Benzenediols	7	1	14.1152	188	
+2698	3-chlorocatechols	99	2448	Benzenoids	Benzenediols	7	2	24.7576	123	
+2875	Tigliane and ingenane diterpenoids	100	12	Lipids and lipid-like molecules	Diterpenoids	5	1	13.8644	1780	
+2906	Phorbol esters	100	12	Lipids and lipid-like molecules	Diterpenoids	6	1	15.2706	1029	
+3494	Rhamnofolane and daphnane diterpenoids	100	12	Lipids and lipid-like molecules	Diterpenoids	5	2	29.135	1473	
+1378	Chlorinated dibenzofurans	101	2	Organoheterocyclic compounds	Dibenzofurans	5	1	17.0643	418	
+3029	Polychlorinated dibenzofurans	101	2	Organoheterocyclic compounds	Dibenzofurans	6	1	18.6701	278	
+4519	Polybrominated dibenzofurans	101	2	Organoheterocyclic compounds	Dibenzofurans	6	2	35.7344	204	
+3080	N-aliphatic s-triazines	102	2	Organoheterocyclic compounds	Aminotriazines	5	1	9.2827	8113	
+4733	2-benzylamino-s-triazines	102	2	Organoheterocyclic compounds	Aminotriazines	6	1	8.9483	9525	
+4734	1,3,5-triazine-2,4-diamines	102	2	Organoheterocyclic compounds	Aminotriazines	5	2	18.231	47065	
+3133	Hydrazinecarboxylic acids	103	264	Organic acids and derivatives	Hydrazinecarboxylic acids and derivatives	5	1	13.4991	99	
+3134	Hydrazinecarboxamides	103	264	Organic acids and derivatives	Hydrazinecarboxylic acids and derivatives	5	1	9.3993	0	
+4715	Hydrazinecarboxylic acid esters	103	264	Organic acids and derivatives	Hydrazinecarboxylic acids and derivatives	5	2	22.8984	1191	
+3214	2-phenylindoles	104	2	Organoheterocyclic compounds	Indoles	5	2	11.9612	41676	
+4196	3-alkylindoles	104	2	Organoheterocyclic compounds	Indoles	5	1	5.279	141289	
+4529	3-methylindoles	104	2	Organoheterocyclic compounds	Indoles	6	1	6.6822	13143	
+3263	Monoalkylglycerols	105	12	Lipids and lipid-like molecules	Monoradylglycerols	5	2	30.9053	1491	
+4274	1-O-alkylglycerols	105	12	Lipids and lipid-like molecules	Monoradylglycerols	6	1	15.4128	0	
+4275	1-O-alkyl-sn-glycerols	105	12	Lipids and lipid-like molecules	Monoradylglycerols	7	1	15.4925	0	
+3639	3-prenylated flavans	106	261	Phenylpropanoids and polyketides	Flavans	5	1	17.7216	61	
+3643	3'-prenylated flavans	106	261	Phenylpropanoids and polyketides	Flavans	5	2	38.086	36	
+3645	2'-prenylated flavans	106	261	Phenylpropanoids and polyketides	Flavans	5	1	20.3644	42	
+3927	Organic potassium salts	107	3865	Organic salts	Organic alkali metal salts	5	1	10.5909	0	
+3928	Organic sodium salts	107	3865	Organic salts	Organic alkali metal salts	5	1	9.3231	0	
+4099	Organic alkali metal salts	107	3865	Organic salts	Organic alkali metal salts	4	2	19.914	3108	
+4027	Alkyl lead compounds	108	462	Organometallic compounds	Organolead compounds	5	2	38.0775	0	
+4065	Triorganolead compounds	108	462	Organometallic compounds	Organolead compounds	5	1	17.7554	103	
+4289	Tetraorganolead compounds	108	462	Organometallic compounds	Organolead compounds	5	1	20.3221	108	
+4713	Benzanilides	109	2448	Benzenoids	Anilides	6	2	10.1053	774474	
+4756	2-furanilides	109	2448	Benzenoids	Anilides	7	2	9.1293	80952	
+4757	3-furanilides	109	2448	Benzenoids	Anilides	7	2	9.3094	12655	
+8	Cembrane diterpenoids	110	12	Lipids and lipid-like molecules	Diterpenoids	5	1	9.5801	1743	
+2890	Briarane diterpenoids	110	12	Lipids and lipid-like molecules	Diterpenoids	5	1	9.5801	60	
+136	Hydroquinones	111	2448	Benzenoids	Benzenediols	5	1	3.1673	3478	
+137	Resorcinols	111	2448	Benzenoids	Benzenediols	5	1	3.1673	10582	
+206	Cinnolines	112	2	Organoheterocyclic compounds	Benzodiazines	5	1	5.2028	15927	
+207	Phthalazines	112	2	Organoheterocyclic compounds	Benzodiazines	5	1	5.2028	14854	
+209	Phthalazinones	113	2	Organoheterocyclic compounds	Benzodiazines	6	1	9.2466	65533	
+4827	1,2,4-triazolo[3,4-a]phthalazines	113	2	Organoheterocyclic compounds	Benzodiazines	6	1	9.2466	2587	
+234	Triazolones	114	2	Organoheterocyclic compounds	Triazoles	5	1	7.3937	143	
+3315	Phenyl-1,2,3-triazoles	114	2	Organoheterocyclic compounds	Triazoles	6	1	7.3937	107767	
+367	Dihydropyridines	115	2	Organoheterocyclic compounds	Hydropyridines	5	1	7.0698	22068	
+1160	Pyridinones	115	2	Organoheterocyclic compounds	Hydropyridines	5	1	7.0698	49488	
+416	Phenazines and derivatives	116	2	Organoheterocyclic compounds	Benzodiazines	6	1	11.4275	11213	
+2378	Pyrroloquinoxalines	116	2	Organoheterocyclic compounds	Benzodiazines	6	1	11.4275	3802	
+474	Biguanides	117	4707	Organic nitrogen compounds	Guanidines	5	1	5.9484	3524	
+2983	Acylguanidines	117	4707	Organic nitrogen compounds	Guanidines	5	1	5.9484	518	
+1045	Carboxamidines	118	4707	Organic nitrogen compounds	Amidines	5	1	7.3804	6101	
+4729	Formamidines	118	4707	Organic nitrogen compounds	Amidines	5	1	7.3804	458	
+1133	Monoacylglycerols	119	12	Lipids and lipid-like molecules	Monoradylglycerols	5	1	15.577	84	
+1597	1-monoacylglycerols	119	12	Lipids and lipid-like molecules	Monoradylglycerols	6	1	15.577	1530	
+1139	Phosphatidylinositol phosphates	120	12	Lipids and lipid-like molecules	Glycerophosphoinositol phosphates	5	1	19.9767	52	
+1324	Phosphatidylinositol monophosphates	120	12	Lipids and lipid-like molecules	Glycerophosphoinositol phosphates	6	1	19.9767	0	
+1294	Polyprenylbenzoquinones	121	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	6	1	15.7097	90	
+1545	Ubiquinones	121	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	6	1	15.7097	1609	
+1375	Cyanohydrins	122	4707	Organic nitrogen compounds	Organic cyanides	6	1	15.0945	605	
+4454	Alpha-hydroxynitriles	122	4707	Organic nitrogen compounds	Organic cyanides	6	1	15.0945	0	
+1547	Vitamin K compounds	123	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	5	1	14.4606	998	
+4109	Menaquinones	123	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	6	1	14.4606	168	
+1585	Organosulfonamides	124	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	1	3.5719	110410	
+3081	Acylsulfonic acids and derivatives	124	264	Organic acids and derivatives	Organosulfonic acids and derivatives	5	1	3.5719	131	
+1644	1,2-diacylglycerols	125	12	Lipids and lipid-like molecules	Diradylglycerols	6	1	7.1898	21655	
+1647	1,3-diacylglycerols	125	12	Lipids and lipid-like molecules	Diradylglycerols	6	1	7.1898	4551	
+1669	Long-chain ceramides	126	12	Lipids and lipid-like molecules	Ceramides	5	1	12.5131	14096	
+2963	Phytoceramides	126	12	Lipids and lipid-like molecules	Ceramides	5	1	12.5131	508	
+1829	M-terphenyls	127	2448	Benzenoids	Terphenyls	5	1	7.1598	13698	
+2126	P-terphenyls	127	2448	Benzenoids	Terphenyls	5	1	7.1598	22361	
+1937	Polyprenyl quinols	128	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	6	1	15.5348	137	
+2231	Ubiquinols	128	12	Lipids and lipid-like molecules	Quinone and hydroquinone lipids	6	1	15.5348	705	
+2014	Indolecarboxamides and derivatives	129	2	Organoheterocyclic compounds	Indolecarboxylic acids and derivatives	5	1	3.9144	148337	
+2406	Indolecarboxylic acids	129	2	Organoheterocyclic compounds	Indolecarboxylic acids and derivatives	5	1	3.9144	44342	
+2023	N-acyl ureas	130	264	Organic acids and derivatives	Ureides	5	1	8.9719	2401	
+2024	N,N'-diacyl ureas	130	264	Organic acids and derivatives	Ureides	5	1	8.9719	198	
+2028	Dipyrrins	131	2	Organoheterocyclic compounds	Substituted pyrroles	5	1	4.5577	1308	
+2334	Phenylpyrroles	131	2	Organoheterocyclic compounds	Substituted pyrroles	5	1	4.5577	237655	
+2049	Terpene glycosides	132	12	Lipids and lipid-like molecules	Terpene glycosides	4	1	8.1146	7707	
+4081	Iridoid O-glycosides	132	12	Lipids and lipid-like molecules	Terpene glycosides	5	1	8.1146	3968	
+2165	Pyrimidine 2',3'-dideoxyribonucleoside diphosphates	133	289	Nucleosides, nucleotides, and analogues	Pyrimidine deoxyribonucleotides	6	1	16.75	87	
+2168	Pyrimidine 2',3'-dideoxyribonucleoside triphosphates	133	289	Nucleosides, nucleotides, and analogues	Pyrimidine deoxyribonucleotides	6	1	16.75	377	
+2221	Polyprenylphenols	134	12	Lipids and lipid-like molecules	Polyprenylphenols	4	1	17.6807	124	
+3083	2-polyprenyl-6-methoxyphenols	134	12	Lipids and lipid-like molecules	Polyprenylphenols	5	1	17.6807	60	
+2256	Pyrrolidinecarboxamides	135	2	Organoheterocyclic compounds	Pyrrolidine carboxylic acids and derivatives	5	1	4.57	71274	
+2416	Pyrrolidine carboxylic acids	135	2	Organoheterocyclic compounds	Pyrrolidine carboxylic acids and derivatives	5	1	4.57	66886	
+2263	Pyranopterins and derivatives	136	2	Organoheterocyclic compounds	Pterins and derivatives	5	1	18.4309	72	
+2694	Molybdopterins	136	2	Organoheterocyclic compounds	Pterins and derivatives	5	1	18.4309	45	
+2289	Thiomorpholine carboxylic acids and derivatives	137	2	Organoheterocyclic compounds	Thiomorpholines	5	1	7.9056	851	
+2577	Phenylthiomorpholines	137	2	Organoheterocyclic compounds	Thiomorpholines	5	1	7.9056	16362	
+2340	Azasteroids and derivatives	138	12	Lipids and lipid-like molecules	Azasteroids and derivatives	4	1	6.1869	1912	
+3056	4-azasteroids and derivatives	138	12	Lipids and lipid-like molecules	Azasteroids and derivatives	5	1	6.1869	118	
+2458	Secondary alkylarylamines	139	4707	Organic nitrogen compounds	Amines	6	1	4.9372	41685	
+3924	Phenylalkylamines	139	4707	Organic nitrogen compounds	Amines	6	1	4.9372	149574	
+2518	Annonaceous acetogenins	140	12	Lipids and lipid-like molecules	Fatty alcohols	5	1	11.7746	3915	
+2951	Long-chain fatty alcohols	140	12	Lipids and lipid-like molecules	Fatty alcohols	5	1	11.7746	16499	
+2556	Pyrrole carboxamides	141	2	Organoheterocyclic compounds	Pyrrole carboxylic acids and derivatives	5	1	7.1356	14210	
+2557	Pyrrole 2-carboxylic acids	141	2	Organoheterocyclic compounds	Pyrrole carboxylic acids and derivatives	6	1	7.1356	10911	
+2730	Pregnane-type alkaloids	142	12	Lipids and lipid-like molecules	Steroidal alkaloids	5	1	13.2123	145	
+2736	3-amino-22,26-epiminocholestanes	142	12	Lipids and lipid-like molecules	Steroidal alkaloids	6	1	13.2123	20	
+2826	Pyrido[2,3,4-kl]acridones	143	2	Organoheterocyclic compounds	Benzoquinolines	8	1	19.1746	68	
+2827	Pyrido[2,3,4-kl]acridines	143	2	Organoheterocyclic compounds	Benzoquinolines	7	1	19.1746	511	
+2832	5-methoxypsoralens	144	261	Phenylpropanoids and polyketides	Furanocoumarins	7	1	17.2759	256	
+2833	8-methoxypsoralens	144	261	Phenylpropanoids and polyketides	Furanocoumarins	7	1	17.2759	343	
+2874	Guaianes	145	12	Lipids and lipid-like molecules	Sesquiterpenoids	5	1	14.4395	2251	
+3562	5,10-cycloaromadendrane sesquiterpenoids	145	12	Lipids and lipid-like molecules	Sesquiterpenoids	6	1	14.4395	947	
+2916	Eunicellane and asbestinane diterpenoids	146	12	Lipids and lipid-like molecules	Diterpenoids	5	1	16.6502	806	
+4153	Cladiellane diterpenoids	146	12	Lipids and lipid-like molecules	Diterpenoids	5	1	16.6502	34	
+3067	Glycosyldiacylglycerols	147	12	Lipids and lipid-like molecules	Glycosylglycerols	6	1	17.9755	5052	
+3344	3-O-beta-D-digalactosyl-sn-glycerols	147	12	Lipids and lipid-like molecules	Glycosylglycerols	5	1	17.9755	172	
+3314	Phenyl-1,2,4-triazoles	148	2	Organoheterocyclic compounds	Triazoles	6	1	6.3396	457530	
+4683	Aryl 1,2,4-triazolones	148	2	Organoheterocyclic compounds	Triazoles	6	1	6.3396	22916	
+3339	2-amino-3-benzoylthiophenes	149	2	Organoheterocyclic compounds	3-aroylthiophenes	6	1	15.1055	0	
+3340	2-amino-3-aroyl-4,5-alkylthiophenes	149	2	Organoheterocyclic compounds	3-aroylthiophenes	6	1	15.1055	176	
+3347	Phosphatidylinositol monomannosides	150	12	Lipids and lipid-like molecules	Glycerophosphoinositols	6	1	16.2531	292	
+4251	1-phosphatidyl-1D-myo-inositols	150	12	Lipids and lipid-like molecules	Glycerophosphoinositols	6	1	16.2531	107	
+3485	Angular pyranocoumarins	151	261	Phenylpropanoids and polyketides	Pyranocoumarins	5	1	9.7277	6860	
+3486	Linear pyranocoumarins	151	261	Phenylpropanoids and polyketides	Pyranocoumarins	5	1	9.7277	1331	
+3559	Elisabethane diterpenoids	152	12	Lipids and lipid-like molecules	Diterpenoids	5	1	21.1007	31	
+3560	Elisapterane, elisabane, cumbiane or colombiane diterpenoids	152	12	Lipids and lipid-like molecules	Diterpenoids	5	1	21.1007	39	
+3810	Dialkylglycerols	153	12	Lipids and lipid-like molecules	Diradylglycerols	5	1	14.0586	1396	
+3811	1-alkyl,3-acylglycerols	153	12	Lipids and lipid-like molecules	Diradylglycerols	5	1	14.0586	1092	
+3863	Alkylarylthioethers	154	4	Organosulfur compounds	Aryl thioethers	5	1	4.467	1	
+4631	Aryl thioethers	154	4	Organosulfur compounds	Aryl thioethers	4	1	4.467	569415	
+3971	Polyhalopyridines	155	2	Organoheterocyclic compounds	Halopyridines	5	1	6.076	72665	
+4532	2-halopyridines	155	2	Organoheterocyclic compounds	Halopyridines	5	1	6.076	31766	
+4005	3,4,5-trisubstituted-2-aminothiophenes	156	2	Organoheterocyclic compounds	Aminothiophenes	6	1	6.7716	28789	
+4006	N-arylated-2-aminothiophenes	156	2	Organoheterocyclic compounds	Aminothiophenes	6	1	6.7716	28	
+4013	C19-gibberellin 6-carboxylic acids	157	12	Lipids and lipid-like molecules	Diterpenoids	7	1	16.1628	737	
+4016	2-hydroxy,20-norgibberellanes	157	12	Lipids and lipid-like molecules	Diterpenoids	7	1	16.1628	42	
+4014	C20-gibberellin 6-carboxylic acids	158	12	Lipids and lipid-like molecules	Diterpenoids	7	1	20.2017	147	
+4015	C20-gibberellin 20-carboxylic acids	158	12	Lipids and lipid-like molecules	Diterpenoids	7	1	20.2017	69	
+4177	Ethylene bisdithiocarbamates	159	264	Organic acids and derivatives	Dithiocarbamic acid esters	5	1	7.1971	392	
+4722	Cyclic dithiocarbamic acid esters	159	264	Organic acids and derivatives	Dithiocarbamic acid esters	5	1	7.1971	14	
+4183	Long-chain alkyl amine oxides	160	4707	Organic nitrogen compounds	Aminoxides	5	1	13.4466	391	
+4184	Trialkyl amine oxides	160	4707	Organic nitrogen compounds	Aminoxides	5	1	13.4466	633	
+4205	Furancarboxamides	161	2	Organoheterocyclic compounds	Furoic acid and derivatives	5	1	7.7483	2019	
+4759	Furan-3-carboxylic acid and derivatives	161	2	Organoheterocyclic compounds	Furoic acid and derivatives	5	1	7.7483	27166	
+4209	m-Xylenes	162	2448	Benzenoids	Xylenes	5	1	6.8455	74936	
+4212	Xylenols	162	2448	Benzenoids	Xylenes	5	1	6.8455	1194	
+4211	p-Xylenes	163	2448	Benzenoids	Xylenes	5	1	7.9781	25922	
+4215	p-Xylenols	163	2448	Benzenoids	Xylenes	6	1	7.9781	1136	
+4250	1-phosphatidyl-1D-myo-inositol-4,5-bisphosphates	164	12	Lipids and lipid-like molecules	Glycerophosphoinositol phosphates	7	1	21.4058	0	
+4265	1-phosphatidyl-1D-myo-inositol-3,4-bisphosphates	164	12	Lipids and lipid-like molecules	Glycerophosphoinositol phosphates	6	1	21.4058	23	
+4451	Acrylic acids	165	264	Organic acids and derivatives	Acrylic acids and derivatives	5	1	10.1039	1527	
+4452	Acrylic acid esters	165	264	Organic acids and derivatives	Acrylic acids and derivatives	5	1	10.1039	8778	
+4521	Chlorofluorocarbons	166	267	Organohalogen compounds	Alkyl chlorides	5	1	7.3547	396	
+4522	Hydrofluorocarbons	166	267	Organohalogen compounds	Alkyl chlorides	5	1	7.3547	88	
+4569	Alkylaluminium halides	167	462	Organometallic compounds	Organoaluminium compounds	6	1	17.66	123	
+4591	Trialkylaluminiums	167	462	Organometallic compounds	Organoaluminium compounds	6	1	17.66	457	
+4613	Nitrobenzaldehydes	168	2448	Benzenoids	Nitrobenzenes	5	1	7.2915	3289	
+4671	Nitrophenyl ethers	168	2448	Benzenoids	Nitrobenzenes	5	1	7.2915	192353	
+4705	Pyrimidinyl-2-sulfonylureas	169	4707	Organic nitrogen compounds	Sulfonylureas	5	1	14.0141	3530	
+4706	S-triazinyl-2-sulfonylureas	169	4707	Organic nitrogen compounds	Sulfonylureas	5	1	14.0141	2034	
+4767	Phenyl phenylphosphonothioates	170	2448	Benzenoids	Phenylphosphonothioates	5	1	19.3125	138	
+4769	Phenyl ethylphosphonothioates	170	2448	Benzenoids	Phenylphosphonothioates	5	1	19.3125	105	

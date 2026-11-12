@@ -1,0 +1,3 @@
+sha256 9197d8532a04ab1215a5cf235ebe981329326d42d05154af78cf89532fcf4a7c
+written_at 2026-11-12T06:18:02Z
+file docs/phase2_prereg.md (sections 1-8, before calibration and before any validation code)

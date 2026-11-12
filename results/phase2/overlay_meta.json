@@ -1,0 +1,98 @@
+{
+ "s1": {
+  "directed_rows": 1047336,
+  "labels": 922418729,
+  "undirected_pairs": 1045955,
+  "dp_classes": 3604,
+  "alt_classes": 3172,
+  "union_nodes": 3843,
+  "density_unfiltered_on_union": 0.14168218668094928,
+  "both_directions": 1381
+ },
+ "lca_depth_directed": [
+  {
+   "depth": "0 (root)",
+   "pairs": 9431,
+   "mass": 348129
+  },
+  {
+   "depth": "1 (Kingdom)",
+   "pairs": 846118,
+   "mass": 711476573
+  },
+  {
+   "depth": "2 (SuperClass)",
+   "pairs": 153460,
+   "mass": 119737972
+  },
+  {
+   "depth": "3 (Class)",
+   "pairs": 31896,
+   "mass": 70113451
+  },
+  {
+   "depth": "4 (SubClass)",
+   "pairs": 4789,
+   "mass": 14995302
+  },
+  {
+   "depth": "5-11",
+   "pairs": 1642,
+   "mass": 5747302
+  },
+  {
+   "depth": "siblings",
+   "pairs": 14313,
+   "mass": 40157023
+  }
+ ],
+ "separation": {
+  "theta": 4,
+  "tau": 3,
+  "nmin": 10,
+  "A": 6386,
+  "B": 73184,
+  "A_and_B": 2754,
+  "A_and_B_mass": 16298289,
+  "jaccard": 0.0358519058529473,
+  "sibling_only": 14193
+ },
+ "primary_graph": {
+  "nodes_total": 4824,
+  "nodes_nonisolated": 1069,
+  "edges": 2754,
+  "density_on_nonisolated": 0.004824418494655301
+ },
+ "entropy": {
+  "H_unfiltered_mean": 4.6705963376580675,
+  "H_unfiltered_median": 5.0231740268715885,
+  "H_unfiltered_max": 7.5245556168109395,
+  "H_filtered_mean": 0.1837680108636861,
+  "H_filtered_zero_share": 0.8670921198668147,
+  "r_log10size_H_unfiltered": 0.6648959240250277,
+  "r_log10size_H_filtered": 0.20546750846899553
+ },
+ "s2": {
+  "available": true,
+  "source": "results/alt_cooccurrence_pairs.tsv",
+  "pairs": 1098113,
+  "cooccurrence_increments": 6204984080,
+  "pairs_with_zero_alt_marginal": 0,
+  "A4": 6750,
+  "B": 67710,
+  "primary": 2953,
+  "primary_not_in_s1_primary": 1053,
+  "written_rows_lca_ge_2": 195065,
+  "sha256": "5b17cd4c56f6971c496c42231ab184c8dffa14600849085030469a117dfdddd4"
+ },
+ "s3": {
+  "pairs": 121,
+  "r5": 93,
+  "r6": 16,
+  "path": 13
+ },
+ "calibration_chosen": {
+  "tau": 3,
+  "nmin": 10
+ }
+}

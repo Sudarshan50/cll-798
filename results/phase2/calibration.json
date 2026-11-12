@@ -1,0 +1,97 @@
+{
+ "rule": "max lift = recall/retain over tau in {1,2,3} x n_min in {10,100,1000}, criterion B alone, subject to recall >= 0.5 (docs/phase2_prereg.md \u00a73)",
+ "r5_directed_pairs": 93,
+ "r5_direct_parent_child": 69,
+ "r5_undirected_pairs": 93,
+ "path_violation_shapes": 32,
+ "path_shape_slot_pairs": 13,
+ "path_shape_pairs_present_in_s1": 1,
+ "calibration_pairs_in_s1": 94,
+ "cells": [
+  {
+   "tau": 1,
+   "nmin": 10,
+   "B_edges": 163896,
+   "retain": 0.15669507770410773,
+   "recall": 0.7553191489361702,
+   "cal_retained": 71,
+   "lift": 4.820311907706912
+  },
+  {
+   "tau": 1,
+   "nmin": 100,
+   "B_edges": 71434,
+   "retain": 0.06829548116314756,
+   "recall": 0.425531914893617,
+   "cal_retained": 40,
+   "lift": 6.230747739767522
+  },
+  {
+   "tau": 1,
+   "nmin": 1000,
+   "B_edges": 23528,
+   "retain": 0.022494275566348455,
+   "recall": 0.11702127659574468,
+   "cal_retained": 11,
+   "lift": 5.202269184023383
+  },
+  {
+   "tau": 2,
+   "nmin": 10,
+   "B_edges": 108810,
+   "retain": 0.10402933204583371,
+   "recall": 0.7553191489361702,
+   "cal_retained": 71,
+   "lift": 7.260636342482602
+  },
+  {
+   "tau": 2,
+   "nmin": 100,
+   "B_edges": 46398,
+   "retain": 0.04435946097107428,
+   "recall": 0.425531914893617,
+   "cal_retained": 40,
+   "lift": 9.59281076862264
+  },
+  {
+   "tau": 2,
+   "nmin": 1000,
+   "B_edges": 14795,
+   "retain": 0.014144967995755075,
+   "recall": 0.11702127659574468,
+   "cal_retained": 11,
+   "lift": 8.272996915289093
+  },
+  {
+   "tau": 3,
+   "nmin": 10,
+   "B_edges": 73184,
+   "retain": 0.06996859329512264,
+   "recall": 0.7553191489361702,
+   "cal_retained": 71,
+   "lift": 10.79511697127148
+  },
+  {
+   "tau": 3,
+   "nmin": 100,
+   "B_edges": 31354,
+   "retain": 0.029976433020541038,
+   "recall": 0.425531914893617,
+   "cal_retained": 40,
+   "lift": 14.195548703277195
+  },
+  {
+   "tau": 3,
+   "nmin": 1000,
+   "B_edges": 9860,
+   "retain": 0.009426791783585336,
+   "recall": 0.11702127659574468,
+   "cal_retained": 11,
+   "lift": 12.413690604635104
+  }
+ ],
+ "chosen": {
+  "tau": 3,
+  "nmin": 10
+ }
+}
